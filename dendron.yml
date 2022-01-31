@@ -16,7 +16,7 @@ site:
     siteLastModified: true
     gh_edit_branch: main
     siteUrl: 'https://herrmanno.github.io'
-    assetsPrefix: /knowlege-base
+    assetsPrefix: /knowledge-base
 commands:
     lookup:
         note:
