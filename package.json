@@ -1,0 +1,19 @@
+{
+  "name": "dendron-site",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@dendronhq/dendron-11ty-legacy": "^0.64.2",
+    "@dendronhq/dendron-cli": "^0.78.4"
+  },
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "description": ""
+}
