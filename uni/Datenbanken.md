@@ -2,7 +2,7 @@
 id: GRvxv332whjrUYDFp1Ziq
 title: Datenbanken
 desc: ''
-updated: 1643875169594
+updated: 1643879643972
 created: 1643477089680
 ---
 
@@ -47,3 +47,5 @@ Views abstrahiert)
 [[Datenbanken.PL_SQL]]
 [[Datenbanken.Trigger]]
 [[Datenbanken.Transaktionen]]
+[[Datenbanken.Datenschutz]]
+[[Datenbanken.Datensicherheit]]
