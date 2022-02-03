@@ -2,7 +2,7 @@
 id: GRvxv332whjrUYDFp1Ziq
 title: Datenbanken
 desc: ''
-updated: 1643645039015
+updated: 1643875169594
 created: 1643477089680
 ---
 
@@ -44,3 +44,6 @@ Views abstrahiert)
 [[Datenbanken.Relationenalgebra]]
 [[Datenbanken.Relationenkalkül]]
 [[Datenbanken.SQL]]
+[[Datenbanken.PL_SQL]]
+[[Datenbanken.Trigger]]
+[[Datenbanken.Transaktionen]]
