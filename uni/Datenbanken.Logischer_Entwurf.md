@@ -31,7 +31,7 @@ $(A - \{A_i\}) \to B$ gilt.
 - Augmention: $(X \to Y) \rightarrow (\forall Z. XZ \to YZ)$
 - Transivität: $(X \to Y) \land (Y \to Z) \rightarrow (X \to Z)$
 
-[[Datenbanken.Normaleformen]]
+[[Datenbanken.Normalformen]]
 
 ### Minimalabdeckung
 

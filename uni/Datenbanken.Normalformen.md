@@ -1,6 +1,6 @@
 ---
 id: HDrtireGtRrGu7Q99AOTY
-title: Normaleformen
+title: Normalformen
 desc: ''
 updated: 1643486209344
 created: 1643485222261
