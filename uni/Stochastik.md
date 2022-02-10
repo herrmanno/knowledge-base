@@ -2,13 +2,15 @@
 id: BU0AIxveiMP6NB2YrRcth
 title: Stochastik
 desc: ''
-updated: 1644408195439
+updated: 1644504949807
 created: 1644405131597
 ---
 
 ## Teilgebiete
 
 - Wahrscheinlichkeitstheorie
+    - [[Stochastik.Wahrscheinlichkeitsraum]]
+    - [[Stochastik.Urnenmodelle]]
 - Statistik
     - [[Stochastik.Beschreibende Statistik]]: Aufbereitung v. Daten, Auffinden von Strukturen u. Hypothesen
         - [[Stochastik.Häufigkeit]]
