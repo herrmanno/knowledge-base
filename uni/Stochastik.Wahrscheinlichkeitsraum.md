@@ -2,7 +2,7 @@
 id: YmObnxqnvXX9KfjtzmmKY
 title: Wahrscheinlichkeitsraum
 desc: ''
-updated: 1644506898527
+updated: 1644511310940
 created: 1644503981560
 ---
 
@@ -18,9 +18,14 @@ created: 1644503981560
 - $P(A \cup B) = P(A) + P(B) - P(A \cap B)$
 - $P(A|B) = \frac{P(A \cap B)}{P(B)}$
 - $P(\overline{A}|B) = 1 - P(A|B)$
+- $P(A|B) = \frac{P(B|A) \cdot P(A)}{P(B)}$
 - $P(A \cap B) = P(A|B) \cdot P(B) = P(B|A) \cdot P(A)$
 
 ## Laplace-Wahrscheinlichkeitsraum
 Zufallsexperiment, bei der jedes Elementarereignis die selbe Wahrscheinlichkeit besitzt.  
 Das Wahrscheinlichkeitsmaß $P$ nennt man **diskrete Gleichverteilung** mit  
 $P(A) = \frac{|A|}{|\Omega|}$
+
+## Stochastische Unabhängigkeit
+$P(A \cap B) = P(A) \cdot P(B)$ bzw.  
+$P(A|B) = P(A) \land P(B|A) = P(B)$

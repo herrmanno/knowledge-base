@@ -2,7 +2,7 @@
 id: BU0AIxveiMP6NB2YrRcth
 title: Stochastik
 desc: ''
-updated: 1644504949807
+updated: 1644570192707
 created: 1644405131597
 ---
 
@@ -11,6 +11,12 @@ created: 1644405131597
 - Wahrscheinlichkeitstheorie
     - [[Stochastik.Wahrscheinlichkeitsraum]]
     - [[Stochastik.Urnenmodelle]]
+    - [[Stochastik.Dichte- und Verteilungsfunktion]]
+    - [[Stochastik.Erwartungswert]]
+    - [[Stochastik.Varianz]]
+    - [[Stochastik.Verteilungstypen]]
+    - [[Stochastik.Standardisierung]]
+    - [[Stochastik.Gesetz der großen Zahlen]]
 - Statistik
     - [[Stochastik.Beschreibende Statistik]]: Aufbereitung v. Daten, Auffinden von Strukturen u. Hypothesen
         - [[Stochastik.Häufigkeit]]
