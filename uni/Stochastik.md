@@ -2,7 +2,7 @@
 id: BU0AIxveiMP6NB2YrRcth
 title: Stochastik
 desc: ''
-updated: 1644576409817
+updated: 1644577120349
 created: 1644405131597
 ---
 
@@ -27,3 +27,4 @@ created: 1644405131597
         - [[Stochastik.Standardisierung]]
         - [[Stochastik.Gesetz der großen Zahlen]]
         - [[Stochastik.Punktschätzer]]
+        - [[Stochastik.Konfidenzintervall]]
