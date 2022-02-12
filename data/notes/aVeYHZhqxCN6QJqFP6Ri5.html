@@ -1,0 +1,101 @@
+<h1 id="betriebssysteme"><a aria-hidden="true" class="anchor-heading" href="#betriebssysteme"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Betriebssysteme</h1>
+<h1 id="infos"><a aria-hidden="true" class="anchor-heading" href="#infos"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Infos</h1>
+<p><a href="https://rechnernetze.htwk-leipzig.de/~jeanm/edu/operatingsystems/">Website</a> (Credentials <a href="https://bildungsportal.sachsen.de/opal/auth/RepositoryEntry/20425539586/CourseNode/100545223954335">in OPAL</a>)</p>
+<h1 id="ziele"><a aria-hidden="true" class="anchor-heading" href="#ziele"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Ziele</h1>
+<ul>
+<li>Robustheit
+<ul>
+<li>Das Betriebssystem soll auch in Fehlersituationen einen zuverlässigen Betrieb des Rechners sicherstellen.</li>
+</ul>
+</li>
+<li>Isolation und Schutz
+<ul>
+<li>Jeder Prozess (laufende Anwendung) hat die Illusion, alle Ressourcen des Rechnern exklusiv zu benutzen.</li>
+</ul>
+</li>
+<li>Effizienz
+<ul>
+<li><a href="/knowledge-base/notes/nD5msaL6AQROueyqN3c7F">Lokalitätsprinzip</a></li>
+</ul>
+</li>
+<li>Sicherheit
+<ul>
+<li>Die Integrität des Systems und der darin gespeicherten Daten sind abhängig davon, dass vom Be- triebssystem Konzepte und Methoden zur Zugangssteuerung und Zugriffssteuerung umsetzt.</li>
+</ul>
+</li>
+</ul>
+<h1 id="themen"><a aria-hidden="true" class="anchor-heading" href="#themen"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Themen</h1>
+<h2 id="allgemeines"><a aria-hidden="true" class="anchor-heading" href="#allgemeines"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Allgemeines</h2>
+<ul>
+<li><a href="/knowledge-base/notes/nD5msaL6AQROueyqN3c7F">Lokalitätsprinzip</a></li>
+</ul>
+<h3 id="ausführungsschichten"><a aria-hidden="true" class="anchor-heading" href="#ausführungsschichten"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Ausführungsschichten</h3>
+<ul>
+<li>Anwendungsprozesse = Problemstatus
+<ul>
+<li><strong>Nicht</strong>:
+<ul>
+<li>Zugriff auf Speichermedien</li>
+<li>Maschinenbefehle zum dirketen Hardwarezugriff</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Betriebssystem = Überwacherstatus</li>
+</ul>
+<h3 id="systemcall"><a aria-hidden="true" class="anchor-heading" href="#systemcall"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Systemcall</h3>
+<ul>
+<li>
+<p>Ausführung einer BS-Funktion aus einem Anwendungsprozess</p>
+</li>
+<li>
+<p>Verursacht <a href="https://en.wikipedia.org/wiki/Trap_(computing)">TRAP</a> und Kontextwechsel</p>
+</li>
+<li>
+<p>Ausführung der BS-Funktion benötigt Überwacherstatus</p>
+</li>
+<li>
+<p><a href="/knowledge-base/notes/z1piZPreVuAkRpDEHQYOG">Scheduling</a></p>
+</li>
+<li>
+<p><a title="Private" style="color: brown" href="https://wiki.dendron.so/notes/hfyvYGJZQiUwQaaxQO27q.html" target="_blank">Betriebssysteme.Prozesse.Process_Control_Block (Private)</a></p>
+</li>
+</ul>
+<h2 id="prozesse"><a aria-hidden="true" class="anchor-heading" href="#prozesse"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Prozesse</h2>
+<ul>
+<li><a href="/knowledge-base/notes/BfDXmYZbASEAq5B0or1zz">Speicheraufbau</a></li>
+<li><a href="/knowledge-base/notes/OtZNWHfqgbl5LHdERT013">ProcessControlBlock</a></li>
+<li><a href="/knowledge-base/notes/SBNmtspu2Coj3QFCy43fx">Kontextwechsel</a></li>
+<li><a href="/knowledge-base/notes/6Iv1R2ACx36KiyeFiH7d6">Preemtive_Prozesse</a></li>
+</ul>
+<h2 id="speichermanagement"><a aria-hidden="true" class="anchor-heading" href="#speichermanagement"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Speichermanagement</h2>
+<ul>
+<li><a href="/knowledge-base/notes/FwPlvCYlIAsUiHxKsAbHa">Paging</a></li>
+<li><a href="/knowledge-base/notes/lsjh2xTwcjBeK9fqvwOrD">Segmentierung</a></li>
+<li><a title="Private" style="color: brown" href="https://wiki.dendron.so/notes/hfyvYGJZQiUwQaaxQO27q.html" target="_blank">Betriebssysteme.RAID (Private)</a></li>
+</ul>
+<h2 id="persistenz"><a aria-hidden="true" class="anchor-heading" href="#persistenz"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Persistenz</h2>
+<ul>
+<li><a title="Private" style="color: brown" href="https://wiki.dendron.so/notes/hfyvYGJZQiUwQaaxQO27q.html" target="_blank">Betriebssysteme.Scanning (Private)</a></li>
+<li><a title="Private" style="color: brown" href="https://wiki.dendron.so/notes/hfyvYGJZQiUwQaaxQO27q.html" target="_blank">Betriebssysteme.FAT (Private)</a></li>
+<li><a title="Private" style="color: brown" href="https://wiki.dendron.so/notes/hfyvYGJZQiUwQaaxQO27q.html" target="_blank">Betriebssysteme.INode (Private)</a></li>
+</ul>
+<h2 id="sicherheit"><a aria-hidden="true" class="anchor-heading" href="#sicherheit"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Sicherheit</h2>
+<ul>
+<li><a href="/knowledge-base/notes/2VBZWWwO7iDgLobdeYS7l">Authentisierung</a></li>
+</ul>
+<hr>
+<strong>Children</strong>
+<ol>
+<li><a href="/knowledge-base/notes/nD5msaL6AQROueyqN3c7F">Lokalitätsprinzip</a></li>
+<li><a href="/knowledge-base/notes/FwPlvCYlIAsUiHxKsAbHa">Paging</a></li>
+<li><a href="/knowledge-base/notes/Xs5kBgUu5LJkrMlhcsgnt">Prozess</a></li>
+<li><a href="/knowledge-base/notes/dxQ4vcmZcmzes5BFgaeGG">Prozesse</a></li>
+<li><a href="/knowledge-base/notes/lsjh2xTwcjBeK9fqvwOrD">Segmentierung</a></li>
+<li><a href="/knowledge-base/notes/Ltzu50qFUxwfB8rqbM3vq">Sicherheit</a></li>
+</ol>
+<hr>
+<strong>Backlinks</strong>
+<ul>
+<li><a href="/knowledge-base/notes/4PZFYT82ucE5sGWchYy0o">Uni-Inhalte (INB20-1)</a></li>
+</ul>

@@ -1,0 +1,24 @@
+<h1 id="trigger"><a aria-hidden="true" class="anchor-heading" href="#trigger"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Trigger</h1>
+<h2 id="eigenschaften"><a aria-hidden="true" class="anchor-heading" href="#eigenschaften"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Eigenschaften</h2>
+<ul>
+<li>Zeitpunkt: <code>BEFORE</code> | <code>AFTER</code></li>
+<li>Auslöser: <code>INSERT</code>| <code>UPDATE</code> | <code>DELETE</code></li>
+<li>Tabelle: <code>ON &#x3C;table></code></li>
+<li>Typ: Zeilen- oder Befehlsorientiert</li>
+<li>Einschränkung: <code>WHEN</code>-Klausel</li>
+</ul>
+<h2 id="syntax"><a aria-hidden="true" class="anchor-heading" href="#syntax"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Syntax</h2>
+<pre class="language-sql"><code class="language-sql"><span class="token keyword">CREATE</span> <span class="token punctuation">[</span><span class="token operator">OR</span> <span class="token keyword">REPLACE</span><span class="token punctuation">]</span> <span class="token keyword">TRIGGER</span> trigger_name
+timing event1 <span class="token punctuation">[</span><span class="token operator">OR</span> event2 <span class="token operator">OR</span> event3<span class="token punctuation">]</span>
+<span class="token keyword">ON</span> table_name
+<span class="token punctuation">[</span><span class="token keyword">REFERENCES</span> OLD <span class="token keyword">AS</span> old <span class="token operator">|</span> NEW <span class="token keyword">AS</span> new<span class="token punctuation">]</span>
+<span class="token punctuation">[</span><span class="token keyword">FOR EACH ROW</span><span class="token punctuation">]</span>
+<span class="token punctuation">[</span><span class="token keyword">WHEN</span> condition<span class="token punctuation">]</span>
+PL<span class="token operator">/</span><span class="token keyword">SQL</span> block<span class="token punctuation">;</span>
+</code></pre>
+<hr>
+<strong>Backlinks</strong>
+<ul>
+<li><a href="/knowledge-base/notes/GRvxv332whjrUYDFp1Ziq">Datenbanken</a></li>
+<li><a href="/knowledge-base/notes/x7DLfp7f047xVWMnZPBZt">PL/SQL</a></li>
+</ul>

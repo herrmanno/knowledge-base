@@ -1,0 +1,5 @@
+
+## Zeitliche Lokalität
+
+## Räumliche Lokalität
+

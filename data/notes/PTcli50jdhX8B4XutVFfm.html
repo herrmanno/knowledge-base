@@ -1,0 +1,97 @@
+<h1 id="transaktionen"><a aria-hidden="true" class="anchor-heading" href="#transaktionen"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Transaktionen</h1>
+<h2 id="acid"><a aria-hidden="true" class="anchor-heading" href="#acid"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>ACID</h2>
+<h3 id="atomicity"><a aria-hidden="true" class="anchor-heading" href="#atomicity"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Atomicity</h3>
+<p>Eine Transaktion wird vollständig oder gar nicht ausgeführt</p>
+<h3 id="consistency"><a aria-hidden="true" class="anchor-heading" href="#consistency"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Consistency</h3>
+<p>Eine Transaktion hinterlässt die Datenbank in einem konsistenten Zustand</p>
+<h3 id="isolation"><a aria-hidden="true" class="anchor-heading" href="#isolation"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Isolation</h3>
+<p>Aktionen einer Transaktion sind für andere Transaktionen nicht sichtbar</p>
+<h3 id="durability"><a aria-hidden="true" class="anchor-heading" href="#durability"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Durability</h3>
+<p>Folgen einer Transaktion sind persistent (auch im Falle eines Systemfehlers)</p>
+<h2 id="schedules"><a aria-hidden="true" class="anchor-heading" href="#schedules"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Schedules</h2>
+<h3 id="serieller-schedule"><a aria-hidden="true" class="anchor-heading" href="#serieller-schedule"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Serieller Schedule</h3>
+<p>Keine Aktionen aus unterschiedlichen Transaktionen ineinander verschachtelt</p>
+<h3 id="äquivalente-schedules"><a aria-hidden="true" class="anchor-heading" href="#äquivalente-schedules"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Äquivalente Schedules</h3>
+<p>Effekt der Ausführung zweier Schedules führt zu identischem Datenbankzustand</p>
+<h3 id="serialisierbarer-schedule"><a aria-hidden="true" class="anchor-heading" href="#serialisierbarer-schedule"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Serialisierbarer Schedule</h3>
+<p>Schedule, der äquivalent zu irgendeiner seriellen Ausführung der Transaktion ist</p>
+<h2 id="anomalien"><a aria-hidden="true" class="anchor-heading" href="#anomalien"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Anomalien</h2>
+<h3 id="verlorengegangene-änderungen-lost-updates"><a aria-hidden="true" class="anchor-heading" href="#verlorengegangene-änderungen-lost-updates"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Verlorengegangene Änderungen (Lost updates)</h3>
+<p>Gleichzeitige Änderung desselben Objekts durch zwei Transaktionen</p>
+<p><img src="/knowledge-base/assets/images/2022-02-03-09-12-24.png"></p>
+<h3 id="zugriff-auf-schmutzige-daten-dirty-read"><a aria-hidden="true" class="anchor-heading" href="#zugriff-auf-schmutzige-daten-dirty-read"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Zugriff auf <em>schmutzige Daten</em> (Dirty Read)</h3>
+<p>Lesen von Daten, die in einer anderen Transaktion verändert wurden</p>
+<ul>
+<li>Andere Transaktion wird u.U. zurückgerollt</li>
+</ul>
+<p><img src="/knowledge-base/assets/images/2022-02-03-09-12-57.png"></p>
+<h3 id="nicht-wiederholbares-lesen-unrepeatable-read"><a aria-hidden="true" class="anchor-heading" href="#nicht-wiederholbares-lesen-unrepeatable-read"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Nicht-wiederholbares Lesen (Unrepeatable Read)</h3>
+<p>Eine Transaktion sieht (aufgrund paralleler Änderungen) unterschiedliche Zustände eines Objekts</p>
+<p><img src="/knowledge-base/assets/images/2022-02-03-09-13-08.png"></p>
+<h3 id="phantom-problem"><a aria-hidden="true" class="anchor-heading" href="#phantom-problem"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Phantom-Problem</h3>
+<ol>
+<li>Lesen von Menge mit Prädikat <span class="math math-inline"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>P</mi></mrow><annotation encoding="application/x-tex">P</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal" style="margin-right:0.13889em;">P</span></span></span></span></span></li>
+<li>Parallele Änderung an Objekten, die unter <span class="math math-inline"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>P</mi></mrow><annotation encoding="application/x-tex">P</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal" style="margin-right:0.13889em;">P</span></span></span></span></span> fallen</li>
+<li>Folge: Phantom-Objekte, die durch parallele Vorgänge in Ergebnismenge aus 1. auftauchen oder verschwinden</li>
+</ol>
+<h2 id="zwei-phasen-sperrverfahren-2-phase-locking"><a aria-hidden="true" class="anchor-heading" href="#zwei-phasen-sperrverfahren-2-phase-locking"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Zwei-Phasen-Sperrverfahren (2-Phase-Locking)</h2>
+<h3 id="1-phase-wachstumsphase"><a aria-hidden="true" class="anchor-heading" href="#1-phase-wachstumsphase"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>1. Phase: Wachstumsphase</h3>
+<p>Transaktion darf Sperren anfordern, aber keine freigeben</p>
+<h3 id="2-phase-schrumpfungsphase"><a aria-hidden="true" class="anchor-heading" href="#2-phase-schrumpfungsphase"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>2. Phase: Schrumpfungsphase</h3>
+<p>Transaktion darf Sperren freigeben, aber keine neuen anfordern</p>
+<h3 id="problem"><a aria-hidden="true" class="anchor-heading" href="#problem"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Problem</h3>
+<ul>
+<li>Bei Systemausfall kann es zu kaskadierendem Abort komme
+<ul>
+<li>Transaktionen, die schon freigegebene Daten haben (und vielleicht selbst schon normal beendet
+wurden) müssen zurückgesetzt werden</li>
+</ul>
+</li>
+</ul>
+<h2 id="striktes-zwei-phasen-sperrverfahren-2-phase-locking"><a aria-hidden="true" class="anchor-heading" href="#striktes-zwei-phasen-sperrverfahren-2-phase-locking"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Striktes Zwei-Phasen-Sperrverfahren (2-Phase-Locking)</h2>
+<p>Vermeidung von kaskadierendem Abort, falls Systemabsturz in der Freigabephase</p>
+<h3 id="protokoll"><a aria-hidden="true" class="anchor-heading" href="#protokoll"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Protokoll</h3>
+<ul>
+<li>Jede Transaktion muss eine <strong>S</strong>-Sperre (shared lock) auf dem Objekt vor dem Lesen erwerben und
+eine <strong>X</strong>-Sperre (exklusive lock) vor dem Schreiben</li>
+<li>Alle Sperren werden bei Beendigung der Transaktion (Commit) freigegeben</li>
+<li>Wenn eine Transaktion eine X-Sperre auf einem Objekt hält kann keine andere Transaktion eine Sperre
+auf diesem Objekt erwerben</li>
+</ul>
+<p><span class="math math-inline"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mo>⇒</mo></mrow><annotation encoding="application/x-tex">\Rightarrow</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.3669em;"></span><span class="mrel">⇒</span></span></span></span></span> Nur striktes 2PL erlaubt serialisiebare Schedules</p>
+<h2 id="zurücksetzen-einer-transaktion"><a aria-hidden="true" class="anchor-heading" href="#zurücksetzen-einer-transaktion"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Zurücksetzen einer Transaktion</h2>
+<h3 id="kaskadierender-abort"><a aria-hidden="true" class="anchor-heading" href="#kaskadierender-abort"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Kaskadierender Abort</h3>
+<ul>
+<li>Führen von Log-Daten einer Transaktion (Aufzeichnung aller Write-Aktionen)</li>
+<li>Auch nutzbar für die Wiederherstellung der Daten bei System-Crash (Recovery): alle Transaktionen,
+die zum Zeitpunkt des System-Crashs aktiv waren werden beim Wiederanlauf zurückgesetzt</li>
+</ul>
+<h3 id="log-datei"><a aria-hidden="true" class="anchor-heading" href="#log-datei"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Log-Datei</h3>
+<p>Speicherung von Änderungsaktionen mit Parametern (alter und neuer Wert)</p>
+<ul>
+<li>Muss auf Platte gespeichert werden vor der geänderten Seite</li>
+</ul>
+<h2 id="3-phasen-im-recovery-algorithmus"><a aria-hidden="true" class="anchor-heading" href="#3-phasen-im-recovery-algorithmus"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>3 Phasen im Recovery-Algorithmus</h2>
+<h3 id="analyse-lauf"><a aria-hidden="true" class="anchor-heading" href="#analyse-lauf"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Analyse-Lauf</h3>
+<ul>
+<li>Sequentielles Lesen der Log-Datei vom letzten Checkpoint bis zu ihrem Ende</li>
+<li>Bestimme die zum Checkpoint-Zeitpunkt laufenden Transaktionen</li>
+<li>Bestimme davon Gewinner (Ts mit Commit-Eintrag im Log) und Verlierer (Ts mit Rollback)</li>
+</ul>
+<h3 id="redo-lauf"><a aria-hidden="true" class="anchor-heading" href="#redo-lauf"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Redo-Lauf</h3>
+<ul>
+<li>Wiederhole die Änderungen, welche noch nicht in den betroffenen Seiten vorliegen (Lese Log dabei
+von hinten nach Vorne)</li>
+</ul>
+<h3 id="undo-lauf"><a aria-hidden="true" class="anchor-heading" href="#undo-lauf"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Undo-Lauf</h3>
+<ul>
+<li>Zurücksetzen der Verlierer-Transaktionen, die während des Crash aktiv waren (durch schreiben des
+<em>before value</em>, der im Log-Satz steht)</li>
+<li>Lesen des Logs von vorne nach hinten, bis zum Beginn der ältesten Transaktion, die beim letzten
+Checkpoint aktiv war</li>
+</ul>
+<hr>
+<strong>Backlinks</strong>
+<ul>
+<li><a href="/knowledge-base/notes/GRvxv332whjrUYDFp1Ziq">Datenbanken</a></li>
+</ul>

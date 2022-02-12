@@ -1,0 +1,29 @@
+<h1 id="multi-level-feedback-queue"><a aria-hidden="true" class="anchor-heading" href="#multi-level-feedback-queue"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Multi-Level Feedback Queue</h1>
+<h1 id="info"><a aria-hidden="true" class="anchor-heading" href="#info"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Info</h1>
+<ul>
+<li>Prozess mit höherer bekommt CPU</li>
+<li>Prozesse mit gleicher Prio kommen in gemeinsame Queue mit Round-Robin</li>
+<li>Prio der Prozesse wird dynamisch angepasst</li>
+</ul>
+<h2 id="ansätze"><a aria-hidden="true" class="anchor-heading" href="#ansätze"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Ansätze</h2>
+<ul>
+<li>Neue Jobs erhalten höchtes Prio</li>
+<li>Prozess wird runtergestuft, wenn er mehr als <span class="math math-inline"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>t</mi><mrow><mi>Z</mi><mi>e</mi><mi>i</mi><mi>t</mi><mi>s</mi><mi>c</mi><mi>h</mi><mi>e</mi><mi>i</mi><mi>b</mi><mi>e</mi></mrow></msub></mrow><annotation encoding="application/x-tex">t_{Zeitscheibe}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.7651em;vertical-align:-0.15em;"></span><span class="mord"><span class="mord mathnormal">t</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3361em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathnormal mtight" style="margin-right:0.07153em;">Z</span><span class="mord mathnormal mtight">e</span><span class="mord mathnormal mtight">i</span><span class="mord mathnormal mtight">t</span><span class="mord mathnormal mtight">sc</span><span class="mord mathnormal mtight">h</span><span class="mord mathnormal mtight">e</span><span class="mord mathnormal mtight">ib</span><span class="mord mathnormal mtight">e</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span></span> aktiv war</li>
+<li>Zyklisch erhalten alle Prozesse die höchste Priorität (da andere runtergestuft werden)</li>
+</ul>
+<h1 id="systematik"><a aria-hidden="true" class="anchor-heading" href="#systematik"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Systematik</h1>
+<ul>
+<li>Verwalten mehrerer Warteschlangen
+<ul>
+<li>die nach verschiedenen Schedulingstrategien abgearbeitet werden</li>
+<li>hierarchisch angeordnet sind</li>
+</ul>
+</li>
+<li>Zuordnung von Prozessen zu Warteschlangen erfolgt dynamisch</li>
+</ul>
+<p>Siehe <a href="/knowledge-base/notes/1Rukqu7PsL76Uisn2KDGX">Prioritätsscheduling</a></p>
+<hr>
+<strong>Backlinks</strong>
+<ul>
+<li><a href="/knowledge-base/notes/z1piZPreVuAkRpDEHQYOG">Scheduling</a></li>
+</ul>

@@ -1,0 +1,6329 @@
+{
+  "notes": {
+    "403": {
+      "vault": {
+        "fsPath": "uni",
+        "name": "Uni"
+      },
+      "fname": "403",
+      "id": "403",
+      "title": "This page has not yet sprouted",
+      "schemaStub": false,
+      "type": "note",
+      "updated": 1644660403709,
+      "created": 1644660403709,
+      "desc": "",
+      "links": [],
+      "anchors": {},
+      "children": [],
+      "parent": null,
+      "data": {}
+    },
+    "4PZFYT82ucE5sGWchYy0o": {
+      "id": "4PZFYT82ucE5sGWchYy0o",
+      "title": "Uni-Inhalte (INB20-1)",
+      "desc": "Lerninhalte im Bachelor \"Informatik\"",
+      "updated": 1644405131757,
+      "created": 1642663416518,
+      "custom": {
+        "nav_order": 0,
+        "permalink": "/"
+      },
+      "fname": "root",
+      "type": "note",
+      "vault": {
+        "fsPath": "uni",
+        "name": "Uni"
+      },
+      "contentHash": "3ce9f1ac3f10b295e17673d466b404ba",
+      "links": [
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "root",
+            "id": "4PZFYT82ucE5sGWchYy0o",
+            "vaultName": "Uni"
+          },
+          "value": "Betriebssysteme",
+          "alias": "Betriebssysteme",
+          "position": {
+            "start": {
+              "line": 4,
+              "column": 3,
+              "offset": 13
+            },
+            "end": {
+              "line": 4,
+              "column": 22,
+              "offset": 32
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "Betriebssysteme"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "root",
+            "id": "4PZFYT82ucE5sGWchYy0o",
+            "vaultName": "Uni"
+          },
+          "value": "Datenbanken",
+          "alias": "Datenbanken",
+          "position": {
+            "start": {
+              "line": 5,
+              "column": 3,
+              "offset": 35
+            },
+            "end": {
+              "line": 5,
+              "column": 18,
+              "offset": 50
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "Datenbanken"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "root",
+            "id": "4PZFYT82ucE5sGWchYy0o",
+            "vaultName": "Uni"
+          },
+          "value": "Stochastik",
+          "alias": "Stochastik",
+          "position": {
+            "start": {
+              "line": 6,
+              "column": 3,
+              "offset": 53
+            },
+            "end": {
+              "line": 6,
+              "column": 17,
+              "offset": 67
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "Stochastik"
+          }
+        }
+      ],
+      "anchors": {
+        "module": {
+          "type": "header",
+          "text": "Module",
+          "value": "module",
+          "line": 8,
+          "column": 0,
+          "depth": 1
+        }
+      },
+      "children": [
+        "aVeYHZhqxCN6QJqFP6Ri5",
+        "GRvxv332whjrUYDFp1Ziq",
+        "BU0AIxveiMP6NB2YrRcth"
+      ],
+      "parent": null,
+      "data": {}
+    },
+    "BU0AIxveiMP6NB2YrRcth": {
+      "id": "BU0AIxveiMP6NB2YrRcth",
+      "title": "Stochastik",
+      "desc": "",
+      "updated": 1644578486663,
+      "created": 1644405131597,
+      "custom": {},
+      "fname": "Stochastik",
+      "type": "note",
+      "vault": {
+        "fsPath": "uni",
+        "name": "Uni"
+      },
+      "contentHash": "8b3f4ceb6c0628240b5883cfe29b2f74",
+      "links": [
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "Stochastik",
+            "id": "BU0AIxveiMP6NB2YrRcth",
+            "vaultName": "Uni"
+          },
+          "value": "Stochastik.Wahrscheinlichkeitsraum",
+          "alias": "Stochastik.Wahrscheinlichkeitsraum",
+          "position": {
+            "start": {
+              "line": 5,
+              "column": 7,
+              "offset": 52
+            },
+            "end": {
+              "line": 5,
+              "column": 45,
+              "offset": 90
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "Stochastik.Wahrscheinlichkeitsraum"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "Stochastik",
+            "id": "BU0AIxveiMP6NB2YrRcth",
+            "vaultName": "Uni"
+          },
+          "value": "Stochastik.Urnenmodelle",
+          "alias": "Stochastik.Urnenmodelle",
+          "position": {
+            "start": {
+              "line": 6,
+              "column": 7,
+              "offset": 97
+            },
+            "end": {
+              "line": 6,
+              "column": 34,
+              "offset": 124
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "Stochastik.Urnenmodelle"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "Stochastik",
+            "id": "BU0AIxveiMP6NB2YrRcth",
+            "vaultName": "Uni"
+          },
+          "value": "Stochastik.Beschreibende Statistik",
+          "alias": "Stochastik.Beschreibende Statistik",
+          "position": {
+            "start": {
+              "line": 8,
+              "column": 7,
+              "offset": 143
+            },
+            "end": {
+              "line": 8,
+              "column": 45,
+              "offset": 181
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "Stochastik.Beschreibende Statistik"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "Stochastik",
+            "id": "BU0AIxveiMP6NB2YrRcth",
+            "vaultName": "Uni"
+          },
+          "value": "Stochastik.Häufigkeit",
+          "alias": "Stochastik.Häufigkeit",
+          "position": {
+            "start": {
+              "line": 9,
+              "column": 11,
+              "offset": 255
+            },
+            "end": {
+              "line": 9,
+              "column": 36,
+              "offset": 280
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "Stochastik.Häufigkeit"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "Stochastik",
+            "id": "BU0AIxveiMP6NB2YrRcth",
+            "vaultName": "Uni"
+          },
+          "value": "Stochastik.Lagemaße",
+          "alias": "Stochastik.Lagemaße",
+          "position": {
+            "start": {
+              "line": 10,
+              "column": 11,
+              "offset": 291
+            },
+            "end": {
+              "line": 10,
+              "column": 34,
+              "offset": 314
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "Stochastik.Lagemaße"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "Stochastik",
+            "id": "BU0AIxveiMP6NB2YrRcth",
+            "vaultName": "Uni"
+          },
+          "value": "Stochastik.Box-Plot",
+          "alias": "Stochastik.Box-Plot",
+          "position": {
+            "start": {
+              "line": 11,
+              "column": 11,
+              "offset": 325
+            },
+            "end": {
+              "line": 11,
+              "column": 34,
+              "offset": 348
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "Stochastik.Box-Plot"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "Stochastik",
+            "id": "BU0AIxveiMP6NB2YrRcth",
+            "vaultName": "Uni"
+          },
+          "value": "Stochastik.Diagramme",
+          "alias": "Stochastik.Diagramme",
+          "position": {
+            "start": {
+              "line": 12,
+              "column": 11,
+              "offset": 359
+            },
+            "end": {
+              "line": 12,
+              "column": 35,
+              "offset": 383
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "Stochastik.Diagramme"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "Stochastik",
+            "id": "BU0AIxveiMP6NB2YrRcth",
+            "vaultName": "Uni"
+          },
+          "value": "Stochastik.Empirische Varianz",
+          "alias": "Stochastik.Empirische Varianz",
+          "position": {
+            "start": {
+              "line": 13,
+              "column": 11,
+              "offset": 394
+            },
+            "end": {
+              "line": 13,
+              "column": 44,
+              "offset": 427
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "Stochastik.Empirische Varianz"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "Stochastik",
+            "id": "BU0AIxveiMP6NB2YrRcth",
+            "vaultName": "Uni"
+          },
+          "value": "Stochastik.Empirische Unabhängikeit",
+          "alias": "Stochastik.Empirische Unabhängikeit",
+          "position": {
+            "start": {
+              "line": 14,
+              "column": 11,
+              "offset": 438
+            },
+            "end": {
+              "line": 14,
+              "column": 50,
+              "offset": 477
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "Stochastik.Empirische Unabhängikeit"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "Stochastik",
+            "id": "BU0AIxveiMP6NB2YrRcth",
+            "vaultName": "Uni"
+          },
+          "value": "Stochastik.Dichte- und Verteilungsfunktion",
+          "alias": "Stochastik.Dichte- und Verteilungsfunktion",
+          "position": {
+            "start": {
+              "line": 16,
+              "column": 11,
+              "offset": 619
+            },
+            "end": {
+              "line": 16,
+              "column": 57,
+              "offset": 665
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "Stochastik.Dichte- und Verteilungsfunktion"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "Stochastik",
+            "id": "BU0AIxveiMP6NB2YrRcth",
+            "vaultName": "Uni"
+          },
+          "value": "Stochastik.Erwartungswert",
+          "alias": "Stochastik.Erwartungswert",
+          "position": {
+            "start": {
+              "line": 17,
+              "column": 11,
+              "offset": 676
+            },
+            "end": {
+              "line": 17,
+              "column": 40,
+              "offset": 705
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "Stochastik.Erwartungswert"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "Stochastik",
+            "id": "BU0AIxveiMP6NB2YrRcth",
+            "vaultName": "Uni"
+          },
+          "value": "Stochastik.Varianz",
+          "alias": "Stochastik.Varianz",
+          "position": {
+            "start": {
+              "line": 18,
+              "column": 11,
+              "offset": 716
+            },
+            "end": {
+              "line": 18,
+              "column": 33,
+              "offset": 738
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "Stochastik.Varianz"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "Stochastik",
+            "id": "BU0AIxveiMP6NB2YrRcth",
+            "vaultName": "Uni"
+          },
+          "value": "Stochastik.Verteilungstypen",
+          "alias": "Stochastik.Verteilungstypen",
+          "position": {
+            "start": {
+              "line": 19,
+              "column": 11,
+              "offset": 749
+            },
+            "end": {
+              "line": 19,
+              "column": 42,
+              "offset": 780
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "Stochastik.Verteilungstypen"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "Stochastik",
+            "id": "BU0AIxveiMP6NB2YrRcth",
+            "vaultName": "Uni"
+          },
+          "value": "Stochastik.Standardisierung",
+          "alias": "Stochastik.Standardisierung",
+          "position": {
+            "start": {
+              "line": 20,
+              "column": 11,
+              "offset": 791
+            },
+            "end": {
+              "line": 20,
+              "column": 42,
+              "offset": 822
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "Stochastik.Standardisierung"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "Stochastik",
+            "id": "BU0AIxveiMP6NB2YrRcth",
+            "vaultName": "Uni"
+          },
+          "value": "Stochastik.Gesetz der großen Zahlen",
+          "alias": "Stochastik.Gesetz der großen Zahlen",
+          "position": {
+            "start": {
+              "line": 21,
+              "column": 11,
+              "offset": 833
+            },
+            "end": {
+              "line": 21,
+              "column": 50,
+              "offset": 872
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "Stochastik.Gesetz der großen Zahlen"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "Stochastik",
+            "id": "BU0AIxveiMP6NB2YrRcth",
+            "vaultName": "Uni"
+          },
+          "value": "Stochastik.Punktschätzer",
+          "alias": "Stochastik.Punktschätzer",
+          "position": {
+            "start": {
+              "line": 22,
+              "column": 11,
+              "offset": 883
+            },
+            "end": {
+              "line": 22,
+              "column": 39,
+              "offset": 911
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "Stochastik.Punktschätzer"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "Stochastik",
+            "id": "BU0AIxveiMP6NB2YrRcth",
+            "vaultName": "Uni"
+          },
+          "value": "Stochastik.Konfidenzintervall",
+          "alias": "Stochastik.Konfidenzintervall",
+          "position": {
+            "start": {
+              "line": 23,
+              "column": 11,
+              "offset": 922
+            },
+            "end": {
+              "line": 23,
+              "column": 44,
+              "offset": 955
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "Stochastik.Konfidenzintervall"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "Stochastik",
+            "id": "BU0AIxveiMP6NB2YrRcth",
+            "vaultName": "Uni"
+          },
+          "value": "Stochastik.Hypothesentests",
+          "alias": "Stochastik.Hypothesentests",
+          "position": {
+            "start": {
+              "line": 24,
+              "column": 11,
+              "offset": 966
+            },
+            "end": {
+              "line": 24,
+              "column": 41,
+              "offset": 996
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "Stochastik.Hypothesentests"
+          }
+        },
+        {
+          "from": {
+            "fname": "root",
+            "vaultName": "Uni"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 6,
+              "column": 3,
+              "offset": 53
+            },
+            "end": {
+              "line": 6,
+              "column": 17,
+              "offset": 67
+            },
+            "indent": []
+          },
+          "value": "Stochastik",
+          "alias": "Stochastik"
+        }
+      ],
+      "anchors": {
+        "teilgebiete": {
+          "type": "header",
+          "text": "Teilgebiete",
+          "value": "teilgebiete",
+          "line": 8,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "children": [
+        "fbPfOGqlNNgJUsdvvVjO4",
+        "NSmnRpZ2l9wfRwa9FHVII",
+        "BQVWwjkdiOgJhWSEpqqYg",
+        "qiSQ9Ho3GRm4cOBWAkYDF",
+        "5Dqt8jIelsfUckZKjH1XK",
+        "qaPJpWwN07BAcU6IM5N0y",
+        "yk1wjyIiXHPXnFxuks8x7",
+        "DHUMpZlChY0RAFfjYY0qY",
+        "jTL7qxkVgAqSyzuDMs3dG",
+        "DyIa222hLLkaus12cT7IV",
+        "A42PHTggpepGKSmICYvGf",
+        "R2YlDjMYXwcue7I81Lffe",
+        "3NdpJ60Vc51ALj5L6Gdbw",
+        "SGo0dQRj1Li3lcYK5bkCf",
+        "oKK9TNfEjHsEBIIv7MaWF",
+        "ywRgRiJCwzCYbIH0UoHho",
+        "BUfdBfKWQY2UOSLFkJCVO",
+        "YmObnxqnvXX9KfjtzmmKY"
+      ],
+      "parent": "4PZFYT82ucE5sGWchYy0o",
+      "data": {}
+    },
+    "YmObnxqnvXX9KfjtzmmKY": {
+      "id": "YmObnxqnvXX9KfjtzmmKY",
+      "title": "Wahrscheinlichkeitsraum",
+      "desc": "",
+      "updated": 1644511310940,
+      "created": 1644503981560,
+      "custom": {},
+      "fname": "Stochastik.Wahrscheinlichkeitsraum",
+      "type": "note",
+      "vault": {
+        "fsPath": "uni",
+        "name": "Uni"
+      },
+      "contentHash": "9774b9b6b0a13ce7009421fb5bf5808f",
+      "links": [
+        {
+          "from": {
+            "fname": "Stochastik",
+            "vaultName": "Uni"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 5,
+              "column": 7,
+              "offset": 52
+            },
+            "end": {
+              "line": 5,
+              "column": 45,
+              "offset": 90
+            },
+            "indent": []
+          },
+          "value": "Stochastik.Wahrscheinlichkeitsraum",
+          "alias": "Stochastik.Wahrscheinlichkeitsraum"
+        }
+      ],
+      "anchors": {
+        "kolmogorovsche-axiomatik": {
+          "type": "header",
+          "text": "Kolmogorovsche Axiomatik",
+          "value": "kolmogorovsche-axiomatik",
+          "line": 8,
+          "column": 0,
+          "depth": 2
+        },
+        "mengenidentitäten": {
+          "type": "header",
+          "text": "Mengenidentitäten",
+          "value": "mengenidentitäten",
+          "line": 13,
+          "column": 0,
+          "depth": 2
+        },
+        "laplace-wahrscheinlichkeitsraum": {
+          "type": "header",
+          "text": "Laplace-Wahrscheinlichkeitsraum",
+          "value": "laplace-wahrscheinlichkeitsraum",
+          "line": 23,
+          "column": 0,
+          "depth": 2
+        },
+        "stochastische-unabhängigkeit": {
+          "type": "header",
+          "text": "Stochastische Unabhängigkeit",
+          "value": "stochastische-unabhängigkeit",
+          "line": 28,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "children": [],
+      "parent": "BU0AIxveiMP6NB2YrRcth",
+      "data": {}
+    },
+    "BUfdBfKWQY2UOSLFkJCVO": {
+      "id": "BUfdBfKWQY2UOSLFkJCVO",
+      "title": "Verteilungstypen",
+      "desc": "",
+      "updated": 1644570177381,
+      "created": 1644523109637,
+      "custom": {},
+      "fname": "Stochastik.Verteilungstypen",
+      "type": "note",
+      "vault": {
+        "fsPath": "uni",
+        "name": "Uni"
+      },
+      "contentHash": "90d5c18c3dcd54f498a69f92279d0fec",
+      "links": [
+        {
+          "from": {
+            "fname": "Stochastik",
+            "vaultName": "Uni"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 19,
+              "column": 11,
+              "offset": 749
+            },
+            "end": {
+              "line": 19,
+              "column": 42,
+              "offset": 780
+            },
+            "indent": []
+          },
+          "value": "Stochastik.Verteilungstypen",
+          "alias": "Stochastik.Verteilungstypen"
+        }
+      ],
+      "anchors": {
+        "stetige-gleichverteilung": {
+          "type": "header",
+          "text": "Stetige Gleichverteilung",
+          "value": "stetige-gleichverteilung",
+          "line": 8,
+          "column": 0,
+          "depth": 2
+        },
+        "binomialverteilung-ziehen-mit-zurücklegen-ohne-reihenfolge": {
+          "type": "header",
+          "text": "Binomialverteilung (Ziehen mit Zurücklegen ohne Reihenfolge)",
+          "value": "binomialverteilung-ziehen-mit-zurücklegen-ohne-reihenfolge",
+          "line": 18,
+          "column": 0,
+          "depth": 2
+        },
+        "hypergeometrische-verteilung-ziehen-ohne-zurücklegen-ohne-reihenfolge": {
+          "type": "header",
+          "text": "Hypergeometrische Verteilung (Ziehen ohne Zurücklegen ohne Reihenfolge)",
+          "value": "hypergeometrische-verteilung-ziehen-ohne-zurücklegen-ohne-reihenfolge",
+          "line": 29,
+          "column": 0,
+          "depth": 2
+        },
+        "poisson-verteilung-anzahl-eines-ereignisses-während-eines-zeitfensters": {
+          "type": "header",
+          "text": "Poisson-Verteilung (Anzahl eines Ereignisses während eines Zeitfensters)",
+          "value": "poisson-verteilung-anzahl-eines-ereignisses-während-eines-zeitfensters",
+          "line": 34,
+          "column": 0,
+          "depth": 2
+        },
+        "geometrische-verteilung-anzahl-misserfolge-in-bernoulli-experiment": {
+          "type": "header",
+          "text": "Geometrische Verteilung (Anzahl Misserfolge in Bernoulli-Experiment)",
+          "value": "geometrische-verteilung-anzahl-misserfolge-in-bernoulli-experiment",
+          "line": 43,
+          "column": 0,
+          "depth": 2
+        },
+        "normalverteilung": {
+          "type": "header",
+          "text": "Normalverteilung",
+          "value": "normalverteilung",
+          "line": 50,
+          "column": 0,
+          "depth": 2
+        },
+        "exponentialverteilung-lebensdauerverteilung": {
+          "type": "header",
+          "text": "Exponentialverteilung (Lebensdauerverteilung)",
+          "value": "exponentialverteilung-lebensdauerverteilung",
+          "line": 67,
+          "column": 0,
+          "depth": 2
+        },
+        "gammaverteilung": {
+          "type": "header",
+          "text": "Gammaverteilung",
+          "value": "gammaverteilung",
+          "line": 80,
+          "column": 0,
+          "depth": 2
+        },
+        "erlangverteilung": {
+          "type": "header",
+          "text": "Erlangverteilung",
+          "value": "erlangverteilung",
+          "line": 87,
+          "column": 0,
+          "depth": 2
+        },
+        "chi2-verteilung": {
+          "type": "header",
+          "text": "$\\chi^2$-Verteilung",
+          "value": "chi2-verteilung",
+          "line": 91,
+          "column": 0,
+          "depth": 2
+        },
+        "t-verteilung-student-verteilung": {
+          "type": "header",
+          "text": "t-Verteilung (Student-Verteilung)",
+          "value": "t-verteilung-student-verteilung",
+          "line": 98,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "children": [],
+      "parent": "BU0AIxveiMP6NB2YrRcth",
+      "data": {}
+    },
+    "ywRgRiJCwzCYbIH0UoHho": {
+      "id": "ywRgRiJCwzCYbIH0UoHho",
+      "title": "Varianz",
+      "desc": "",
+      "updated": 1644568232468,
+      "created": 1644567584098,
+      "custom": {},
+      "fname": "Stochastik.Varianz",
+      "type": "note",
+      "vault": {
+        "fsPath": "uni",
+        "name": "Uni"
+      },
+      "contentHash": "dbdcd791cd9bc0d5dc32a24dbd2b52f1",
+      "links": [
+        {
+          "from": {
+            "fname": "Stochastik",
+            "vaultName": "Uni"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 18,
+              "column": 11,
+              "offset": 716
+            },
+            "end": {
+              "line": 18,
+              "column": 33,
+              "offset": 738
+            },
+            "indent": []
+          },
+          "value": "Stochastik.Varianz",
+          "alias": "Stochastik.Varianz"
+        }
+      ],
+      "anchors": {
+        "varianz": {
+          "type": "header",
+          "text": "Varianz",
+          "value": "varianz",
+          "line": 8,
+          "column": 0,
+          "depth": 2
+        },
+        "transformation": {
+          "type": "header",
+          "text": "Transformation",
+          "value": "transformation",
+          "line": 11,
+          "column": 0,
+          "depth": 3
+        },
+        "standardabweichung": {
+          "type": "header",
+          "text": "Standardabweichung",
+          "value": "standardabweichung",
+          "line": 20,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "children": [],
+      "parent": "BU0AIxveiMP6NB2YrRcth",
+      "data": {}
+    },
+    "oKK9TNfEjHsEBIIv7MaWF": {
+      "id": "oKK9TNfEjHsEBIIv7MaWF",
+      "title": "Urnenmodelle",
+      "desc": "",
+      "updated": 1644506667481,
+      "created": 1644504949718,
+      "custom": {},
+      "fname": "Stochastik.Urnenmodelle",
+      "type": "note",
+      "vault": {
+        "fsPath": "uni",
+        "name": "Uni"
+      },
+      "contentHash": "b737baa71f5e58f52a3805e76ced485e",
+      "links": [
+        {
+          "from": {
+            "fname": "Stochastik",
+            "vaultName": "Uni"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 6,
+              "column": 7,
+              "offset": 97
+            },
+            "end": {
+              "line": 6,
+              "column": 34,
+              "offset": 124
+            },
+            "indent": []
+          },
+          "value": "Stochastik.Urnenmodelle",
+          "alias": "Stochastik.Urnenmodelle"
+        }
+      ],
+      "anchors": {
+        "permutation": {
+          "type": "header",
+          "text": "Permutation",
+          "value": "permutation",
+          "line": 10,
+          "column": 0,
+          "depth": 2
+        },
+        "permutation-mit-wiederholung": {
+          "type": "header",
+          "text": "Permutation mit Wiederholung",
+          "value": "permutation-mit-wiederholung",
+          "line": 14,
+          "column": 0,
+          "depth": 2
+        },
+        "mit-zurücklegen-und-berücksichtigung-der-reihenfolge": {
+          "type": "header",
+          "text": "Mit Zurücklegen und Berücksichtigung der Reihenfolge",
+          "value": "mit-zurücklegen-und-berücksichtigung-der-reihenfolge",
+          "line": 21,
+          "column": 0,
+          "depth": 2
+        },
+        "ohne-zurücklegen-und-berücksichtigung-der-reihenfolge": {
+          "type": "header",
+          "text": "Ohne Zurücklegen und Berücksichtigung der Reihenfolge",
+          "value": "ohne-zurücklegen-und-berücksichtigung-der-reihenfolge",
+          "line": 24,
+          "column": 0,
+          "depth": 2
+        },
+        "ohne-zurücklegen-und-ohne-berücksichtigung-der-reihenfolge": {
+          "type": "header",
+          "text": "Ohne Zurücklegen und ohne Berücksichtigung der Reihenfolge",
+          "value": "ohne-zurücklegen-und-ohne-berücksichtigung-der-reihenfolge",
+          "line": 27,
+          "column": 0,
+          "depth": 2
+        },
+        "mit-zurücklegen-und-ohne-berücksichtigung-der-reihenfolge": {
+          "type": "header",
+          "text": "Mit Zurücklegen und ohne Berücksichtigung der Reihenfolge",
+          "value": "mit-zurücklegen-und-ohne-berücksichtigung-der-reihenfolge",
+          "line": 30,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "children": [],
+      "parent": "BU0AIxveiMP6NB2YrRcth",
+      "data": {}
+    },
+    "SGo0dQRj1Li3lcYK5bkCf": {
+      "id": "SGo0dQRj1Li3lcYK5bkCf",
+      "title": "Standardisierung",
+      "desc": "",
+      "updated": 1644569114328,
+      "created": 1644568245974,
+      "custom": {},
+      "fname": "Stochastik.Standardisierung",
+      "type": "note",
+      "vault": {
+        "fsPath": "uni",
+        "name": "Uni"
+      },
+      "contentHash": "3ca1a5a989ed503f157b661a9c4cbf30",
+      "links": [
+        {
+          "from": {
+            "fname": "Stochastik",
+            "vaultName": "Uni"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 20,
+              "column": 11,
+              "offset": 791
+            },
+            "end": {
+              "line": 20,
+              "column": 42,
+              "offset": 822
+            },
+            "indent": []
+          },
+          "value": "Stochastik.Standardisierung",
+          "alias": "Stochastik.Standardisierung"
+        }
+      ],
+      "anchors": {},
+      "children": [],
+      "parent": "BU0AIxveiMP6NB2YrRcth",
+      "data": {}
+    },
+    "3NdpJ60Vc51ALj5L6Gdbw": {
+      "id": "3NdpJ60Vc51ALj5L6Gdbw",
+      "title": "Punktschätzer",
+      "desc": "",
+      "updated": 1644576955164,
+      "created": 1644576409681,
+      "custom": {},
+      "fname": "Stochastik.Punktschätzer",
+      "type": "note",
+      "vault": {
+        "fsPath": "uni",
+        "name": "Uni"
+      },
+      "contentHash": "bfe0692ad1ad673257ee4ffac9f07ddb",
+      "links": [
+        {
+          "from": {
+            "fname": "Stochastik",
+            "vaultName": "Uni"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 22,
+              "column": 11,
+              "offset": 883
+            },
+            "end": {
+              "line": 22,
+              "column": 39,
+              "offset": 911
+            },
+            "indent": []
+          },
+          "value": "Stochastik.Punktschätzer",
+          "alias": "Stochastik.Punktschätzer"
+        }
+      ],
+      "anchors": {
+        "erwartungstreue": {
+          "type": "header",
+          "text": "Erwartungstreue",
+          "value": "erwartungstreue",
+          "line": 17,
+          "column": 0,
+          "depth": 2
+        },
+        "erwartungstre": {
+          "type": "header",
+          "text": "Erwartungstre",
+          "value": "erwartungstre",
+          "line": 19,
+          "column": 0,
+          "depth": 3
+        },
+        "asymptotisch-erwartungstre": {
+          "type": "header",
+          "text": "Asymptotisch erwartungstre",
+          "value": "asymptotisch-erwartungstre",
+          "line": 22,
+          "column": 0,
+          "depth": 3
+        },
+        "konsistenz": {
+          "type": "header",
+          "text": "Konsistenz",
+          "value": "konsistenz",
+          "line": 25,
+          "column": 0,
+          "depth": 2
+        },
+        "konsistent-im-quadratischen-mittel": {
+          "type": "header",
+          "text": "Konsistent im quadratischen Mittel",
+          "value": "konsistent-im-quadratischen-mittel",
+          "line": 27,
+          "column": 0,
+          "depth": 3
+        },
+        "schwach-konsistent": {
+          "type": "header",
+          "text": "Schwach konsistent",
+          "value": "schwach-konsistent",
+          "line": 30,
+          "column": 0,
+          "depth": 3
+        },
+        "mean-squared-error": {
+          "type": "header",
+          "text": "Mean Squared Error",
+          "value": "mean-squared-error",
+          "line": 33,
+          "column": 0,
+          "depth": 3
+        }
+      },
+      "children": [],
+      "parent": "BU0AIxveiMP6NB2YrRcth",
+      "data": {}
+    },
+    "R2YlDjMYXwcue7I81Lffe": {
+      "id": "R2YlDjMYXwcue7I81Lffe",
+      "title": "Lagemaße",
+      "desc": "",
+      "updated": 1644407369468,
+      "created": 1644406178112,
+      "custom": {},
+      "fname": "Stochastik.Lagemaße",
+      "type": "note",
+      "vault": {
+        "fsPath": "uni",
+        "name": "Uni"
+      },
+      "contentHash": "1882e0940a7929e759b9a5b6093340b2",
+      "links": [
+        {
+          "from": {
+            "fname": "Stochastik",
+            "vaultName": "Uni"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 10,
+              "column": 11,
+              "offset": 291
+            },
+            "end": {
+              "line": 10,
+              "column": 34,
+              "offset": 314
+            },
+            "indent": []
+          },
+          "value": "Stochastik.Lagemaße",
+          "alias": "Stochastik.Lagemaße"
+        }
+      ],
+      "anchors": {
+        "arithmetisches-mittel": {
+          "type": "header",
+          "text": "Arithmetisches Mittel",
+          "value": "arithmetisches-mittel",
+          "line": 14,
+          "column": 0,
+          "depth": 2
+        },
+        "median": {
+          "type": "header",
+          "text": "Median",
+          "value": "median",
+          "line": 20,
+          "column": 0,
+          "depth": 2
+        },
+        "quantil": {
+          "type": "header",
+          "text": "Quantil",
+          "value": "quantil",
+          "line": 31,
+          "column": 0,
+          "depth": 3
+        },
+        "modus": {
+          "type": "header",
+          "text": "Modus",
+          "value": "modus",
+          "line": 35,
+          "column": 0,
+          "depth": 2
+        },
+        "geometrische-mittel": {
+          "type": "header",
+          "text": "Geometrische Mittel",
+          "value": "geometrische-mittel",
+          "line": 40,
+          "column": 0,
+          "depth": 2
+        },
+        "harmonisches-mittel": {
+          "type": "header",
+          "text": "Harmonisches Mittel",
+          "value": "harmonisches-mittel",
+          "line": 45,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "children": [],
+      "parent": "BU0AIxveiMP6NB2YrRcth",
+      "data": {}
+    },
+    "A42PHTggpepGKSmICYvGf": {
+      "id": "A42PHTggpepGKSmICYvGf",
+      "title": "Konfidenzintervall",
+      "desc": "",
+      "updated": 1644578457121,
+      "created": 1644577120190,
+      "custom": {},
+      "fname": "Stochastik.Konfidenzintervall",
+      "type": "note",
+      "vault": {
+        "fsPath": "uni",
+        "name": "Uni"
+      },
+      "contentHash": "ba19867ff968aa15e6285d51e4cd5481",
+      "links": [
+        {
+          "from": {
+            "fname": "Stochastik",
+            "vaultName": "Uni"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 23,
+              "column": 11,
+              "offset": 922
+            },
+            "end": {
+              "line": 23,
+              "column": 44,
+              "offset": 955
+            },
+            "indent": []
+          },
+          "value": "Stochastik.Konfidenzintervall",
+          "alias": "Stochastik.Konfidenzintervall"
+        }
+      ],
+      "anchors": {
+        "allgemein": {
+          "type": "header",
+          "text": "Allgemein",
+          "value": "allgemein",
+          "line": 8,
+          "column": 0,
+          "depth": 2
+        },
+        "zweiseitiges-konfidenzintervall-für-erwartungswert-bei-bekannter-varianz": {
+          "type": "header",
+          "text": "Zweiseitiges Konfidenzintervall für Erwartungswert bei bekannter Varianz",
+          "value": "zweiseitiges-konfidenzintervall-für-erwartungswert-bei-bekannter-varianz",
+          "line": 17,
+          "column": 0,
+          "depth": 2
+        },
+        "einseitige-konfidenzintervalle-für-erwartungswert-bei-bekannter-varianz": {
+          "type": "header",
+          "text": "Einseitige Konfidenzintervalle für Erwartungswert bei bekannter Varianz",
+          "value": "einseitige-konfidenzintervalle-für-erwartungswert-bei-bekannter-varianz",
+          "line": 21,
+          "column": 0,
+          "depth": 2
+        },
+        "zweiseitiges-konfidenzintervall-für-erwartungswert-bei-unbekannter-varianz": {
+          "type": "header",
+          "text": "Zweiseitiges Konfidenzintervall für Erwartungswert bei unbekannter Varianz",
+          "value": "zweiseitiges-konfidenzintervall-für-erwartungswert-bei-unbekannter-varianz",
+          "line": 27,
+          "column": 0,
+          "depth": 2
+        },
+        "einseitige-konfidenzintervalle-für-erwartungswert-bei-bekannter-varianz-1": {
+          "type": "header",
+          "text": "Einseitige Konfidenzintervalle für Erwartungswert bei bekannter Varianz",
+          "value": "einseitige-konfidenzintervalle-für-erwartungswert-bei-bekannter-varianz-1",
+          "line": 31,
+          "column": 0,
+          "depth": 2
+        },
+        "zweiseitiges-konfidenzintervall-für-varianz-bei-unbekanntem-erwartungswert": {
+          "type": "header",
+          "text": "Zweiseitiges Konfidenzintervall für Varianz bei unbekanntem Erwartungswert",
+          "value": "zweiseitiges-konfidenzintervall-für-varianz-bei-unbekanntem-erwartungswert",
+          "line": 37,
+          "column": 0,
+          "depth": 2
+        },
+        "einseitige-konfidenzintervalle-für-varianz-bei-unbekanntem-erwartungswert": {
+          "type": "header",
+          "text": "Einseitige Konfidenzintervalle für Varianz bei unbekanntem Erwartungswert",
+          "value": "einseitige-konfidenzintervalle-für-varianz-bei-unbekanntem-erwartungswert",
+          "line": 43,
+          "column": 0,
+          "depth": 2
+        },
+        "zweiseitiges-konfidenzintervall-für-varianz-bei-bekanntem-erwartungswert": {
+          "type": "header",
+          "text": "Zweiseitiges Konfidenzintervall für Varianz bei bekanntem Erwartungswert",
+          "value": "zweiseitiges-konfidenzintervall-für-varianz-bei-bekanntem-erwartungswert",
+          "line": 48,
+          "column": 0,
+          "depth": 2
+        },
+        "einseitige-konfidenzintervalle-für-varianz-bei-bekanntem-erwartungswert": {
+          "type": "header",
+          "text": "Einseitige Konfidenzintervalle für Varianz bei bekanntem Erwartungswert",
+          "value": "einseitige-konfidenzintervalle-für-varianz-bei-bekanntem-erwartungswert",
+          "line": 54,
+          "column": 0,
+          "depth": 2
+        },
+        "^2": {
+          "type": "block",
+          "value": "2",
+          "line": 57,
+          "column": 21
+        }
+      },
+      "children": [],
+      "parent": "BU0AIxveiMP6NB2YrRcth",
+      "data": {}
+    },
+    "DyIa222hLLkaus12cT7IV": {
+      "id": "DyIa222hLLkaus12cT7IV",
+      "title": "Häufigkeit",
+      "desc": "",
+      "updated": 1644406170839,
+      "created": 1644405694390,
+      "custom": {},
+      "fname": "Stochastik.Häufigkeit",
+      "type": "note",
+      "vault": {
+        "fsPath": "uni",
+        "name": "Uni"
+      },
+      "contentHash": "cd31038439fdbb7b6936e15e90d6d55c",
+      "links": [
+        {
+          "from": {
+            "fname": "Stochastik",
+            "vaultName": "Uni"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 9,
+              "column": 11,
+              "offset": 255
+            },
+            "end": {
+              "line": 9,
+              "column": 36,
+              "offset": 280
+            },
+            "indent": []
+          },
+          "value": "Stochastik.Häufigkeit",
+          "alias": "Stochastik.Häufigkeit"
+        }
+      ],
+      "anchors": {
+        "absolute-häufigkeit": {
+          "type": "header",
+          "text": "Absolute Häufigkeit",
+          "value": "absolute-häufigkeit",
+          "line": 8,
+          "column": 0,
+          "depth": 2
+        },
+        "relative-häufigkeit": {
+          "type": "header",
+          "text": "Relative Häufigkeit",
+          "value": "relative-häufigkeit",
+          "line": 11,
+          "column": 0,
+          "depth": 2
+        },
+        "kumulierte-häufigkeit": {
+          "type": "header",
+          "text": "Kumulierte Häufigkeit",
+          "value": "kumulierte-häufigkeit",
+          "line": 14,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "children": [],
+      "parent": "BU0AIxveiMP6NB2YrRcth",
+      "data": {}
+    },
+    "jTL7qxkVgAqSyzuDMs3dG": {
+      "id": "jTL7qxkVgAqSyzuDMs3dG",
+      "title": "Hypothesentests",
+      "desc": "",
+      "updated": 1644660013451,
+      "created": 1644578486512,
+      "custom": {},
+      "fname": "Stochastik.Hypothesentests",
+      "type": "note",
+      "vault": {
+        "fsPath": "uni",
+        "name": "Uni"
+      },
+      "contentHash": "8bd5cf856bb27d45d2898baa7c73c14d",
+      "links": [
+        {
+          "from": {
+            "fname": "Stochastik",
+            "vaultName": "Uni"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 24,
+              "column": 11,
+              "offset": 966
+            },
+            "end": {
+              "line": 24,
+              "column": 41,
+              "offset": 996
+            },
+            "indent": []
+          },
+          "value": "Stochastik.Hypothesentests",
+          "alias": "Stochastik.Hypothesentests"
+        }
+      ],
+      "anchors": {
+        "allgemein": {
+          "type": "header",
+          "text": "Allgemein",
+          "value": "allgemein",
+          "line": 8,
+          "column": 0,
+          "depth": 2
+        },
+        "einfacher-gauß-test": {
+          "type": "header",
+          "text": "Einfacher Gauß-Test",
+          "value": "einfacher-gauß-test",
+          "line": 15,
+          "column": 0,
+          "depth": 2
+        },
+        "prüfgröße": {
+          "type": "header",
+          "text": "Prüfgröße",
+          "value": "prüfgröße",
+          "line": 18,
+          "column": 0,
+          "depth": 3
+        },
+        "ablehnungsbereich": {
+          "type": "header",
+          "text": "Ablehnungsbereich",
+          "value": "ablehnungsbereich",
+          "line": 22,
+          "column": 0,
+          "depth": 3
+        },
+        "einfacher-t-test": {
+          "type": "header",
+          "text": "Einfacher t-Test",
+          "value": "einfacher-t-test",
+          "line": 32,
+          "column": 0,
+          "depth": 2
+        },
+        "prüfgröße-1": {
+          "type": "header",
+          "text": "Prüfgröße",
+          "value": "prüfgröße-1",
+          "line": 35,
+          "column": 0,
+          "depth": 3
+        },
+        "ablehnungsbereich-1": {
+          "type": "header",
+          "text": "Ablehnungsbereich",
+          "value": "ablehnungsbereich-1",
+          "line": 39,
+          "column": 0,
+          "depth": 3
+        },
+        "chi2-streuungstest-bei-bekanntem-erwartungswert": {
+          "type": "header",
+          "text": "$\\chi^2$-Streuungstest (bei bekanntem Erwartungswert)",
+          "value": "chi2-streuungstest-bei-bekanntem-erwartungswert",
+          "line": 49,
+          "column": 0,
+          "depth": 2
+        },
+        "prüfgröße-2": {
+          "type": "header",
+          "text": "Prüfgröße",
+          "value": "prüfgröße-2",
+          "line": 52,
+          "column": 0,
+          "depth": 3
+        },
+        "ablehnungsbereich-2": {
+          "type": "header",
+          "text": "Ablehnungsbereich",
+          "value": "ablehnungsbereich-2",
+          "line": 56,
+          "column": 0,
+          "depth": 3
+        },
+        "chi2-streuungstest-bei-unbekanntem-erwartungswert": {
+          "type": "header",
+          "text": "$\\chi^2$-Streuungstest (bei unbekanntem Erwartungswert)",
+          "value": "chi2-streuungstest-bei-unbekanntem-erwartungswert",
+          "line": 66,
+          "column": 0,
+          "depth": 2
+        },
+        "prüfgröße-3": {
+          "type": "header",
+          "text": "Prüfgröße",
+          "value": "prüfgröße-3",
+          "line": 69,
+          "column": 0,
+          "depth": 3
+        },
+        "ablehnungsbereich-3": {
+          "type": "header",
+          "text": "Ablehnungsbereich",
+          "value": "ablehnungsbereich-3",
+          "line": 74,
+          "column": 0,
+          "depth": 3
+        },
+        "fehler": {
+          "type": "header",
+          "text": "Fehler",
+          "value": "fehler",
+          "line": 84,
+          "column": 0,
+          "depth": 2
+        },
+        "fehler-1-art": {
+          "type": "header",
+          "text": "Fehler 1. Art",
+          "value": "fehler-1-art",
+          "line": 86,
+          "column": 0,
+          "depth": 3
+        },
+        "fehler-2-art": {
+          "type": "header",
+          "text": "Fehler 2. Art",
+          "value": "fehler-2-art",
+          "line": 89,
+          "column": 0,
+          "depth": 3
+        },
+        "^2": {
+          "type": "block",
+          "value": "2",
+          "line": 82,
+          "column": 15
+        }
+      },
+      "children": [],
+      "parent": "BU0AIxveiMP6NB2YrRcth",
+      "data": {}
+    },
+    "DHUMpZlChY0RAFfjYY0qY": {
+      "id": "DHUMpZlChY0RAFfjYY0qY",
+      "title": "Gesetz der großen Zahlen",
+      "desc": "",
+      "updated": 1644571485867,
+      "created": 1644570192587,
+      "custom": {},
+      "fname": "Stochastik.Gesetz der großen Zahlen",
+      "type": "note",
+      "vault": {
+        "fsPath": "uni",
+        "name": "Uni"
+      },
+      "contentHash": "414c6b1cf827b67a8a60c4571bc66121",
+      "links": [
+        {
+          "from": {
+            "fname": "Stochastik",
+            "vaultName": "Uni"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 21,
+              "column": 11,
+              "offset": 833
+            },
+            "end": {
+              "line": 21,
+              "column": 50,
+              "offset": 872
+            },
+            "indent": []
+          },
+          "value": "Stochastik.Gesetz der großen Zahlen",
+          "alias": "Stochastik.Gesetz der großen Zahlen"
+        }
+      ],
+      "anchors": {
+        "schwaches-gesetz-der-großen-zahlen": {
+          "type": "header",
+          "text": "Schwaches Gesetz der großen Zahlen",
+          "value": "schwaches-gesetz-der-großen-zahlen",
+          "line": 8,
+          "column": 0,
+          "depth": 2
+        },
+        "ungleichung-von-cebysev": {
+          "type": "header",
+          "text": "Ungleichung von Cebysev",
+          "value": "ungleichung-von-cebysev",
+          "line": 14,
+          "column": 0,
+          "depth": 2
+        },
+        "schwaches-gesetz-der-großen-zahlen-von-chincin": {
+          "type": "header",
+          "text": "Schwaches Gesetz der großen Zahlen von Chincin",
+          "value": "schwaches-gesetz-der-großen-zahlen-von-chincin",
+          "line": 20,
+          "column": 0,
+          "depth": 2
+        },
+        "zentraler-grenzwertsatz-von-moivre-laplace": {
+          "type": "header",
+          "text": "Zentraler Grenzwertsatz von Moivre-Laplace",
+          "value": "zentraler-grenzwertsatz-von-moivre-laplace",
+          "line": 26,
+          "column": 0,
+          "depth": 2
+        },
+        "stetigkeitskorrektur": {
+          "type": "header",
+          "text": "Stetigkeitskorrektur",
+          "value": "stetigkeitskorrektur",
+          "line": 36,
+          "column": 0,
+          "depth": 3
+        }
+      },
+      "children": [],
+      "parent": "BU0AIxveiMP6NB2YrRcth",
+      "data": {}
+    },
+    "yk1wjyIiXHPXnFxuks8x7": {
+      "id": "yk1wjyIiXHPXnFxuks8x7",
+      "title": "Erwartungswert",
+      "desc": "",
+      "updated": 1644568106663,
+      "created": 1644567052344,
+      "custom": {},
+      "fname": "Stochastik.Erwartungswert",
+      "type": "note",
+      "vault": {
+        "fsPath": "uni",
+        "name": "Uni"
+      },
+      "contentHash": "40047911329d591435f2fb33ccdb2a24",
+      "links": [
+        {
+          "from": {
+            "fname": "Stochastik",
+            "vaultName": "Uni"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 17,
+              "column": 11,
+              "offset": 676
+            },
+            "end": {
+              "line": 17,
+              "column": 40,
+              "offset": 705
+            },
+            "indent": []
+          },
+          "value": "Stochastik.Erwartungswert",
+          "alias": "Stochastik.Erwartungswert"
+        }
+      ],
+      "anchors": {
+        "diskrete-verteilung": {
+          "type": "header",
+          "text": "Diskrete Verteilung",
+          "value": "diskrete-verteilung",
+          "line": 8,
+          "column": 0,
+          "depth": 2
+        },
+        "stetige-verteilung": {
+          "type": "header",
+          "text": "Stetige Verteilung",
+          "value": "stetige-verteilung",
+          "line": 17,
+          "column": 0,
+          "depth": 2
+        },
+        "transformation": {
+          "type": "header",
+          "text": "Transformation",
+          "value": "transformation",
+          "line": 26,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "children": [],
+      "parent": "BU0AIxveiMP6NB2YrRcth",
+      "data": {}
+    },
+    "qaPJpWwN07BAcU6IM5N0y": {
+      "id": "qaPJpWwN07BAcU6IM5N0y",
+      "title": "Empirische Varianz",
+      "desc": "",
+      "updated": 1644408183704,
+      "created": 1644407507275,
+      "custom": {},
+      "fname": "Stochastik.Empirische Varianz",
+      "type": "note",
+      "vault": {
+        "fsPath": "uni",
+        "name": "Uni"
+      },
+      "contentHash": "0e6a055a7ad81d6d3c23fc9beb128821",
+      "links": [
+        {
+          "from": {
+            "fname": "Stochastik",
+            "vaultName": "Uni"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 13,
+              "column": 11,
+              "offset": 394
+            },
+            "end": {
+              "line": 13,
+              "column": 44,
+              "offset": 427
+            },
+            "indent": []
+          },
+          "value": "Stochastik.Empirische Varianz",
+          "alias": "Stochastik.Empirische Varianz"
+        }
+      ],
+      "anchors": {
+        "empirische-varianz": {
+          "type": "header",
+          "text": "Empirische Varianz",
+          "value": "empirische-varianz",
+          "line": 8,
+          "column": 0,
+          "depth": 2
+        },
+        "empirische-standardabweichung": {
+          "type": "header",
+          "text": "Empirische Standardabweichung",
+          "value": "empirische-standardabweichung",
+          "line": 14,
+          "column": 0,
+          "depth": 2
+        },
+        "transformation": {
+          "type": "header",
+          "text": "Transformation",
+          "value": "transformation",
+          "line": 20,
+          "column": 0,
+          "depth": 2
+        },
+        "empirischer-variationskoeffizient": {
+          "type": "header",
+          "text": "(Empirischer) Variationskoeffizient",
+          "value": "empirischer-variationskoeffizient",
+          "line": 25,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "children": [],
+      "parent": "BU0AIxveiMP6NB2YrRcth",
+      "data": {}
+    },
+    "5Dqt8jIelsfUckZKjH1XK": {
+      "id": "5Dqt8jIelsfUckZKjH1XK",
+      "title": "Empirische Unabhängikeit",
+      "desc": "",
+      "updated": 1644409095811,
+      "created": 1644408195274,
+      "custom": {},
+      "fname": "Stochastik.Empirische Unabhängikeit",
+      "type": "note",
+      "vault": {
+        "fsPath": "uni",
+        "name": "Uni"
+      },
+      "contentHash": "c223c5317da24cc8a38919b9a1abbce6",
+      "links": [
+        {
+          "from": {
+            "fname": "Stochastik",
+            "vaultName": "Uni"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 14,
+              "column": 11,
+              "offset": 438
+            },
+            "end": {
+              "line": 14,
+              "column": 50,
+              "offset": 477
+            },
+            "indent": []
+          },
+          "value": "Stochastik.Empirische Unabhängikeit",
+          "alias": "Stochastik.Empirische Unabhängikeit"
+        }
+      ],
+      "anchors": {
+        "empirische-unabhängigkeit": {
+          "type": "header",
+          "text": "Empirische Unabhängigkeit",
+          "value": "empirische-unabhängigkeit",
+          "line": 8,
+          "column": 0,
+          "depth": 2
+        },
+        "chi2-koeffizient-pearsons-chi2-statistik": {
+          "type": "header",
+          "text": "$\\chi^2$-Koeffizient (Pearsons $\\chi^2$-Statistik)",
+          "value": "chi2-koeffizient-pearsons-chi2-statistik",
+          "line": 13,
+          "column": 0,
+          "depth": 2
+        },
+        "kontingenzmaß-nach-cramér": {
+          "type": "header",
+          "text": "Kontingenzmaß nach Cramér",
+          "value": "kontingenzmaß-nach-cramér",
+          "line": 22,
+          "column": 0,
+          "depth": 2
+        },
+        "^l": {
+          "type": "block",
+          "value": "l",
+          "line": 18,
+          "column": 25
+        }
+      },
+      "children": [],
+      "parent": "BU0AIxveiMP6NB2YrRcth",
+      "data": {}
+    },
+    "qiSQ9Ho3GRm4cOBWAkYDF": {
+      "id": "qiSQ9Ho3GRm4cOBWAkYDF",
+      "title": "Dichte- und Verteilungsfunktion",
+      "desc": "",
+      "updated": 1644523094139,
+      "created": 1644523008891,
+      "custom": {},
+      "fname": "Stochastik.Dichte- und Verteilungsfunktion",
+      "type": "note",
+      "vault": {
+        "fsPath": "uni",
+        "name": "Uni"
+      },
+      "contentHash": "e32ab8f93df75c25c27cd3eff2114d8b",
+      "links": [
+        {
+          "from": {
+            "fname": "Stochastik",
+            "vaultName": "Uni"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 16,
+              "column": 11,
+              "offset": 619
+            },
+            "end": {
+              "line": 16,
+              "column": 57,
+              "offset": 665
+            },
+            "indent": []
+          },
+          "value": "Stochastik.Dichte- und Verteilungsfunktion",
+          "alias": "Stochastik.Dichte- und Verteilungsfunktion"
+        }
+      ],
+      "anchors": {
+        "dichte": {
+          "type": "header",
+          "text": "Dichte",
+          "value": "dichte",
+          "line": 8,
+          "column": 0,
+          "depth": 2
+        },
+        "verteilungsfunktion": {
+          "type": "header",
+          "text": "Verteilungsfunktion",
+          "value": "verteilungsfunktion",
+          "line": 12,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "children": [],
+      "parent": "BU0AIxveiMP6NB2YrRcth",
+      "data": {}
+    },
+    "BQVWwjkdiOgJhWSEpqqYg": {
+      "id": "BQVWwjkdiOgJhWSEpqqYg",
+      "title": "Diagramme",
+      "desc": "",
+      "updated": 1644406089570,
+      "created": 1644405840336,
+      "custom": {},
+      "fname": "Stochastik.Diagramme",
+      "type": "note",
+      "vault": {
+        "fsPath": "uni",
+        "name": "Uni"
+      },
+      "contentHash": "2072177e4ee9451c51ba6502e1b6f4c9",
+      "links": [
+        {
+          "from": {
+            "fname": "Stochastik",
+            "vaultName": "Uni"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 12,
+              "column": 11,
+              "offset": 359
+            },
+            "end": {
+              "line": 12,
+              "column": 35,
+              "offset": 383
+            },
+            "indent": []
+          },
+          "value": "Stochastik.Diagramme",
+          "alias": "Stochastik.Diagramme"
+        }
+      ],
+      "anchors": {
+        "diagrammformen": {
+          "type": "header",
+          "text": "Diagrammformen",
+          "value": "diagrammformen",
+          "line": 8,
+          "column": 0,
+          "depth": 2
+        },
+        "histogramm": {
+          "type": "header",
+          "text": "Histogramm",
+          "value": "histogramm",
+          "line": 14,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "children": [],
+      "parent": "BU0AIxveiMP6NB2YrRcth",
+      "data": {}
+    },
+    "NSmnRpZ2l9wfRwa9FHVII": {
+      "id": "NSmnRpZ2l9wfRwa9FHVII",
+      "title": "Box-Plot",
+      "desc": "",
+      "updated": 1644409199295,
+      "created": 1644407490130,
+      "custom": {},
+      "fname": "Stochastik.Box-Plot",
+      "type": "note",
+      "vault": {
+        "fsPath": "uni",
+        "name": "Uni"
+      },
+      "contentHash": "fad298cdca069ff4dd3f578ec5ef5d9c",
+      "links": [
+        {
+          "from": {
+            "fname": "Stochastik",
+            "vaultName": "Uni"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 11,
+              "column": 11,
+              "offset": 325
+            },
+            "end": {
+              "line": 11,
+              "column": 34,
+              "offset": 348
+            },
+            "indent": []
+          },
+          "value": "Stochastik.Box-Plot",
+          "alias": "Stochastik.Box-Plot"
+        }
+      ],
+      "anchors": {},
+      "children": [],
+      "parent": "BU0AIxveiMP6NB2YrRcth",
+      "data": {}
+    },
+    "fbPfOGqlNNgJUsdvvVjO4": {
+      "id": "fbPfOGqlNNgJUsdvvVjO4",
+      "title": "Beschreibende Statistik",
+      "desc": "",
+      "updated": 1644405614001,
+      "created": 1644405421951,
+      "custom": {},
+      "fname": "Stochastik.Beschreibende Statistik",
+      "type": "note",
+      "vault": {
+        "fsPath": "uni",
+        "name": "Uni"
+      },
+      "contentHash": "96b49fa49bad959f4543c2baba377e1e",
+      "links": [
+        {
+          "from": {
+            "fname": "Stochastik",
+            "vaultName": "Uni"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 8,
+              "column": 7,
+              "offset": 143
+            },
+            "end": {
+              "line": 8,
+              "column": 45,
+              "offset": 181
+            },
+            "indent": []
+          },
+          "value": "Stochastik.Beschreibende Statistik",
+          "alias": "Stochastik.Beschreibende Statistik"
+        }
+      ],
+      "anchors": {
+        "begriffe": {
+          "type": "header",
+          "text": "Begriffe",
+          "value": "begriffe",
+          "line": 8,
+          "column": 0,
+          "depth": 2
+        },
+        "skalierung": {
+          "type": "header",
+          "text": "Skalierung",
+          "value": "skalierung",
+          "line": 17,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "children": [],
+      "parent": "BU0AIxveiMP6NB2YrRcth",
+      "data": {}
+    },
+    "GRvxv332whjrUYDFp1Ziq": {
+      "id": "GRvxv332whjrUYDFp1Ziq",
+      "title": "Datenbanken",
+      "desc": "",
+      "updated": 1643879643972,
+      "created": 1643477089680,
+      "custom": {},
+      "fname": "Datenbanken",
+      "type": "note",
+      "vault": {
+        "fsPath": "uni",
+        "name": "Uni"
+      },
+      "contentHash": "56cad8861cb90637a4b764ac2a1599df",
+      "links": [
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "Datenbanken",
+            "id": "GRvxv332whjrUYDFp1Ziq",
+            "vaultName": "Uni"
+          },
+          "value": "Datenbanken.ER-Modell",
+          "alias": "Datenbanken.ER-Modell",
+          "position": {
+            "start": {
+              "line": 34,
+              "column": 1,
+              "offset": 837
+            },
+            "end": {
+              "line": 34,
+              "column": 26,
+              "offset": 862
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "Datenbanken.ER-Modell"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "Datenbanken",
+            "id": "GRvxv332whjrUYDFp1Ziq",
+            "vaultName": "Uni"
+          },
+          "value": "Datenbanken.Relationenmodell",
+          "alias": "Datenbanken.Relationenmodell",
+          "position": {
+            "start": {
+              "line": 35,
+              "column": 1,
+              "offset": 863
+            },
+            "end": {
+              "line": 35,
+              "column": 33,
+              "offset": 895
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "Datenbanken.Relationenmodell"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "Datenbanken",
+            "id": "GRvxv332whjrUYDFp1Ziq",
+            "vaultName": "Uni"
+          },
+          "value": "Datenbanken.Logischer_Entwurf",
+          "alias": "Datenbanken.Logischer_Entwurf",
+          "position": {
+            "start": {
+              "line": 36,
+              "column": 1,
+              "offset": 896
+            },
+            "end": {
+              "line": 36,
+              "column": 34,
+              "offset": 929
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "Datenbanken.Logischer_Entwurf"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "Datenbanken",
+            "id": "GRvxv332whjrUYDFp1Ziq",
+            "vaultName": "Uni"
+          },
+          "value": "Datenbanken.Relationenalgebra",
+          "alias": "Datenbanken.Relationenalgebra",
+          "position": {
+            "start": {
+              "line": 37,
+              "column": 1,
+              "offset": 930
+            },
+            "end": {
+              "line": 37,
+              "column": 34,
+              "offset": 963
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "Datenbanken.Relationenalgebra"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "Datenbanken",
+            "id": "GRvxv332whjrUYDFp1Ziq",
+            "vaultName": "Uni"
+          },
+          "value": "Datenbanken.Relationenkalkül",
+          "alias": "Datenbanken.Relationenkalkül",
+          "position": {
+            "start": {
+              "line": 38,
+              "column": 1,
+              "offset": 964
+            },
+            "end": {
+              "line": 38,
+              "column": 33,
+              "offset": 996
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "Datenbanken.Relationenkalkül"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "Datenbanken",
+            "id": "GRvxv332whjrUYDFp1Ziq",
+            "vaultName": "Uni"
+          },
+          "value": "Datenbanken.SQL",
+          "alias": "Datenbanken.SQL",
+          "position": {
+            "start": {
+              "line": 39,
+              "column": 1,
+              "offset": 997
+            },
+            "end": {
+              "line": 39,
+              "column": 20,
+              "offset": 1016
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "Datenbanken.SQL"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "Datenbanken",
+            "id": "GRvxv332whjrUYDFp1Ziq",
+            "vaultName": "Uni"
+          },
+          "value": "Datenbanken.PL_SQL",
+          "alias": "Datenbanken.PL_SQL",
+          "position": {
+            "start": {
+              "line": 40,
+              "column": 1,
+              "offset": 1017
+            },
+            "end": {
+              "line": 40,
+              "column": 23,
+              "offset": 1039
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "Datenbanken.PL_SQL"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "Datenbanken",
+            "id": "GRvxv332whjrUYDFp1Ziq",
+            "vaultName": "Uni"
+          },
+          "value": "Datenbanken.Trigger",
+          "alias": "Datenbanken.Trigger",
+          "position": {
+            "start": {
+              "line": 41,
+              "column": 1,
+              "offset": 1040
+            },
+            "end": {
+              "line": 41,
+              "column": 24,
+              "offset": 1063
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "Datenbanken.Trigger"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "Datenbanken",
+            "id": "GRvxv332whjrUYDFp1Ziq",
+            "vaultName": "Uni"
+          },
+          "value": "Datenbanken.Transaktionen",
+          "alias": "Datenbanken.Transaktionen",
+          "position": {
+            "start": {
+              "line": 42,
+              "column": 1,
+              "offset": 1064
+            },
+            "end": {
+              "line": 42,
+              "column": 30,
+              "offset": 1093
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "Datenbanken.Transaktionen"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "Datenbanken",
+            "id": "GRvxv332whjrUYDFp1Ziq",
+            "vaultName": "Uni"
+          },
+          "value": "Datenbanken.Datenschutz",
+          "alias": "Datenbanken.Datenschutz",
+          "position": {
+            "start": {
+              "line": 43,
+              "column": 1,
+              "offset": 1094
+            },
+            "end": {
+              "line": 43,
+              "column": 28,
+              "offset": 1121
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "Datenbanken.Datenschutz"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "Datenbanken",
+            "id": "GRvxv332whjrUYDFp1Ziq",
+            "vaultName": "Uni"
+          },
+          "value": "Datenbanken.Datensicherheit",
+          "alias": "Datenbanken.Datensicherheit",
+          "position": {
+            "start": {
+              "line": 44,
+              "column": 1,
+              "offset": 1122
+            },
+            "end": {
+              "line": 44,
+              "column": 32,
+              "offset": 1153
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "Datenbanken.Datensicherheit"
+          }
+        },
+        {
+          "from": {
+            "fname": "root",
+            "vaultName": "Uni"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 5,
+              "column": 3,
+              "offset": 35
+            },
+            "end": {
+              "line": 5,
+              "column": 18,
+              "offset": 50
+            },
+            "indent": []
+          },
+          "value": "Datenbanken",
+          "alias": "Datenbanken"
+        }
+      ],
+      "anchors": {
+        "vorteile-von-datenbanken-ggü-dateisystem": {
+          "type": "header",
+          "text": "Vorteile von Datenbanken ggü. Dateisystem",
+          "value": "vorteile-von-datenbanken-ggü-dateisystem",
+          "line": 8,
+          "column": 0,
+          "depth": 2
+        },
+        "abstraktionsebenen": {
+          "type": "header",
+          "text": "Abstraktionsebenen",
+          "value": "abstraktionsebenen",
+          "line": 15,
+          "column": 0,
+          "depth": 2
+        },
+        "views": {
+          "type": "header",
+          "text": "Views",
+          "value": "views",
+          "line": 17,
+          "column": 0,
+          "depth": 3
+        },
+        "konzeptuelles-logisches-schema": {
+          "type": "header",
+          "text": "Konzeptuelles (logisches) Schema",
+          "value": "konzeptuelles-logisches-schema",
+          "line": 20,
+          "column": 0,
+          "depth": 3
+        },
+        "physisches-schema": {
+          "type": "header",
+          "text": "Physisches Schema",
+          "value": "physisches-schema",
+          "line": 24,
+          "column": 0,
+          "depth": 3
+        },
+        "datenunabhängigkeit": {
+          "type": "header",
+          "text": "Datenunabhängigkeit",
+          "value": "datenunabhängigkeit",
+          "line": 29,
+          "column": 0,
+          "depth": 2
+        },
+        "logische-datenunabhängigkeit": {
+          "type": "header",
+          "text": "Logische Datenunabhängigkeit",
+          "value": "logische-datenunabhängigkeit",
+          "line": 31,
+          "column": 0,
+          "depth": 3
+        },
+        "physische-datenunabhängigkeit": {
+          "type": "header",
+          "text": "Physische Datenunabhängigkeit",
+          "value": "physische-datenunabhängigkeit",
+          "line": 35,
+          "column": 0,
+          "depth": 3
+        },
+        "weitere-themen": {
+          "type": "header",
+          "text": "Weitere Themen",
+          "value": "weitere-themen",
+          "line": 38,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "children": [
+        "H5bA5xU107gHer42EXWTd",
+        "DZQKN5kpaXFehvK4ReRR7",
+        "iePx7YjGJicdr96Ej4pl4",
+        "AAo9KOryBqtQOFIAW9Ewv",
+        "HDrtireGtRrGu7Q99AOTY",
+        "x7DLfp7f047xVWMnZPBZt",
+        "shivL6qyrsKTFtbq4Aj1R",
+        "LuX4ja2KnNZCnzQ1edUpU",
+        "gLnuPm2hrYidnCUi8mnLt",
+        "MOfeXiHuPcFP63M8eBX2L",
+        "PTcli50jdhX8B4XutVFfm",
+        "531BnTAsV0DoHg5lQqXev"
+      ],
+      "parent": "4PZFYT82ucE5sGWchYy0o",
+      "data": {}
+    },
+    "531BnTAsV0DoHg5lQqXev": {
+      "id": "531BnTAsV0DoHg5lQqXev",
+      "title": "Trigger",
+      "desc": "",
+      "updated": 1643802364165,
+      "created": 1643802031667,
+      "custom": {},
+      "fname": "Datenbanken.Trigger",
+      "type": "note",
+      "vault": {
+        "fsPath": "uni",
+        "name": "Uni"
+      },
+      "contentHash": "a458825a7171ca0e3c4bd2ca05dab3d6",
+      "links": [
+        {
+          "from": {
+            "fname": "Datenbanken",
+            "vaultName": "Uni"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 41,
+              "column": 1,
+              "offset": 1040
+            },
+            "end": {
+              "line": 41,
+              "column": 24,
+              "offset": 1063
+            },
+            "indent": []
+          },
+          "value": "Datenbanken.Trigger",
+          "alias": "Datenbanken.Trigger"
+        },
+        {
+          "from": {
+            "fname": "Datenbanken.PL_SQL",
+            "vaultName": "Uni"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 89,
+              "column": 4,
+              "offset": 1700
+            },
+            "end": {
+              "line": 89,
+              "column": 27,
+              "offset": 1723
+            },
+            "indent": []
+          },
+          "value": "Datenbanken.Trigger",
+          "alias": "Datenbanken.Trigger"
+        }
+      ],
+      "anchors": {
+        "eigenschaften": {
+          "type": "header",
+          "text": "Eigenschaften",
+          "value": "eigenschaften",
+          "line": 8,
+          "column": 0,
+          "depth": 2
+        },
+        "syntax": {
+          "type": "header",
+          "text": "Syntax",
+          "value": "syntax",
+          "line": 15,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "children": [],
+      "parent": "GRvxv332whjrUYDFp1Ziq",
+      "data": {}
+    },
+    "PTcli50jdhX8B4XutVFfm": {
+      "id": "PTcli50jdhX8B4XutVFfm",
+      "title": "Transaktionen",
+      "desc": "",
+      "updated": 1643877542930,
+      "created": 1643875169397,
+      "custom": {},
+      "fname": "Datenbanken.Transaktionen",
+      "type": "note",
+      "vault": {
+        "fsPath": "uni",
+        "name": "Uni"
+      },
+      "contentHash": "f96fda4129507cd6a20444916ff61066",
+      "links": [
+        {
+          "from": {
+            "fname": "Datenbanken",
+            "vaultName": "Uni"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 42,
+              "column": 1,
+              "offset": 1064
+            },
+            "end": {
+              "line": 42,
+              "column": 30,
+              "offset": 1093
+            },
+            "indent": []
+          },
+          "value": "Datenbanken.Transaktionen",
+          "alias": "Datenbanken.Transaktionen"
+        }
+      ],
+      "anchors": {
+        "acid": {
+          "type": "header",
+          "text": "ACID",
+          "value": "acid",
+          "line": 8,
+          "column": 0,
+          "depth": 2
+        },
+        "atomicity": {
+          "type": "header",
+          "text": "Atomicity",
+          "value": "atomicity",
+          "line": 10,
+          "column": 0,
+          "depth": 3
+        },
+        "consistency": {
+          "type": "header",
+          "text": "Consistency",
+          "value": "consistency",
+          "line": 13,
+          "column": 0,
+          "depth": 3
+        },
+        "isolation": {
+          "type": "header",
+          "text": "Isolation",
+          "value": "isolation",
+          "line": 16,
+          "column": 0,
+          "depth": 3
+        },
+        "durability": {
+          "type": "header",
+          "text": "Durability",
+          "value": "durability",
+          "line": 19,
+          "column": 0,
+          "depth": 3
+        },
+        "schedules": {
+          "type": "header",
+          "text": "Schedules",
+          "value": "schedules",
+          "line": 23,
+          "column": 0,
+          "depth": 2
+        },
+        "serieller-schedule": {
+          "type": "header",
+          "text": "Serieller Schedule",
+          "value": "serieller-schedule",
+          "line": 25,
+          "column": 0,
+          "depth": 3
+        },
+        "äquivalente-schedules": {
+          "type": "header",
+          "text": "Äquivalente Schedules",
+          "value": "äquivalente-schedules",
+          "line": 28,
+          "column": 0,
+          "depth": 3
+        },
+        "serialisierbarer-schedule": {
+          "type": "header",
+          "text": "Serialisierbarer Schedule",
+          "value": "serialisierbarer-schedule",
+          "line": 31,
+          "column": 0,
+          "depth": 3
+        },
+        "anomalien": {
+          "type": "header",
+          "text": "Anomalien",
+          "value": "anomalien",
+          "line": 34,
+          "column": 0,
+          "depth": 2
+        },
+        "verlorengegangene-änderungen-lost-updates": {
+          "type": "header",
+          "text": "Verlorengegangene Änderungen (Lost updates)",
+          "value": "verlorengegangene-änderungen-lost-updates",
+          "line": 36,
+          "column": 0,
+          "depth": 3
+        },
+        "zugriff-auf-schmutzige-daten-dirty-read": {
+          "type": "header",
+          "text": "Zugriff auf schmutzige Daten (Dirty Read)",
+          "value": "zugriff-auf-schmutzige-daten-dirty-read",
+          "line": 41,
+          "column": 0,
+          "depth": 3
+        },
+        "nicht-wiederholbares-lesen-unrepeatable-read": {
+          "type": "header",
+          "text": "Nicht-wiederholbares Lesen (Unrepeatable Read)",
+          "value": "nicht-wiederholbares-lesen-unrepeatable-read",
+          "line": 48,
+          "column": 0,
+          "depth": 3
+        },
+        "phantom-problem": {
+          "type": "header",
+          "text": "Phantom-Problem",
+          "value": "phantom-problem",
+          "line": 53,
+          "column": 0,
+          "depth": 3
+        },
+        "zwei-phasen-sperrverfahren-2-phase-locking": {
+          "type": "header",
+          "text": "Zwei-Phasen-Sperrverfahren (2-Phase-Locking)",
+          "value": "zwei-phasen-sperrverfahren-2-phase-locking",
+          "line": 59,
+          "column": 0,
+          "depth": 2
+        },
+        "1-phase-wachstumsphase": {
+          "type": "header",
+          "text": "1. Phase: Wachstumsphase",
+          "value": "1-phase-wachstumsphase",
+          "line": 61,
+          "column": 0,
+          "depth": 3
+        },
+        "2-phase-schrumpfungsphase": {
+          "type": "header",
+          "text": "2. Phase: Schrumpfungsphase",
+          "value": "2-phase-schrumpfungsphase",
+          "line": 64,
+          "column": 0,
+          "depth": 3
+        },
+        "problem": {
+          "type": "header",
+          "text": "Problem",
+          "value": "problem",
+          "line": 67,
+          "column": 0,
+          "depth": 3
+        },
+        "striktes-zwei-phasen-sperrverfahren-2-phase-locking": {
+          "type": "header",
+          "text": "Striktes Zwei-Phasen-Sperrverfahren (2-Phase-Locking)",
+          "value": "striktes-zwei-phasen-sperrverfahren-2-phase-locking",
+          "line": 72,
+          "column": 0,
+          "depth": 2
+        },
+        "protokoll": {
+          "type": "header",
+          "text": "Protokoll",
+          "value": "protokoll",
+          "line": 76,
+          "column": 0,
+          "depth": 3
+        },
+        "zurücksetzen-einer-transaktion": {
+          "type": "header",
+          "text": "Zurücksetzen einer Transaktion",
+          "value": "zurücksetzen-einer-transaktion",
+          "line": 85,
+          "column": 0,
+          "depth": 2
+        },
+        "kaskadierender-abort": {
+          "type": "header",
+          "text": "Kaskadierender Abort",
+          "value": "kaskadierender-abort",
+          "line": 87,
+          "column": 0,
+          "depth": 3
+        },
+        "log-datei": {
+          "type": "header",
+          "text": "Log-Datei",
+          "value": "log-datei",
+          "line": 92,
+          "column": 0,
+          "depth": 3
+        },
+        "3-phasen-im-recovery-algorithmus": {
+          "type": "header",
+          "text": "3 Phasen im Recovery-Algorithmus",
+          "value": "3-phasen-im-recovery-algorithmus",
+          "line": 96,
+          "column": 0,
+          "depth": 2
+        },
+        "analyse-lauf": {
+          "type": "header",
+          "text": "Analyse-Lauf",
+          "value": "analyse-lauf",
+          "line": 98,
+          "column": 0,
+          "depth": 3
+        },
+        "redo-lauf": {
+          "type": "header",
+          "text": "Redo-Lauf",
+          "value": "redo-lauf",
+          "line": 103,
+          "column": 0,
+          "depth": 3
+        },
+        "undo-lauf": {
+          "type": "header",
+          "text": "Undo-Lauf",
+          "value": "undo-lauf",
+          "line": 107,
+          "column": 0,
+          "depth": 3
+        }
+      },
+      "children": [],
+      "parent": "GRvxv332whjrUYDFp1Ziq",
+      "data": {}
+    },
+    "MOfeXiHuPcFP63M8eBX2L": {
+      "id": "MOfeXiHuPcFP63M8eBX2L",
+      "title": "SQL",
+      "desc": "",
+      "updated": 1643648913971,
+      "created": 1643645038860,
+      "custom": {},
+      "fname": "Datenbanken.SQL",
+      "type": "note",
+      "vault": {
+        "fsPath": "uni",
+        "name": "Uni"
+      },
+      "contentHash": "8be5a3dbe8dca2990fbbf964bc7c54a0",
+      "links": [
+        {
+          "from": {
+            "fname": "Datenbanken",
+            "vaultName": "Uni"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 39,
+              "column": 1,
+              "offset": 997
+            },
+            "end": {
+              "line": 39,
+              "column": 20,
+              "offset": 1016
+            },
+            "indent": []
+          },
+          "value": "Datenbanken.SQL",
+          "alias": "Datenbanken.SQL"
+        }
+      ],
+      "anchors": {
+        "ddl": {
+          "type": "header",
+          "text": "DDL",
+          "value": "ddl",
+          "line": 8,
+          "column": 0,
+          "depth": 2
+        },
+        "create": {
+          "type": "header",
+          "text": "Create",
+          "value": "create",
+          "line": 10,
+          "column": 0,
+          "depth": 3
+        },
+        "alter": {
+          "type": "header",
+          "text": "Alter",
+          "value": "alter",
+          "line": 24,
+          "column": 0,
+          "depth": 3
+        },
+        "dml": {
+          "type": "header",
+          "text": "DML",
+          "value": "dml",
+          "line": 30,
+          "column": 0,
+          "depth": 2
+        },
+        "insert": {
+          "type": "header",
+          "text": "Insert",
+          "value": "insert",
+          "line": 32,
+          "column": 0,
+          "depth": 3
+        },
+        "select": {
+          "type": "header",
+          "text": "Select",
+          "value": "select",
+          "line": 40,
+          "column": 0,
+          "depth": 3
+        },
+        "funktionen": {
+          "type": "header",
+          "text": "Funktionen",
+          "value": "funktionen",
+          "line": 56,
+          "column": 0,
+          "depth": 2
+        },
+        "mengenoperationen": {
+          "type": "header",
+          "text": "Mengenoperationen",
+          "value": "mengenoperationen",
+          "line": 82,
+          "column": 0,
+          "depth": 2
+        },
+        "where-operatoren": {
+          "type": "header",
+          "text": "Where-Operatoren",
+          "value": "where-operatoren",
+          "line": 87,
+          "column": 0,
+          "depth": 2
+        },
+        "aggregations-operatoren": {
+          "type": "header",
+          "text": "Aggregations-Operatoren",
+          "value": "aggregations-operatoren",
+          "line": 94,
+          "column": 0,
+          "depth": 2
+        },
+        "null": {
+          "type": "header",
+          "text": "NULL",
+          "value": "null",
+          "line": 101,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "children": [],
+      "parent": "GRvxv332whjrUYDFp1Ziq",
+      "data": {}
+    },
+    "gLnuPm2hrYidnCUi8mnLt": {
+      "id": "gLnuPm2hrYidnCUi8mnLt",
+      "title": "Relationenmodell",
+      "desc": "",
+      "updated": 1643479286668,
+      "created": 1643478739405,
+      "custom": {},
+      "fname": "Datenbanken.Relationenmodell",
+      "type": "note",
+      "vault": {
+        "fsPath": "uni",
+        "name": "Uni"
+      },
+      "contentHash": "94b2d8eb5122e8ac1da3c7a8207340e5",
+      "links": [
+        {
+          "from": {
+            "fname": "Datenbanken",
+            "vaultName": "Uni"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 35,
+              "column": 1,
+              "offset": 863
+            },
+            "end": {
+              "line": 35,
+              "column": 33,
+              "offset": 895
+            },
+            "indent": []
+          },
+          "value": "Datenbanken.Relationenmodell",
+          "alias": "Datenbanken.Relationenmodell"
+        }
+      ],
+      "anchors": {
+        "konzepte": {
+          "type": "header",
+          "text": "Konzepte",
+          "value": "konzepte",
+          "line": 8,
+          "column": 0,
+          "depth": 1
+        },
+        "relation": {
+          "type": "header",
+          "text": "Relation",
+          "value": "relation",
+          "line": 13,
+          "column": 0,
+          "depth": 2
+        },
+        "primärschlüssel": {
+          "type": "header",
+          "text": "Primärschlüssel",
+          "value": "primärschlüssel",
+          "line": 19,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "children": [],
+      "parent": "GRvxv332whjrUYDFp1Ziq",
+      "data": {}
+    },
+    "LuX4ja2KnNZCnzQ1edUpU": {
+      "id": "LuX4ja2KnNZCnzQ1edUpU",
+      "title": "Relationenkalkül",
+      "desc": "",
+      "updated": 1643645172194,
+      "created": 1643481158152,
+      "custom": {},
+      "fname": "Datenbanken.Relationenkalkül",
+      "type": "note",
+      "vault": {
+        "fsPath": "uni",
+        "name": "Uni"
+      },
+      "contentHash": "479288250eca2459a854effceed72331",
+      "links": [
+        {
+          "from": {
+            "fname": "Datenbanken",
+            "vaultName": "Uni"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 38,
+              "column": 1,
+              "offset": 964
+            },
+            "end": {
+              "line": 38,
+              "column": 33,
+              "offset": 996
+            },
+            "indent": []
+          },
+          "value": "Datenbanken.Relationenkalkül",
+          "alias": "Datenbanken.Relationenkalkül"
+        }
+      ],
+      "anchors": {
+        "ausprägungen": {
+          "type": "header",
+          "text": "Ausprägungen",
+          "value": "ausprägungen",
+          "line": 8,
+          "column": 0,
+          "depth": 2
+        },
+        "tupelrelationenkalkül-trk": {
+          "type": "header",
+          "text": "Tupelrelationenkalkül (TRK)",
+          "value": "tupelrelationenkalkül-trk",
+          "line": 15,
+          "column": 0,
+          "depth": 2
+        },
+        "konzepte": {
+          "type": "header",
+          "text": "Konzepte",
+          "value": "konzepte",
+          "line": 19,
+          "column": 0,
+          "depth": 3
+        },
+        "atomare-formeln": {
+          "type": "header",
+          "text": "Atomare Formeln",
+          "value": "atomare-formeln",
+          "line": 26,
+          "column": 0,
+          "depth": 3
+        },
+        "formel": {
+          "type": "header",
+          "text": "Formel",
+          "value": "formel",
+          "line": 31,
+          "column": 0,
+          "depth": 3
+        },
+        "beispiele": {
+          "type": "header",
+          "text": "Beispiele",
+          "value": "beispiele",
+          "line": 37,
+          "column": 0,
+          "depth": 3
+        },
+        "domänenrelationenkalkül-drk": {
+          "type": "header",
+          "text": "Domänenrelationenkalkül (DRK)",
+          "value": "domänenrelationenkalkül-drk",
+          "line": 41,
+          "column": 0,
+          "depth": 2
+        },
+        "beispiele-1": {
+          "type": "header",
+          "text": "Beispiele",
+          "value": "beispiele-1",
+          "line": 45,
+          "column": 0,
+          "depth": 3
+        },
+        "relationale-vollständigkeit": {
+          "type": "header",
+          "text": "Relationale Vollständigkeit",
+          "value": "relationale-vollständigkeit",
+          "line": 50,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "children": [],
+      "parent": "GRvxv332whjrUYDFp1Ziq",
+      "data": {}
+    },
+    "shivL6qyrsKTFtbq4Aj1R": {
+      "id": "shivL6qyrsKTFtbq4Aj1R",
+      "title": "Relationenalgebra",
+      "desc": "",
+      "updated": 1643481148263,
+      "created": 1643479297619,
+      "custom": {},
+      "fname": "Datenbanken.Relationenalgebra",
+      "type": "note",
+      "vault": {
+        "fsPath": "uni",
+        "name": "Uni"
+      },
+      "contentHash": "c91508aec7b33e220d16dbef9f03a7ed",
+      "links": [
+        {
+          "from": {
+            "fname": "Datenbanken",
+            "vaultName": "Uni"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 37,
+              "column": 1,
+              "offset": 930
+            },
+            "end": {
+              "line": 37,
+              "column": 34,
+              "offset": 963
+            },
+            "indent": []
+          },
+          "value": "Datenbanken.Relationenalgebra",
+          "alias": "Datenbanken.Relationenalgebra"
+        }
+      ],
+      "anchors": {
+        "operatoren": {
+          "type": "header",
+          "text": "Operatoren",
+          "value": "operatoren",
+          "line": 8,
+          "column": 0,
+          "depth": 2
+        },
+        "beispiele": {
+          "type": "header",
+          "text": "Beispiele",
+          "value": "beispiele",
+          "line": 22,
+          "column": 0,
+          "depth": 3
+        },
+        "joins": {
+          "type": "header",
+          "text": "Joins",
+          "value": "joins",
+          "line": 29,
+          "column": 0,
+          "depth": 2
+        },
+        "verlustfrei": {
+          "type": "header",
+          "text": "Verlustfrei",
+          "value": "verlustfrei",
+          "line": 31,
+          "column": 0,
+          "depth": 3
+        },
+        "equi-join": {
+          "type": "header",
+          "text": "Equi-Join",
+          "value": "equi-join",
+          "line": 34,
+          "column": 0,
+          "depth": 3
+        },
+        "natural-join": {
+          "type": "header",
+          "text": "Natural-Join",
+          "value": "natural-join",
+          "line": 37,
+          "column": 0,
+          "depth": 3
+        },
+        "division": {
+          "type": "header",
+          "text": "Division",
+          "value": "division",
+          "line": 40,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "children": [],
+      "parent": "GRvxv332whjrUYDFp1Ziq",
+      "data": {}
+    },
+    "x7DLfp7f047xVWMnZPBZt": {
+      "id": "x7DLfp7f047xVWMnZPBZt",
+      "title": "PL/SQL",
+      "desc": "",
+      "updated": 1643802031793,
+      "created": 1643799646715,
+      "custom": {},
+      "fname": "Datenbanken.PL_SQL",
+      "type": "note",
+      "vault": {
+        "fsPath": "uni",
+        "name": "Uni"
+      },
+      "contentHash": "e747e7f245ba2598784b568bbc84894d",
+      "links": [
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "Datenbanken.PL_SQL",
+            "id": "x7DLfp7f047xVWMnZPBZt",
+            "vaultName": "Uni"
+          },
+          "value": "Datenbanken.Trigger",
+          "alias": "Datenbanken.Trigger",
+          "position": {
+            "start": {
+              "line": 89,
+              "column": 4,
+              "offset": 1700
+            },
+            "end": {
+              "line": 89,
+              "column": 27,
+              "offset": 1723
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "Datenbanken.Trigger"
+          }
+        },
+        {
+          "from": {
+            "fname": "Datenbanken",
+            "vaultName": "Uni"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 40,
+              "column": 1,
+              "offset": 1017
+            },
+            "end": {
+              "line": 40,
+              "column": 23,
+              "offset": 1039
+            },
+            "indent": []
+          },
+          "value": "Datenbanken.PL_SQL",
+          "alias": "Datenbanken.PL_SQL"
+        }
+      ],
+      "anchors": {
+        "block": {
+          "type": "header",
+          "text": "Block",
+          "value": "block",
+          "line": 8,
+          "column": 0,
+          "depth": 2
+        },
+        "anonymous": {
+          "type": "header",
+          "text": "Anonymous",
+          "value": "anonymous",
+          "line": 10,
+          "column": 0,
+          "depth": 3
+        },
+        "procedure": {
+          "type": "header",
+          "text": "Procedure",
+          "value": "procedure",
+          "line": 19,
+          "column": 0,
+          "depth": 3
+        },
+        "function": {
+          "type": "header",
+          "text": "Function",
+          "value": "function",
+          "line": 29,
+          "column": 0,
+          "depth": 3
+        },
+        "variables": {
+          "type": "header",
+          "text": "Variables",
+          "value": "variables",
+          "line": 42,
+          "column": 0,
+          "depth": 2
+        },
+        "sql-attribute": {
+          "type": "header",
+          "text": "SQL-Attribute",
+          "value": "sql-attribute",
+          "line": 54,
+          "column": 0,
+          "depth": 2
+        },
+        "stored-procedures": {
+          "type": "header",
+          "text": "Stored Procedures",
+          "value": "stored-procedures",
+          "line": 63,
+          "column": 0,
+          "depth": 2
+        },
+        "stored-functions": {
+          "type": "header",
+          "text": "Stored Functions",
+          "value": "stored-functions",
+          "line": 74,
+          "column": 0,
+          "depth": 2
+        },
+        "vergleich-prozedur--funktion": {
+          "type": "header",
+          "text": "Vergleich Prozedur <> Funktion",
+          "value": "vergleich-prozedur--funktion",
+          "line": 86,
+          "column": 0,
+          "depth": 2
+        },
+        "datenbankentrigger": {
+          "type": "header",
+          "text": "Datenbanken.Trigger",
+          "value": "datenbankentrigger",
+          "line": 95,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "children": [],
+      "parent": "GRvxv332whjrUYDFp1Ziq",
+      "data": {}
+    },
+    "HDrtireGtRrGu7Q99AOTY": {
+      "id": "HDrtireGtRrGu7Q99AOTY",
+      "title": "Normalformen",
+      "desc": "",
+      "updated": 1643486209344,
+      "created": 1643485222261,
+      "custom": {},
+      "fname": "Datenbanken.Normalformen",
+      "type": "note",
+      "vault": {
+        "fsPath": "uni",
+        "name": "Uni"
+      },
+      "contentHash": "7972557fee705aac3f229ed5ed519e54",
+      "links": [
+        {
+          "from": {
+            "fname": "Datenbanken.Logischer_Entwurf",
+            "vaultName": "Uni"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 27,
+              "column": 1,
+              "offset": 791
+            },
+            "end": {
+              "line": 27,
+              "column": 29,
+              "offset": 819
+            },
+            "indent": []
+          },
+          "value": "Datenbanken.Normalformen",
+          "alias": "Datenbanken.Normalformen"
+        }
+      ],
+      "anchors": {
+        "1-normalform": {
+          "type": "header",
+          "text": "1. Normalform",
+          "value": "1-normalform",
+          "line": 8,
+          "column": 0,
+          "depth": 2
+        },
+        "2-normalform": {
+          "type": "header",
+          "text": "2. Normalform",
+          "value": "2-normalform",
+          "line": 15,
+          "column": 0,
+          "depth": 2
+        },
+        "überführung": {
+          "type": "header",
+          "text": "Überführung",
+          "value": "überführung",
+          "line": 22,
+          "column": 0,
+          "depth": 3
+        },
+        "3-normalform": {
+          "type": "header",
+          "text": "3. Normalform",
+          "value": "3-normalform",
+          "line": 28,
+          "column": 0,
+          "depth": 2
+        },
+        "boycecodd-normalform-bcnf": {
+          "type": "header",
+          "text": "Boyce/Codd-Normalform (BCNF)",
+          "value": "boycecodd-normalform-bcnf",
+          "line": 39,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "children": [],
+      "parent": "GRvxv332whjrUYDFp1Ziq",
+      "data": {}
+    },
+    "AAo9KOryBqtQOFIAW9Ewv": {
+      "id": "AAo9KOryBqtQOFIAW9Ewv",
+      "title": "Logischer Entwurf",
+      "desc": "",
+      "updated": 1643487124557,
+      "created": 1643484521760,
+      "custom": {},
+      "fname": "Datenbanken.Logischer_Entwurf",
+      "type": "note",
+      "vault": {
+        "fsPath": "uni",
+        "name": "Uni"
+      },
+      "contentHash": "c23c2a35d9f82524106cbf5e9f77cdb9",
+      "links": [
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "Datenbanken.Logischer_Entwurf",
+            "id": "AAo9KOryBqtQOFIAW9Ewv",
+            "vaultName": "Uni"
+          },
+          "value": "Datenbanken.Normalformen",
+          "alias": "Datenbanken.Normalformen",
+          "position": {
+            "start": {
+              "line": 27,
+              "column": 1,
+              "offset": 791
+            },
+            "end": {
+              "line": 27,
+              "column": 29,
+              "offset": 819
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "Datenbanken.Normalformen"
+          }
+        },
+        {
+          "from": {
+            "fname": "Datenbanken",
+            "vaultName": "Uni"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 36,
+              "column": 1,
+              "offset": 896
+            },
+            "end": {
+              "line": 36,
+              "column": 34,
+              "offset": 929
+            },
+            "indent": []
+          },
+          "value": "Datenbanken.Logischer_Entwurf",
+          "alias": "Datenbanken.Logischer_Entwurf"
+        }
+      ],
+      "anchors": {
+        "funktionale-abhängigkeiten": {
+          "type": "header",
+          "text": "Funktionale Abhängigkeiten",
+          "value": "funktionale-abhängigkeiten",
+          "line": 8,
+          "column": 0,
+          "depth": 2
+        },
+        "volle-funktionale-abhängigkeit": {
+          "type": "header",
+          "text": "Volle funktionale Abhängigkeit",
+          "value": "volle-funktionale-abhängigkeit",
+          "line": 14,
+          "column": 0,
+          "depth": 3
+        },
+        "partielle-funktionale-abhängigkeit": {
+          "type": "header",
+          "text": "Partielle funktionale Abhängigkeit",
+          "value": "partielle-funktionale-abhängigkeit",
+          "line": 21,
+          "column": 0,
+          "depth": 3
+        },
+        "armstrongsche-axiome": {
+          "type": "header",
+          "text": "Armstrong'sche Axiome",
+          "value": "armstrongsche-axiome",
+          "line": 27,
+          "column": 0,
+          "depth": 3
+        },
+        "minimalabdeckung": {
+          "type": "header",
+          "text": "Minimalabdeckung",
+          "value": "minimalabdeckung",
+          "line": 35,
+          "column": 0,
+          "depth": 3
+        },
+        "dekomposition": {
+          "type": "header",
+          "text": "Dekomposition",
+          "value": "dekomposition",
+          "line": 41,
+          "column": 0,
+          "depth": 2
+        },
+        "verlustfreie-dekomposition": {
+          "type": "header",
+          "text": "Verlustfreie Dekomposition",
+          "value": "verlustfreie-dekomposition",
+          "line": 45,
+          "column": 0,
+          "depth": 3
+        },
+        "abhängigkeitsbewahrende-dekomposition": {
+          "type": "header",
+          "text": "Abhängigkeitsbewahrende Dekomposition",
+          "value": "abhängigkeitsbewahrende-dekomposition",
+          "line": 52,
+          "column": 0,
+          "depth": 3
+        }
+      },
+      "children": [],
+      "parent": "GRvxv332whjrUYDFp1Ziq",
+      "data": {}
+    },
+    "iePx7YjGJicdr96Ej4pl4": {
+      "id": "iePx7YjGJicdr96Ej4pl4",
+      "title": "ER-Modell",
+      "desc": "",
+      "updated": 1643478730492,
+      "created": 1643477765768,
+      "custom": {},
+      "fname": "Datenbanken.ER-Modell",
+      "type": "note",
+      "vault": {
+        "fsPath": "uni",
+        "name": "Uni"
+      },
+      "contentHash": "13e6d7aded51755f76e8d4911f88eb9f",
+      "links": [
+        {
+          "from": {
+            "fname": "Datenbanken",
+            "vaultName": "Uni"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 34,
+              "column": 1,
+              "offset": 837
+            },
+            "end": {
+              "line": 34,
+              "column": 26,
+              "offset": 862
+            },
+            "indent": []
+          },
+          "value": "Datenbanken.ER-Modell",
+          "alias": "Datenbanken.ER-Modell"
+        }
+      ],
+      "anchors": {
+        "konzeptueller-entwurf": {
+          "type": "header",
+          "text": "Konzeptueller Entwurf",
+          "value": "konzeptueller-entwurf",
+          "line": 8,
+          "column": 0,
+          "depth": 2
+        },
+        "konzepte": {
+          "type": "header",
+          "text": "Konzepte",
+          "value": "konzepte",
+          "line": 14,
+          "column": 0,
+          "depth": 2
+        },
+        "kardinalität": {
+          "type": "header",
+          "text": "Kardinalität",
+          "value": "kardinalität",
+          "line": 29,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "children": [],
+      "parent": "GRvxv332whjrUYDFp1Ziq",
+      "data": {}
+    },
+    "DZQKN5kpaXFehvK4ReRR7": {
+      "id": "DZQKN5kpaXFehvK4ReRR7",
+      "title": "Datensicherheit",
+      "desc": "",
+      "updated": 1643880808484,
+      "created": 1643879643836,
+      "custom": {},
+      "fname": "Datenbanken.Datensicherheit",
+      "type": "note",
+      "vault": {
+        "fsPath": "uni",
+        "name": "Uni"
+      },
+      "contentHash": "85b205b8241cf09ea79d436b8802e8a9",
+      "links": [
+        {
+          "from": {
+            "fname": "Datenbanken",
+            "vaultName": "Uni"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 44,
+              "column": 1,
+              "offset": 1122
+            },
+            "end": {
+              "line": 44,
+              "column": 32,
+              "offset": 1153
+            },
+            "indent": []
+          },
+          "value": "Datenbanken.Datensicherheit",
+          "alias": "Datenbanken.Datensicherheit"
+        }
+      ],
+      "anchors": {
+        "ziele": {
+          "type": "header",
+          "text": "Ziele",
+          "value": "ziele",
+          "line": 8,
+          "column": 0,
+          "depth": 2
+        },
+        "zugriffskontrolle-autorisierung": {
+          "type": "header",
+          "text": "Zugriffskontrolle (Autorisierung)",
+          "value": "zugriffskontrolle-autorisierung",
+          "line": 15,
+          "column": 0,
+          "depth": 2
+        },
+        "klassifikation-der-autorisierung": {
+          "type": "header",
+          "text": "Klassifikation der Autorisierung",
+          "value": "klassifikation-der-autorisierung",
+          "line": 28,
+          "column": 0,
+          "depth": 2
+        },
+        "dezentrale-vergabe-von-rechten-durch-eigentümer": {
+          "type": "header",
+          "text": "Dezentrale Vergabe von Rechten durch Eigentümer",
+          "value": "dezentrale-vergabe-von-rechten-durch-eigentümer",
+          "line": 30,
+          "column": 0,
+          "depth": 3
+        },
+        "sql-grant": {
+          "type": "header",
+          "text": "SQL-Grant",
+          "value": "sql-grant",
+          "line": 33,
+          "column": 0,
+          "depth": 2
+        },
+        "rollenbasierte-autorisierung": {
+          "type": "header",
+          "text": "Rollenbasierte Autorisierung",
+          "value": "rollenbasierte-autorisierung",
+          "line": 50,
+          "column": 0,
+          "depth": 3
+        },
+        "mandatory-access-control": {
+          "type": "header",
+          "text": "Mandatory Access Control",
+          "value": "mandatory-access-control",
+          "line": 58,
+          "column": 0,
+          "depth": 3
+        }
+      },
+      "children": [],
+      "parent": "GRvxv332whjrUYDFp1Ziq",
+      "data": {}
+    },
+    "H5bA5xU107gHer42EXWTd": {
+      "id": "H5bA5xU107gHer42EXWTd",
+      "title": "Datenschutz",
+      "desc": "",
+      "updated": 1643879791216,
+      "created": 1643879484874,
+      "custom": {},
+      "fname": "Datenbanken.Datenschutz",
+      "type": "note",
+      "vault": {
+        "fsPath": "uni",
+        "name": "Uni"
+      },
+      "contentHash": "71b58d24e89080c48b89bb5e4119729f",
+      "links": [
+        {
+          "from": {
+            "fname": "Datenbanken",
+            "vaultName": "Uni"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 43,
+              "column": 1,
+              "offset": 1094
+            },
+            "end": {
+              "line": 43,
+              "column": 28,
+              "offset": 1121
+            },
+            "indent": []
+          },
+          "value": "Datenbanken.Datenschutz",
+          "alias": "Datenbanken.Datenschutz"
+        }
+      ],
+      "anchors": {
+        "bdsg--dsgvo": {
+          "type": "header",
+          "text": "BDSG / DSGVO",
+          "value": "bdsg--dsgvo",
+          "line": 8,
+          "column": 0,
+          "depth": 2
+        },
+        "geschütze-daten-personenbezogene-daten": {
+          "type": "header",
+          "text": "Geschütze Daten (Personenbezogene Daten)",
+          "value": "geschütze-daten-personenbezogene-daten",
+          "line": 10,
+          "column": 0,
+          "depth": 3
+        },
+        "grundsätze-für-die-verarbeitung-personenbezogener-daten": {
+          "type": "header",
+          "text": "Grundsätze für die Verarbeitung personenbezogener Daten",
+          "value": "grundsätze-für-die-verarbeitung-personenbezogener-daten",
+          "line": 20,
+          "column": 0,
+          "depth": 3
+        },
+        "rechte-der-betroffenen": {
+          "type": "header",
+          "text": "Rechte der Betroffenen",
+          "value": "rechte-der-betroffenen",
+          "line": 28,
+          "column": 0,
+          "depth": 3
+        }
+      },
+      "children": [],
+      "parent": "GRvxv332whjrUYDFp1Ziq",
+      "data": {}
+    },
+    "aVeYHZhqxCN6QJqFP6Ri5": {
+      "id": "aVeYHZhqxCN6QJqFP6Ri5",
+      "title": "Betriebssysteme",
+      "desc": "",
+      "updated": 1642670822743,
+      "created": 1642663504250,
+      "custom": {},
+      "fname": "Betriebssysteme",
+      "type": "note",
+      "vault": {
+        "fsPath": "uni",
+        "name": "Uni"
+      },
+      "contentHash": "b68e0eb84cae3abb888922d6dc226dd6",
+      "links": [
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "Betriebssysteme",
+            "id": "aVeYHZhqxCN6QJqFP6Ri5",
+            "vaultName": "Uni"
+          },
+          "value": "Betriebssysteme.Lokalitaetsprinzip",
+          "alias": "Betriebssysteme.Lokalitaetsprinzip",
+          "position": {
+            "start": {
+              "line": 13,
+              "column": 7,
+              "offset": 497
+            },
+            "end": {
+              "line": 13,
+              "column": 45,
+              "offset": 535
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "Betriebssysteme.Lokalitaetsprinzip"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "Betriebssysteme",
+            "id": "aVeYHZhqxCN6QJqFP6Ri5",
+            "vaultName": "Uni"
+          },
+          "value": "Betriebssysteme.Lokalitaetsprinzip",
+          "alias": "Betriebssysteme.Lokalitaetsprinzip",
+          "position": {
+            "start": {
+              "line": 22,
+              "column": 3,
+              "offset": 767
+            },
+            "end": {
+              "line": 22,
+              "column": 41,
+              "offset": 805
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "Betriebssysteme.Lokalitaetsprinzip"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "Betriebssysteme",
+            "id": "aVeYHZhqxCN6QJqFP6Ri5",
+            "vaultName": "Uni"
+          },
+          "value": "Betriebssysteme.Prozesse.Scheduling",
+          "alias": "Betriebssysteme.Prozesse.Scheduling",
+          "position": {
+            "start": {
+              "line": 38,
+              "column": 3,
+              "offset": 1237
+            },
+            "end": {
+              "line": 38,
+              "column": 42,
+              "offset": 1276
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "Betriebssysteme.Prozesse.Scheduling"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "Betriebssysteme",
+            "id": "aVeYHZhqxCN6QJqFP6Ri5",
+            "vaultName": "Uni"
+          },
+          "value": "Betriebssysteme.Prozesse.Process_Control_Block",
+          "alias": "Betriebssysteme.Prozesse.Process_Control_Block",
+          "position": {
+            "start": {
+              "line": 39,
+              "column": 3,
+              "offset": 1279
+            },
+            "end": {
+              "line": 39,
+              "column": 53,
+              "offset": 1329
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "Betriebssysteme.Prozesse.Process_Control_Block"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "Betriebssysteme",
+            "id": "aVeYHZhqxCN6QJqFP6Ri5",
+            "vaultName": "Uni"
+          },
+          "value": "Betriebssysteme.Prozess.Speicheraufbau",
+          "alias": "Betriebssysteme.Prozess.Speicheraufbau",
+          "position": {
+            "start": {
+              "line": 43,
+              "column": 3,
+              "offset": 1346
+            },
+            "end": {
+              "line": 43,
+              "column": 45,
+              "offset": 1388
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "Betriebssysteme.Prozess.Speicheraufbau"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "Betriebssysteme",
+            "id": "aVeYHZhqxCN6QJqFP6Ri5",
+            "vaultName": "Uni"
+          },
+          "value": "Betriebssysteme.Prozess.ProcessControlBlock",
+          "alias": "Betriebssysteme.Prozess.ProcessControlBlock",
+          "position": {
+            "start": {
+              "line": 44,
+              "column": 3,
+              "offset": 1391
+            },
+            "end": {
+              "line": 44,
+              "column": 50,
+              "offset": 1438
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "Betriebssysteme.Prozess.ProcessControlBlock"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "Betriebssysteme",
+            "id": "aVeYHZhqxCN6QJqFP6Ri5",
+            "vaultName": "Uni"
+          },
+          "value": "Betriebssysteme.Prozess.Kontextwechsel",
+          "alias": "Betriebssysteme.Prozess.Kontextwechsel",
+          "position": {
+            "start": {
+              "line": 45,
+              "column": 3,
+              "offset": 1441
+            },
+            "end": {
+              "line": 45,
+              "column": 45,
+              "offset": 1483
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "Betriebssysteme.Prozess.Kontextwechsel"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "Betriebssysteme",
+            "id": "aVeYHZhqxCN6QJqFP6Ri5",
+            "vaultName": "Uni"
+          },
+          "value": "Betriebssysteme.Prozess.Preemtive_Prozesse",
+          "alias": "Betriebssysteme.Prozess.Preemtive_Prozesse",
+          "position": {
+            "start": {
+              "line": 46,
+              "column": 3,
+              "offset": 1486
+            },
+            "end": {
+              "line": 46,
+              "column": 49,
+              "offset": 1532
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "Betriebssysteme.Prozess.Preemtive_Prozesse"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "Betriebssysteme",
+            "id": "aVeYHZhqxCN6QJqFP6Ri5",
+            "vaultName": "Uni"
+          },
+          "value": "Betriebssysteme.Paging",
+          "alias": "Betriebssysteme.Paging",
+          "position": {
+            "start": {
+              "line": 51,
+              "column": 3,
+              "offset": 1560
+            },
+            "end": {
+              "line": 51,
+              "column": 29,
+              "offset": 1586
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "Betriebssysteme.Paging"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "Betriebssysteme",
+            "id": "aVeYHZhqxCN6QJqFP6Ri5",
+            "vaultName": "Uni"
+          },
+          "value": "Betriebssysteme.Segmentierung",
+          "alias": "Betriebssysteme.Segmentierung",
+          "position": {
+            "start": {
+              "line": 52,
+              "column": 3,
+              "offset": 1589
+            },
+            "end": {
+              "line": 52,
+              "column": 36,
+              "offset": 1622
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "Betriebssysteme.Segmentierung"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "Betriebssysteme",
+            "id": "aVeYHZhqxCN6QJqFP6Ri5",
+            "vaultName": "Uni"
+          },
+          "value": "Betriebssysteme.RAID",
+          "alias": "Betriebssysteme.RAID",
+          "position": {
+            "start": {
+              "line": 53,
+              "column": 3,
+              "offset": 1625
+            },
+            "end": {
+              "line": 53,
+              "column": 27,
+              "offset": 1649
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "Betriebssysteme.RAID"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "Betriebssysteme",
+            "id": "aVeYHZhqxCN6QJqFP6Ri5",
+            "vaultName": "Uni"
+          },
+          "value": "Betriebssysteme.Scanning",
+          "alias": "Betriebssysteme.Scanning",
+          "position": {
+            "start": {
+              "line": 57,
+              "column": 3,
+              "offset": 1668
+            },
+            "end": {
+              "line": 57,
+              "column": 31,
+              "offset": 1696
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "Betriebssysteme.Scanning"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "Betriebssysteme",
+            "id": "aVeYHZhqxCN6QJqFP6Ri5",
+            "vaultName": "Uni"
+          },
+          "value": "Betriebssysteme.FAT",
+          "alias": "Betriebssysteme.FAT",
+          "position": {
+            "start": {
+              "line": 58,
+              "column": 3,
+              "offset": 1699
+            },
+            "end": {
+              "line": 58,
+              "column": 26,
+              "offset": 1722
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "Betriebssysteme.FAT"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "Betriebssysteme",
+            "id": "aVeYHZhqxCN6QJqFP6Ri5",
+            "vaultName": "Uni"
+          },
+          "value": "Betriebssysteme.INode",
+          "alias": "Betriebssysteme.INode",
+          "position": {
+            "start": {
+              "line": 59,
+              "column": 3,
+              "offset": 1725
+            },
+            "end": {
+              "line": 59,
+              "column": 28,
+              "offset": 1750
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "Betriebssysteme.INode"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "Betriebssysteme",
+            "id": "aVeYHZhqxCN6QJqFP6Ri5",
+            "vaultName": "Uni"
+          },
+          "value": "Betriebssysteme.Sicherheit.Authentisierung",
+          "alias": "Betriebssysteme.Sicherheit.Authentisierung",
+          "position": {
+            "start": {
+              "line": 63,
+              "column": 3,
+              "offset": 1769
+            },
+            "end": {
+              "line": 63,
+              "column": 49,
+              "offset": 1815
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "Betriebssysteme.Sicherheit.Authentisierung"
+          }
+        },
+        {
+          "from": {
+            "fname": "root",
+            "vaultName": "Uni"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 4,
+              "column": 3,
+              "offset": 13
+            },
+            "end": {
+              "line": 4,
+              "column": 22,
+              "offset": 32
+            },
+            "indent": []
+          },
+          "value": "Betriebssysteme",
+          "alias": "Betriebssysteme"
+        }
+      ],
+      "anchors": {
+        "infos": {
+          "type": "header",
+          "text": "Infos",
+          "value": "infos",
+          "line": 8,
+          "column": 0,
+          "depth": 1
+        },
+        "ziele": {
+          "type": "header",
+          "text": "Ziele",
+          "value": "ziele",
+          "line": 12,
+          "column": 0,
+          "depth": 1
+        },
+        "themen": {
+          "type": "header",
+          "text": "Themen",
+          "value": "themen",
+          "line": 24,
+          "column": 0,
+          "depth": 1
+        },
+        "allgemeines": {
+          "type": "header",
+          "text": "Allgemeines",
+          "value": "allgemeines",
+          "line": 26,
+          "column": 0,
+          "depth": 2
+        },
+        "ausführungsschichten": {
+          "type": "header",
+          "text": "Ausführungsschichten",
+          "value": "ausführungsschichten",
+          "line": 30,
+          "column": 0,
+          "depth": 3
+        },
+        "systemcall": {
+          "type": "header",
+          "text": "Systemcall",
+          "value": "systemcall",
+          "line": 38,
+          "column": 0,
+          "depth": 3
+        },
+        "prozesse": {
+          "type": "header",
+          "text": "Prozesse",
+          "value": "prozesse",
+          "line": 47,
+          "column": 0,
+          "depth": 2
+        },
+        "speichermanagement": {
+          "type": "header",
+          "text": "Speichermanagement",
+          "value": "speichermanagement",
+          "line": 55,
+          "column": 0,
+          "depth": 2
+        },
+        "persistenz": {
+          "type": "header",
+          "text": "Persistenz",
+          "value": "persistenz",
+          "line": 61,
+          "column": 0,
+          "depth": 2
+        },
+        "sicherheit": {
+          "type": "header",
+          "text": "Sicherheit",
+          "value": "sicherheit",
+          "line": 67,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "children": [
+        "nD5msaL6AQROueyqN3c7F",
+        "FwPlvCYlIAsUiHxKsAbHa",
+        "Xs5kBgUu5LJkrMlhcsgnt",
+        "dxQ4vcmZcmzes5BFgaeGG",
+        "lsjh2xTwcjBeK9fqvwOrD",
+        "Ltzu50qFUxwfB8rqbM3vq"
+      ],
+      "parent": "4PZFYT82ucE5sGWchYy0o",
+      "data": {}
+    },
+    "Ltzu50qFUxwfB8rqbM3vq": {
+      "id": "Ltzu50qFUxwfB8rqbM3vq",
+      "title": "Sicherheit",
+      "desc": "",
+      "updated": 1642664972053,
+      "created": 1642664972053,
+      "custom": {
+        "stub": true
+      },
+      "fname": "Betriebssysteme.Sicherheit",
+      "type": "note",
+      "vault": {
+        "fsPath": "uni",
+        "name": "Uni"
+      },
+      "contentHash": "2463db11d37314d4eedf0afa9bfecd14",
+      "links": [],
+      "anchors": {},
+      "children": [
+        "2VBZWWwO7iDgLobdeYS7l"
+      ],
+      "parent": "aVeYHZhqxCN6QJqFP6Ri5",
+      "data": {}
+    },
+    "2VBZWWwO7iDgLobdeYS7l": {
+      "id": "2VBZWWwO7iDgLobdeYS7l",
+      "title": "Authentisierung",
+      "desc": "Authentisierungsmethoden",
+      "updated": 1642664087682,
+      "created": 1642664028429,
+      "custom": {},
+      "fname": "Betriebssysteme.Sicherheit.Authentisierung",
+      "type": "note",
+      "vault": {
+        "fsPath": "uni",
+        "name": "Uni"
+      },
+      "contentHash": "a97b4a16ef9a903870f9833ce1dc54a0",
+      "links": [
+        {
+          "from": {
+            "fname": "Betriebssysteme",
+            "vaultName": "Uni"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 63,
+              "column": 3,
+              "offset": 1769
+            },
+            "end": {
+              "line": 63,
+              "column": 49,
+              "offset": 1815
+            },
+            "indent": []
+          },
+          "value": "Betriebssysteme.Sicherheit.Authentisierung",
+          "alias": "Betriebssysteme.Sicherheit.Authentisierung"
+        }
+      ],
+      "anchors": {
+        "passwort-hashingsalting": {
+          "type": "header",
+          "text": "Passwort (Hashing+Salting)",
+          "value": "passwort-hashingsalting",
+          "line": 8,
+          "column": 0,
+          "depth": 2
+        },
+        "ldap": {
+          "type": "header",
+          "text": "LDAP",
+          "value": "ldap",
+          "line": 10,
+          "column": 0,
+          "depth": 2
+        },
+        "saml": {
+          "type": "header",
+          "text": "SAML",
+          "value": "saml",
+          "line": 12,
+          "column": 0,
+          "depth": 2
+        },
+        "2-faktor": {
+          "type": "header",
+          "text": "2-Faktor",
+          "value": "2-faktor",
+          "line": 14,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "children": [],
+      "parent": "Ltzu50qFUxwfB8rqbM3vq",
+      "data": {}
+    },
+    "lsjh2xTwcjBeK9fqvwOrD": {
+      "id": "lsjh2xTwcjBeK9fqvwOrD",
+      "title": "Segmentierung",
+      "desc": "",
+      "updated": 1642664148647,
+      "created": 1642664134365,
+      "custom": {},
+      "fname": "Betriebssysteme.Segmentierung",
+      "type": "note",
+      "vault": {
+        "fsPath": "uni",
+        "name": "Uni"
+      },
+      "contentHash": "8ffaa45de50440e653f8bc64ffbaec16",
+      "links": [
+        {
+          "from": {
+            "fname": "Betriebssysteme",
+            "vaultName": "Uni"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 52,
+              "column": 3,
+              "offset": 1589
+            },
+            "end": {
+              "line": 52,
+              "column": 36,
+              "offset": 1622
+            },
+            "indent": []
+          },
+          "value": "Betriebssysteme.Segmentierung",
+          "alias": "Betriebssysteme.Segmentierung"
+        }
+      ],
+      "anchors": {
+        "infos": {
+          "type": "header",
+          "text": "Infos",
+          "value": "infos",
+          "line": 8,
+          "column": 0,
+          "depth": 1
+        }
+      },
+      "children": [],
+      "parent": "aVeYHZhqxCN6QJqFP6Ri5",
+      "data": {}
+    },
+    "dxQ4vcmZcmzes5BFgaeGG": {
+      "id": "dxQ4vcmZcmzes5BFgaeGG",
+      "title": "Prozesse",
+      "desc": "",
+      "updated": 1642672014494,
+      "created": 1642672014494,
+      "custom": {
+        "stub": true
+      },
+      "fname": "Betriebssysteme.Prozesse",
+      "type": "note",
+      "vault": {
+        "fsPath": "uni",
+        "name": "Uni"
+      },
+      "contentHash": "5f6997e33e59e1ee57564b259f32341a",
+      "links": [],
+      "anchors": {},
+      "children": [
+        "z1piZPreVuAkRpDEHQYOG"
+      ],
+      "parent": "aVeYHZhqxCN6QJqFP6Ri5",
+      "data": {}
+    },
+    "z1piZPreVuAkRpDEHQYOG": {
+      "id": "z1piZPreVuAkRpDEHQYOG",
+      "title": "Scheduling",
+      "desc": "",
+      "updated": 1642671398782,
+      "created": 1642667894953,
+      "custom": {},
+      "fname": "Betriebssysteme.Prozesse.Scheduling",
+      "type": "note",
+      "vault": {
+        "fsPath": "uni",
+        "name": "Uni"
+      },
+      "contentHash": "8df41aee35f9dc848498a1e0c202b86c",
+      "links": [
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "Betriebssysteme.Prozesse.Scheduling",
+            "id": "z1piZPreVuAkRpDEHQYOG",
+            "vaultName": "Uni"
+          },
+          "value": "Betriebssysteme.Prozesse.Scheduling.First_Come_First_Serve",
+          "alias": "Betriebssysteme.Prozesse.Scheduling.First_Come_First_Serve",
+          "position": {
+            "start": {
+              "line": 46,
+              "column": 3,
+              "offset": 1320
+            },
+            "end": {
+              "line": 46,
+              "column": 65,
+              "offset": 1382
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "Betriebssysteme.Prozesse.Scheduling.First_Come_First_Serve"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "Betriebssysteme.Prozesse.Scheduling",
+            "id": "z1piZPreVuAkRpDEHQYOG",
+            "vaultName": "Uni"
+          },
+          "value": "Betriebssysteme.Prozesse.Scheduling.Round_Robin",
+          "alias": "Betriebssysteme.Prozesse.Scheduling.Round_Robin",
+          "position": {
+            "start": {
+              "line": 47,
+              "column": 3,
+              "offset": 1385
+            },
+            "end": {
+              "line": 47,
+              "column": 54,
+              "offset": 1436
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "Betriebssysteme.Prozesse.Scheduling.Round_Robin"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "Betriebssysteme.Prozesse.Scheduling",
+            "id": "z1piZPreVuAkRpDEHQYOG",
+            "vaultName": "Uni"
+          },
+          "value": "Betriebssysteme.Prozesse.Scheduling.Shortest_Job_First",
+          "alias": "Betriebssysteme.Prozesse.Scheduling.Shortest_Job_First",
+          "position": {
+            "start": {
+              "line": 48,
+              "column": 3,
+              "offset": 1439
+            },
+            "end": {
+              "line": 48,
+              "column": 61,
+              "offset": 1497
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "Betriebssysteme.Prozesse.Scheduling.Shortest_Job_First"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "Betriebssysteme.Prozesse.Scheduling",
+            "id": "z1piZPreVuAkRpDEHQYOG",
+            "vaultName": "Uni"
+          },
+          "value": "Betriebssysteme.Prozesse.Scheduling.Shortest_Time_to_Completion_First",
+          "alias": "Betriebssysteme.Prozesse.Scheduling.Shortest_Time_to_Completion_First",
+          "position": {
+            "start": {
+              "line": 49,
+              "column": 3,
+              "offset": 1500
+            },
+            "end": {
+              "line": 49,
+              "column": 76,
+              "offset": 1573
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "Betriebssysteme.Prozesse.Scheduling.Shortest_Time_to_Completion_First"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "Betriebssysteme.Prozesse.Scheduling",
+            "id": "z1piZPreVuAkRpDEHQYOG",
+            "vaultName": "Uni"
+          },
+          "value": "Betriebssysteme.Prozesse.Scheduling.Prioritätsscheduling",
+          "alias": "Betriebssysteme.Prozesse.Scheduling.Prioritätsscheduling",
+          "position": {
+            "start": {
+              "line": 50,
+              "column": 3,
+              "offset": 1576
+            },
+            "end": {
+              "line": 50,
+              "column": 63,
+              "offset": 1636
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "Betriebssysteme.Prozesse.Scheduling.Prioritätsscheduling"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "Betriebssysteme.Prozesse.Scheduling",
+            "id": "z1piZPreVuAkRpDEHQYOG",
+            "vaultName": "Uni"
+          },
+          "value": "Betriebssysteme.Prozesse.Scheduling.Multi-Level_Feedback_Queue",
+          "alias": "Betriebssysteme.Prozesse.Scheduling.Multi-Level_Feedback_Queue",
+          "position": {
+            "start": {
+              "line": 51,
+              "column": 3,
+              "offset": 1639
+            },
+            "end": {
+              "line": 51,
+              "column": 69,
+              "offset": 1705
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "Betriebssysteme.Prozesse.Scheduling.Multi-Level_Feedback_Queue"
+          }
+        },
+        {
+          "from": {
+            "fname": "Betriebssysteme",
+            "vaultName": "Uni"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 38,
+              "column": 3,
+              "offset": 1237
+            },
+            "end": {
+              "line": 38,
+              "column": 42,
+              "offset": 1276
+            },
+            "indent": []
+          },
+          "value": "Betriebssysteme.Prozesse.Scheduling",
+          "alias": "Betriebssysteme.Prozesse.Scheduling"
+        }
+      ],
+      "anchors": {
+        "ziele": {
+          "type": "header",
+          "text": "Ziele",
+          "value": "ziele",
+          "line": 8,
+          "column": 0,
+          "depth": 1
+        },
+        "leistungsorientierte-ziele": {
+          "type": "header",
+          "text": "Leistungsorientierte Ziele",
+          "value": "leistungsorientierte-ziele",
+          "line": 13,
+          "column": 0,
+          "depth": 2
+        },
+        "steuerungsorientierte-ziele": {
+          "type": "header",
+          "text": "Steuerungsorientierte Ziele",
+          "value": "steuerungsorientierte-ziele",
+          "line": 18,
+          "column": 0,
+          "depth": 2
+        },
+        "prozesszustände": {
+          "type": "header",
+          "text": "Prozesszustände",
+          "value": "prozesszustände",
+          "line": 25,
+          "column": 0,
+          "depth": 1
+        },
+        "zeiten": {
+          "type": "header",
+          "text": "Zeiten",
+          "value": "zeiten",
+          "line": 28,
+          "column": 0,
+          "depth": 2
+        },
+        "prozesswechselzeit": {
+          "type": "header",
+          "text": "Prozesswechselzeit",
+          "value": "prozesswechselzeit",
+          "line": 38,
+          "column": 0,
+          "depth": 1
+        },
+        "kriterien": {
+          "type": "header",
+          "text": "Kriterien",
+          "value": "kriterien",
+          "line": 43,
+          "column": 0,
+          "depth": 1
+        },
+        "strategien": {
+          "type": "header",
+          "text": "Strategien",
+          "value": "strategien",
+          "line": 50,
+          "column": 0,
+          "depth": 1
+        }
+      },
+      "children": [
+        "LCssW0pj2VndNSGLGBji2",
+        "F4SOt0wK0t89y0dTsPY7k",
+        "1Rukqu7PsL76Uisn2KDGX",
+        "uGH23qxc1vbwIqZ1EHuNP",
+        "A9ZqIszzYwCRsv5EAts1Q",
+        "WhizSLOXMiY4KtjrgR2QB"
+      ],
+      "parent": "dxQ4vcmZcmzes5BFgaeGG",
+      "data": {}
+    },
+    "WhizSLOXMiY4KtjrgR2QB": {
+      "id": "WhizSLOXMiY4KtjrgR2QB",
+      "title": "Shortest Time to Completion First (STCF)",
+      "desc": "",
+      "updated": 1642671089801,
+      "created": 1642670185834,
+      "custom": {},
+      "fname": "Betriebssysteme.Prozesse.Scheduling.Shortest_Time_to_Completion_First",
+      "type": "note",
+      "vault": {
+        "fsPath": "uni",
+        "name": "Uni"
+      },
+      "contentHash": "4aff7e5bdd5a997efe3078337b0c486f",
+      "links": [
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "Betriebssysteme.Prozesse.Scheduling.Shortest_Time_to_Completion_First",
+            "id": "WhizSLOXMiY4KtjrgR2QB",
+            "vaultName": "Uni"
+          },
+          "value": "Betriebssysteme.Prozesse.Scheduling.Shortest_Job_First",
+          "alias": "Betriebssysteme.Prozesse.Scheduling.Shortest_Job_First",
+          "position": {
+            "start": {
+              "line": 4,
+              "column": 3,
+              "offset": 11
+            },
+            "end": {
+              "line": 4,
+              "column": 61,
+              "offset": 69
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "Betriebssysteme.Prozesse.Scheduling.Shortest_Job_First"
+          }
+        },
+        {
+          "from": {
+            "fname": "Betriebssysteme.Prozesse.Scheduling",
+            "vaultName": "Uni"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 49,
+              "column": 3,
+              "offset": 1500
+            },
+            "end": {
+              "line": 49,
+              "column": 76,
+              "offset": 1573
+            },
+            "indent": []
+          },
+          "value": "Betriebssysteme.Prozesse.Scheduling.Shortest_Time_to_Completion_First",
+          "alias": "Betriebssysteme.Prozesse.Scheduling.Shortest_Time_to_Completion_First"
+        }
+      ],
+      "anchors": {
+        "info": {
+          "type": "header",
+          "text": "Info",
+          "value": "info",
+          "line": 8,
+          "column": 0,
+          "depth": 1
+        }
+      },
+      "children": [],
+      "parent": "z1piZPreVuAkRpDEHQYOG",
+      "data": {}
+    },
+    "A9ZqIszzYwCRsv5EAts1Q": {
+      "id": "A9ZqIszzYwCRsv5EAts1Q",
+      "title": "Shortest Job First (SJF)",
+      "desc": "",
+      "updated": 1642671079913,
+      "created": 1642670081117,
+      "custom": {},
+      "fname": "Betriebssysteme.Prozesse.Scheduling.Shortest_Job_First",
+      "type": "note",
+      "vault": {
+        "fsPath": "uni",
+        "name": "Uni"
+      },
+      "contentHash": "78db08ce8c41afd104a1f003c6b0fc81",
+      "links": [
+        {
+          "from": {
+            "fname": "Betriebssysteme.Prozesse.Scheduling",
+            "vaultName": "Uni"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 48,
+              "column": 3,
+              "offset": 1439
+            },
+            "end": {
+              "line": 48,
+              "column": 61,
+              "offset": 1497
+            },
+            "indent": []
+          },
+          "value": "Betriebssysteme.Prozesse.Scheduling.Shortest_Job_First",
+          "alias": "Betriebssysteme.Prozesse.Scheduling.Shortest_Job_First"
+        },
+        {
+          "from": {
+            "fname": "Betriebssysteme.Prozesse.Scheduling.Shortest_Time_to_Completion_First",
+            "vaultName": "Uni"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 4,
+              "column": 3,
+              "offset": 11
+            },
+            "end": {
+              "line": 4,
+              "column": 61,
+              "offset": 69
+            },
+            "indent": []
+          },
+          "value": "Betriebssysteme.Prozesse.Scheduling.Shortest_Job_First",
+          "alias": "Betriebssysteme.Prozesse.Scheduling.Shortest_Job_First"
+        }
+      ],
+      "anchors": {
+        "info": {
+          "type": "header",
+          "text": "Info",
+          "value": "info",
+          "line": 8,
+          "column": 0,
+          "depth": 1
+        }
+      },
+      "children": [],
+      "parent": "z1piZPreVuAkRpDEHQYOG",
+      "data": {}
+    },
+    "uGH23qxc1vbwIqZ1EHuNP": {
+      "id": "uGH23qxc1vbwIqZ1EHuNP",
+      "title": "Round-Robin (RR)",
+      "desc": "",
+      "updated": 1642671073195,
+      "created": 1642669620462,
+      "custom": {},
+      "fname": "Betriebssysteme.Prozesse.Scheduling.Round_Robin",
+      "type": "note",
+      "vault": {
+        "fsPath": "uni",
+        "name": "Uni"
+      },
+      "contentHash": "44547a971cb4fe08f99687707ad5ba48",
+      "links": [
+        {
+          "from": {
+            "fname": "Betriebssysteme.Prozesse.Scheduling",
+            "vaultName": "Uni"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 47,
+              "column": 3,
+              "offset": 1385
+            },
+            "end": {
+              "line": 47,
+              "column": 54,
+              "offset": 1436
+            },
+            "indent": []
+          },
+          "value": "Betriebssysteme.Prozesse.Scheduling.Round_Robin",
+          "alias": "Betriebssysteme.Prozesse.Scheduling.Round_Robin"
+        },
+        {
+          "from": {
+            "fname": "Betriebssysteme.Prozesse.Scheduling.Prioritätsscheduling",
+            "vaultName": "Uni"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 6,
+              "column": 31,
+              "offset": 122
+            },
+            "end": {
+              "line": 6,
+              "column": 82,
+              "offset": 173
+            },
+            "indent": []
+          },
+          "value": "Betriebssysteme.Prozesse.Scheduling.Round_Robin",
+          "alias": "Betriebssysteme.Prozesse.Scheduling.Round_Robin"
+        }
+      ],
+      "anchors": {
+        "info": {
+          "type": "header",
+          "text": "Info",
+          "value": "info",
+          "line": 8,
+          "column": 0,
+          "depth": 1
+        },
+        "zusammenfassung": {
+          "type": "header",
+          "text": "Zusammenfassung",
+          "value": "zusammenfassung",
+          "line": 16,
+          "column": 0,
+          "depth": 2
+        },
+        "scheduling-diagramm": {
+          "type": "header",
+          "text": "Scheduling-Diagramm",
+          "value": "scheduling-diagramm",
+          "line": 22,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "children": [],
+      "parent": "z1piZPreVuAkRpDEHQYOG",
+      "data": {}
+    },
+    "1Rukqu7PsL76Uisn2KDGX": {
+      "id": "1Rukqu7PsL76Uisn2KDGX",
+      "title": "Prioritätsscheduling",
+      "desc": "",
+      "updated": 1642670565822,
+      "created": 1642670240196,
+      "custom": {},
+      "fname": "Betriebssysteme.Prozesse.Scheduling.Prioritätsscheduling",
+      "type": "note",
+      "vault": {
+        "fsPath": "uni",
+        "name": "Uni"
+      },
+      "contentHash": "5fea247055da40b771ca214822c425fe",
+      "links": [
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "Betriebssysteme.Prozesse.Scheduling.Prioritätsscheduling",
+            "id": "1Rukqu7PsL76Uisn2KDGX",
+            "vaultName": "Uni"
+          },
+          "value": "Betriebssysteme.Prozesse.Scheduling.Round_Robin",
+          "alias": "Betriebssysteme.Prozesse.Scheduling.Round_Robin",
+          "position": {
+            "start": {
+              "line": 6,
+              "column": 31,
+              "offset": 122
+            },
+            "end": {
+              "line": 6,
+              "column": 82,
+              "offset": 173
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "Betriebssysteme.Prozesse.Scheduling.Round_Robin"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "Betriebssysteme.Prozesse.Scheduling.Prioritätsscheduling",
+            "id": "1Rukqu7PsL76Uisn2KDGX",
+            "vaultName": "Uni"
+          },
+          "value": "Betriebssysteme.Prozesse.Scheduling.First_Come_First_Serve",
+          "alias": "Betriebssysteme.Prozesse.Scheduling.First_Come_First_Serve",
+          "position": {
+            "start": {
+              "line": 6,
+              "column": 86,
+              "offset": 177
+            },
+            "end": {
+              "line": 6,
+              "column": 148,
+              "offset": 239
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "Betriebssysteme.Prozesse.Scheduling.First_Come_First_Serve"
+          }
+        },
+        {
+          "from": {
+            "fname": "Betriebssysteme.Prozesse.Scheduling",
+            "vaultName": "Uni"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 50,
+              "column": 3,
+              "offset": 1576
+            },
+            "end": {
+              "line": 50,
+              "column": 63,
+              "offset": 1636
+            },
+            "indent": []
+          },
+          "value": "Betriebssysteme.Prozesse.Scheduling.Prioritätsscheduling",
+          "alias": "Betriebssysteme.Prozesse.Scheduling.Prioritätsscheduling"
+        },
+        {
+          "from": {
+            "fname": "Betriebssysteme.Prozesse.Scheduling.Multi-Level_Feedback_Queue",
+            "vaultName": "Uni"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 21,
+              "column": 7,
+              "offset": 596
+            },
+            "end": {
+              "line": 21,
+              "column": 67,
+              "offset": 656
+            },
+            "indent": []
+          },
+          "value": "Betriebssysteme.Prozesse.Scheduling.Prioritätsscheduling",
+          "alias": "Betriebssysteme.Prozesse.Scheduling.Prioritätsscheduling"
+        }
+      ],
+      "anchors": {
+        "info": {
+          "type": "header",
+          "text": "Info",
+          "value": "info",
+          "line": 8,
+          "column": 0,
+          "depth": 1
+        },
+        "problem": {
+          "type": "header",
+          "text": "Problem",
+          "value": "problem",
+          "line": 14,
+          "column": 0,
+          "depth": 2
+        },
+        "lösungsansätze": {
+          "type": "header",
+          "text": "Lösungsansätze",
+          "value": "lösungsansätze",
+          "line": 17,
+          "column": 0,
+          "depth": 3
+        }
+      },
+      "children": [],
+      "parent": "z1piZPreVuAkRpDEHQYOG",
+      "data": {}
+    },
+    "F4SOt0wK0t89y0dTsPY7k": {
+      "id": "F4SOt0wK0t89y0dTsPY7k",
+      "title": "Multi-Level Feedback Queue",
+      "desc": "",
+      "updated": 1642671096899,
+      "created": 1642670581501,
+      "custom": {},
+      "fname": "Betriebssysteme.Prozesse.Scheduling.Multi-Level_Feedback_Queue",
+      "type": "note",
+      "vault": {
+        "fsPath": "uni",
+        "name": "Uni"
+      },
+      "contentHash": "8698797117a183f2d4c136a46d3e403d",
+      "links": [
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "Betriebssysteme.Prozesse.Scheduling.Multi-Level_Feedback_Queue",
+            "id": "F4SOt0wK0t89y0dTsPY7k",
+            "vaultName": "Uni"
+          },
+          "value": "Betriebssysteme.Prozesse.Scheduling.Prioritätsscheduling",
+          "alias": "Betriebssysteme.Prozesse.Scheduling.Prioritätsscheduling",
+          "position": {
+            "start": {
+              "line": 21,
+              "column": 7,
+              "offset": 596
+            },
+            "end": {
+              "line": 21,
+              "column": 67,
+              "offset": 656
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "Betriebssysteme.Prozesse.Scheduling.Prioritätsscheduling"
+          }
+        },
+        {
+          "from": {
+            "fname": "Betriebssysteme.Prozesse.Scheduling",
+            "vaultName": "Uni"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 51,
+              "column": 3,
+              "offset": 1639
+            },
+            "end": {
+              "line": 51,
+              "column": 69,
+              "offset": 1705
+            },
+            "indent": []
+          },
+          "value": "Betriebssysteme.Prozesse.Scheduling.Multi-Level_Feedback_Queue",
+          "alias": "Betriebssysteme.Prozesse.Scheduling.Multi-Level_Feedback_Queue"
+        }
+      ],
+      "anchors": {
+        "info": {
+          "type": "header",
+          "text": "Info",
+          "value": "info",
+          "line": 8,
+          "column": 0,
+          "depth": 1
+        },
+        "ansätze": {
+          "type": "header",
+          "text": "Ansätze",
+          "value": "ansätze",
+          "line": 14,
+          "column": 0,
+          "depth": 2
+        },
+        "systematik": {
+          "type": "header",
+          "text": "Systematik",
+          "value": "systematik",
+          "line": 19,
+          "column": 0,
+          "depth": 1
+        }
+      },
+      "children": [],
+      "parent": "z1piZPreVuAkRpDEHQYOG",
+      "data": {}
+    },
+    "LCssW0pj2VndNSGLGBji2": {
+      "id": "LCssW0pj2VndNSGLGBji2",
+      "title": "First Come First Serve (FCFS)",
+      "desc": "",
+      "updated": 1642671066276,
+      "created": 1642669073090,
+      "custom": {},
+      "fname": "Betriebssysteme.Prozesse.Scheduling.First_Come_First_Serve",
+      "type": "note",
+      "vault": {
+        "fsPath": "uni",
+        "name": "Uni"
+      },
+      "contentHash": "9b8d4e476bf443e48c1542403b9fe395",
+      "links": [
+        {
+          "from": {
+            "fname": "Betriebssysteme.Prozesse.Scheduling",
+            "vaultName": "Uni"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 46,
+              "column": 3,
+              "offset": 1320
+            },
+            "end": {
+              "line": 46,
+              "column": 65,
+              "offset": 1382
+            },
+            "indent": []
+          },
+          "value": "Betriebssysteme.Prozesse.Scheduling.First_Come_First_Serve",
+          "alias": "Betriebssysteme.Prozesse.Scheduling.First_Come_First_Serve"
+        },
+        {
+          "from": {
+            "fname": "Betriebssysteme.Prozesse.Scheduling.Prioritätsscheduling",
+            "vaultName": "Uni"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 6,
+              "column": 86,
+              "offset": 177
+            },
+            "end": {
+              "line": 6,
+              "column": 148,
+              "offset": 239
+            },
+            "indent": []
+          },
+          "value": "Betriebssysteme.Prozesse.Scheduling.First_Come_First_Serve",
+          "alias": "Betriebssysteme.Prozesse.Scheduling.First_Come_First_Serve"
+        }
+      ],
+      "anchors": {
+        "info": {
+          "type": "header",
+          "text": "Info",
+          "value": "info",
+          "line": 8,
+          "column": 0,
+          "depth": 1
+        },
+        "zusammenfassung": {
+          "type": "header",
+          "text": "Zusammenfassung",
+          "value": "zusammenfassung",
+          "line": 13,
+          "column": 0,
+          "depth": 2
+        },
+        "vorteile": {
+          "type": "header",
+          "text": "Vorteile",
+          "value": "vorteile",
+          "line": 16,
+          "column": 0,
+          "depth": 3
+        },
+        "nachteile": {
+          "type": "header",
+          "text": "Nachteile",
+          "value": "nachteile",
+          "line": 19,
+          "column": 0,
+          "depth": 3
+        },
+        "scheduling-diagramm": {
+          "type": "header",
+          "text": "Scheduling-Diagramm",
+          "value": "scheduling-diagramm",
+          "line": 28,
+          "column": 0,
+          "depth": 2
+        },
+        "fcfs-mit-wait": {
+          "type": "header",
+          "text": "FCFS mit ''wait''",
+          "value": "fcfs-mit-wait",
+          "line": 33,
+          "column": 0,
+          "depth": 2
+        },
+        "fcfs-mit-q_readyappend-fifo": {
+          "type": "header",
+          "text": "FCFS mit ''$Q_{Ready}.append$'' (FIFO)",
+          "value": "fcfs-mit-q_readyappend-fifo",
+          "line": 39,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "children": [],
+      "parent": "z1piZPreVuAkRpDEHQYOG",
+      "data": {}
+    },
+    "Xs5kBgUu5LJkrMlhcsgnt": {
+      "id": "Xs5kBgUu5LJkrMlhcsgnt",
+      "title": "Prozess",
+      "desc": "",
+      "updated": 1642672014493,
+      "created": 1642672014493,
+      "custom": {
+        "stub": true
+      },
+      "fname": "Betriebssysteme.Prozess",
+      "type": "note",
+      "vault": {
+        "fsPath": "uni",
+        "name": "Uni"
+      },
+      "contentHash": "c34b61d6cb778792b0a763c764ea9acd",
+      "links": [],
+      "anchors": {},
+      "children": [
+        "SBNmtspu2Coj3QFCy43fx",
+        "6Iv1R2ACx36KiyeFiH7d6",
+        "OtZNWHfqgbl5LHdERT013",
+        "BfDXmYZbASEAq5B0or1zz"
+      ],
+      "parent": "aVeYHZhqxCN6QJqFP6Ri5",
+      "data": {}
+    },
+    "BfDXmYZbASEAq5B0or1zz": {
+      "id": "BfDXmYZbASEAq5B0or1zz",
+      "title": "Speicheraufbau",
+      "desc": "",
+      "updated": 1642667160676,
+      "created": 1642666905418,
+      "custom": {},
+      "fname": "Betriebssysteme.Prozess.Speicheraufbau",
+      "type": "note",
+      "vault": {
+        "fsPath": "uni",
+        "name": "Uni"
+      },
+      "contentHash": "adca8110f65bc29a3425730f89193183",
+      "links": [
+        {
+          "from": {
+            "fname": "Betriebssysteme",
+            "vaultName": "Uni"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 43,
+              "column": 3,
+              "offset": 1346
+            },
+            "end": {
+              "line": 43,
+              "column": 45,
+              "offset": 1388
+            },
+            "indent": []
+          },
+          "value": "Betriebssysteme.Prozess.Speicheraufbau",
+          "alias": "Betriebssysteme.Prozess.Speicheraufbau"
+        }
+      ],
+      "anchors": {},
+      "children": [],
+      "parent": "Xs5kBgUu5LJkrMlhcsgnt",
+      "data": {}
+    },
+    "OtZNWHfqgbl5LHdERT013": {
+      "id": "OtZNWHfqgbl5LHdERT013",
+      "title": "ProcessControlBlock",
+      "desc": "",
+      "updated": 1642667360228,
+      "created": 1642667205436,
+      "custom": {},
+      "fname": "Betriebssysteme.Prozess.ProcessControlBlock",
+      "type": "note",
+      "vault": {
+        "fsPath": "uni",
+        "name": "Uni"
+      },
+      "contentHash": "44bea534f3267396f402c0f4cb21a928",
+      "links": [
+        {
+          "from": {
+            "fname": "Betriebssysteme",
+            "vaultName": "Uni"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 44,
+              "column": 3,
+              "offset": 1391
+            },
+            "end": {
+              "line": 44,
+              "column": 50,
+              "offset": 1438
+            },
+            "indent": []
+          },
+          "value": "Betriebssysteme.Prozess.ProcessControlBlock",
+          "alias": "Betriebssysteme.Prozess.ProcessControlBlock"
+        },
+        {
+          "from": {
+            "fname": "Betriebssysteme.Prozess.Kontextwechsel",
+            "vaultName": "Uni"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 10,
+              "column": 31,
+              "offset": 263
+            },
+            "end": {
+              "line": 10,
+              "column": 78,
+              "offset": 310
+            },
+            "indent": []
+          },
+          "value": "Betriebssysteme.Prozess.ProcessControlBlock",
+          "alias": "Betriebssysteme.Prozess.ProcessControlBlock"
+        }
+      ],
+      "anchors": {},
+      "children": [],
+      "parent": "Xs5kBgUu5LJkrMlhcsgnt",
+      "data": {}
+    },
+    "6Iv1R2ACx36KiyeFiH7d6": {
+      "id": "6Iv1R2ACx36KiyeFiH7d6",
+      "title": "Preemtive_Prozesse",
+      "desc": "",
+      "updated": 1642667810078,
+      "created": 1642667689512,
+      "custom": {},
+      "fname": "Betriebssysteme.Prozess.Preemtive_Prozesse",
+      "type": "note",
+      "vault": {
+        "fsPath": "uni",
+        "name": "Uni"
+      },
+      "contentHash": "c320031ddbbe86531d7734e7d2d87537",
+      "links": [
+        {
+          "from": {
+            "fname": "Betriebssysteme",
+            "vaultName": "Uni"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 46,
+              "column": 3,
+              "offset": 1486
+            },
+            "end": {
+              "line": 46,
+              "column": 49,
+              "offset": 1532
+            },
+            "indent": []
+          },
+          "value": "Betriebssysteme.Prozess.Preemtive_Prozesse",
+          "alias": "Betriebssysteme.Prozess.Preemtive_Prozesse"
+        }
+      ],
+      "anchors": {
+        "non-preemtive": {
+          "type": "header",
+          "text": "Non-Preemtive",
+          "value": "non-preemtive",
+          "line": 9,
+          "column": 0,
+          "depth": 1
+        },
+        "vorteile": {
+          "type": "header",
+          "text": "Vorteile",
+          "value": "vorteile",
+          "line": 13,
+          "column": 0,
+          "depth": 2
+        },
+        "nachteile": {
+          "type": "header",
+          "text": "Nachteile",
+          "value": "nachteile",
+          "line": 17,
+          "column": 0,
+          "depth": 2
+        },
+        "preemptive": {
+          "type": "header",
+          "text": "Preemptive",
+          "value": "preemptive",
+          "line": 21,
+          "column": 0,
+          "depth": 1
+        }
+      },
+      "children": [],
+      "parent": "Xs5kBgUu5LJkrMlhcsgnt",
+      "data": {}
+    },
+    "SBNmtspu2Coj3QFCy43fx": {
+      "id": "SBNmtspu2Coj3QFCy43fx",
+      "title": "Kontextwechsel",
+      "desc": "",
+      "updated": 1642667648241,
+      "created": 1642667413897,
+      "custom": {},
+      "fname": "Betriebssysteme.Prozess.Kontextwechsel",
+      "type": "note",
+      "vault": {
+        "fsPath": "uni",
+        "name": "Uni"
+      },
+      "contentHash": "22d3044fa7056d55c00df4cc2eb729a2",
+      "links": [
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "Betriebssysteme.Prozess.Kontextwechsel",
+            "id": "SBNmtspu2Coj3QFCy43fx",
+            "vaultName": "Uni"
+          },
+          "value": "Betriebssysteme.Prozess.ProcessControlBlock",
+          "alias": "Betriebssysteme.Prozess.ProcessControlBlock",
+          "position": {
+            "start": {
+              "line": 10,
+              "column": 31,
+              "offset": 263
+            },
+            "end": {
+              "line": 10,
+              "column": 78,
+              "offset": 310
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "Betriebssysteme.Prozess.ProcessControlBlock"
+          }
+        },
+        {
+          "from": {
+            "fname": "Betriebssysteme",
+            "vaultName": "Uni"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 45,
+              "column": 3,
+              "offset": 1441
+            },
+            "end": {
+              "line": 45,
+              "column": 45,
+              "offset": 1483
+            },
+            "indent": []
+          },
+          "value": "Betriebssysteme.Prozess.Kontextwechsel",
+          "alias": "Betriebssysteme.Prozess.Kontextwechsel"
+        }
+      ],
+      "anchors": {
+        "info": {
+          "type": "header",
+          "text": "Info",
+          "value": "info",
+          "line": 8,
+          "column": 0,
+          "depth": 1
+        },
+        "ursachen": {
+          "type": "header",
+          "text": "Ursachen",
+          "value": "ursachen",
+          "line": 18,
+          "column": 0,
+          "depth": 1
+        }
+      },
+      "children": [],
+      "parent": "Xs5kBgUu5LJkrMlhcsgnt",
+      "data": {}
+    },
+    "FwPlvCYlIAsUiHxKsAbHa": {
+      "id": "FwPlvCYlIAsUiHxKsAbHa",
+      "title": "Paging",
+      "desc": "",
+      "updated": 1642664129724,
+      "created": 1642664117985,
+      "custom": {},
+      "fname": "Betriebssysteme.Paging",
+      "type": "note",
+      "vault": {
+        "fsPath": "uni",
+        "name": "Uni"
+      },
+      "contentHash": "eb60502975bbb74c6ef357100d8b06d4",
+      "links": [
+        {
+          "from": {
+            "fname": "Betriebssysteme",
+            "vaultName": "Uni"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 51,
+              "column": 3,
+              "offset": 1560
+            },
+            "end": {
+              "line": 51,
+              "column": 29,
+              "offset": 1586
+            },
+            "indent": []
+          },
+          "value": "Betriebssysteme.Paging",
+          "alias": "Betriebssysteme.Paging"
+        }
+      ],
+      "anchors": {
+        "infos": {
+          "type": "header",
+          "text": "Infos",
+          "value": "infos",
+          "line": 8,
+          "column": 0,
+          "depth": 1
+        }
+      },
+      "children": [],
+      "parent": "aVeYHZhqxCN6QJqFP6Ri5",
+      "data": {}
+    },
+    "nD5msaL6AQROueyqN3c7F": {
+      "id": "nD5msaL6AQROueyqN3c7F",
+      "title": "Lokalitätsprinzip",
+      "desc": "",
+      "updated": 1642666475418,
+      "created": 1642666428854,
+      "custom": {},
+      "fname": "Betriebssysteme.Lokalitaetsprinzip",
+      "type": "note",
+      "vault": {
+        "fsPath": "uni",
+        "name": "Uni"
+      },
+      "contentHash": "9dd0b6d75bb8ed259646df2996142f1f",
+      "links": [
+        {
+          "from": {
+            "fname": "Betriebssysteme",
+            "vaultName": "Uni"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 13,
+              "column": 7,
+              "offset": 497
+            },
+            "end": {
+              "line": 13,
+              "column": 45,
+              "offset": 535
+            },
+            "indent": []
+          },
+          "value": "Betriebssysteme.Lokalitaetsprinzip",
+          "alias": "Betriebssysteme.Lokalitaetsprinzip"
+        },
+        {
+          "from": {
+            "fname": "Betriebssysteme",
+            "vaultName": "Uni"
+          },
+          "type": "backlink",
+          "position": {
+            "start": {
+              "line": 22,
+              "column": 3,
+              "offset": 767
+            },
+            "end": {
+              "line": 22,
+              "column": 41,
+              "offset": 805
+            },
+            "indent": []
+          },
+          "value": "Betriebssysteme.Lokalitaetsprinzip",
+          "alias": "Betriebssysteme.Lokalitaetsprinzip"
+        }
+      ],
+      "anchors": {
+        "zeitliche-lokalität": {
+          "type": "header",
+          "text": "Zeitliche Lokalität",
+          "value": "zeitliche-lokalität",
+          "line": 8,
+          "column": 0,
+          "depth": 2
+        },
+        "räumliche-lokalität": {
+          "type": "header",
+          "text": "Räumliche Lokalität",
+          "value": "räumliche-lokalität",
+          "line": 10,
+          "column": 0,
+          "depth": 2
+        }
+      },
+      "children": [],
+      "parent": "aVeYHZhqxCN6QJqFP6Ri5",
+      "data": {}
+    }
+  },
+  "domains": [
+    {
+      "id": "4PZFYT82ucE5sGWchYy0o",
+      "title": "Uni-Inhalte (INB20-1)",
+      "desc": "Lerninhalte im Bachelor \"Informatik\"",
+      "updated": 1644405131757,
+      "created": 1642663416518,
+      "custom": {
+        "nav_order": 0,
+        "permalink": "/"
+      },
+      "fname": "root",
+      "type": "note",
+      "vault": {
+        "fsPath": "uni",
+        "name": "Uni"
+      },
+      "contentHash": "3ce9f1ac3f10b295e17673d466b404ba",
+      "links": [
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "root",
+            "id": "4PZFYT82ucE5sGWchYy0o",
+            "vaultName": "Uni"
+          },
+          "value": "Betriebssysteme",
+          "alias": "Betriebssysteme",
+          "position": {
+            "start": {
+              "line": 4,
+              "column": 3,
+              "offset": 13
+            },
+            "end": {
+              "line": 4,
+              "column": 22,
+              "offset": 32
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "Betriebssysteme"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "root",
+            "id": "4PZFYT82ucE5sGWchYy0o",
+            "vaultName": "Uni"
+          },
+          "value": "Datenbanken",
+          "alias": "Datenbanken",
+          "position": {
+            "start": {
+              "line": 5,
+              "column": 3,
+              "offset": 35
+            },
+            "end": {
+              "line": 5,
+              "column": 18,
+              "offset": 50
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "Datenbanken"
+          }
+        },
+        {
+          "type": "wiki",
+          "from": {
+            "fname": "root",
+            "id": "4PZFYT82ucE5sGWchYy0o",
+            "vaultName": "Uni"
+          },
+          "value": "Stochastik",
+          "alias": "Stochastik",
+          "position": {
+            "start": {
+              "line": 6,
+              "column": 3,
+              "offset": 53
+            },
+            "end": {
+              "line": 6,
+              "column": 17,
+              "offset": 67
+            },
+            "indent": []
+          },
+          "xvault": false,
+          "sameFile": false,
+          "to": {
+            "fname": "Stochastik"
+          }
+        }
+      ],
+      "anchors": {
+        "module": {
+          "type": "header",
+          "text": "Module",
+          "value": "module",
+          "line": 8,
+          "column": 0,
+          "depth": 1
+        }
+      },
+      "children": [
+        "aVeYHZhqxCN6QJqFP6Ri5",
+        "GRvxv332whjrUYDFp1Ziq",
+        "BU0AIxveiMP6NB2YrRcth"
+      ],
+      "parent": null,
+      "data": {},
+      "body": "\n# Module\n\n- [[Betriebssysteme]]\n- [[Datenbanken]]\n- [[Stochastik]]"
+    }
+  ],
+  "noteIndex": {
+    "id": "4PZFYT82ucE5sGWchYy0o",
+    "title": "Uni-Inhalte (INB20-1)",
+    "desc": "Lerninhalte im Bachelor \"Informatik\"",
+    "updated": 1644405131757,
+    "created": 1642663416518,
+    "custom": {
+      "nav_order": 0,
+      "permalink": "/"
+    },
+    "fname": "root",
+    "type": "note",
+    "vault": {
+      "fsPath": "uni",
+      "name": "Uni"
+    },
+    "contentHash": "3ce9f1ac3f10b295e17673d466b404ba",
+    "links": [
+      {
+        "type": "wiki",
+        "from": {
+          "fname": "root",
+          "id": "4PZFYT82ucE5sGWchYy0o",
+          "vaultName": "Uni"
+        },
+        "value": "Betriebssysteme",
+        "alias": "Betriebssysteme",
+        "position": {
+          "start": {
+            "line": 4,
+            "column": 3,
+            "offset": 13
+          },
+          "end": {
+            "line": 4,
+            "column": 22,
+            "offset": 32
+          },
+          "indent": []
+        },
+        "xvault": false,
+        "sameFile": false,
+        "to": {
+          "fname": "Betriebssysteme"
+        }
+      },
+      {
+        "type": "wiki",
+        "from": {
+          "fname": "root",
+          "id": "4PZFYT82ucE5sGWchYy0o",
+          "vaultName": "Uni"
+        },
+        "value": "Datenbanken",
+        "alias": "Datenbanken",
+        "position": {
+          "start": {
+            "line": 5,
+            "column": 3,
+            "offset": 35
+          },
+          "end": {
+            "line": 5,
+            "column": 18,
+            "offset": 50
+          },
+          "indent": []
+        },
+        "xvault": false,
+        "sameFile": false,
+        "to": {
+          "fname": "Datenbanken"
+        }
+      },
+      {
+        "type": "wiki",
+        "from": {
+          "fname": "root",
+          "id": "4PZFYT82ucE5sGWchYy0o",
+          "vaultName": "Uni"
+        },
+        "value": "Stochastik",
+        "alias": "Stochastik",
+        "position": {
+          "start": {
+            "line": 6,
+            "column": 3,
+            "offset": 53
+          },
+          "end": {
+            "line": 6,
+            "column": 17,
+            "offset": 67
+          },
+          "indent": []
+        },
+        "xvault": false,
+        "sameFile": false,
+        "to": {
+          "fname": "Stochastik"
+        }
+      }
+    ],
+    "anchors": {
+      "module": {
+        "type": "header",
+        "text": "Module",
+        "value": "module",
+        "line": 8,
+        "column": 0,
+        "depth": 1
+      }
+    },
+    "children": [
+      "aVeYHZhqxCN6QJqFP6Ri5",
+      "GRvxv332whjrUYDFp1Ziq",
+      "BU0AIxveiMP6NB2YrRcth"
+    ],
+    "parent": null,
+    "data": {},
+    "body": "\n# Module\n\n- [[Betriebssysteme]]\n- [[Datenbanken]]\n- [[Stochastik]]"
+  },
+  "vaults": [
+    {
+      "fsPath": "uni",
+      "name": "Uni"
+    }
+  ]
+}

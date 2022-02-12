@@ -1,0 +1,111 @@
+<h1 id="sql"><a aria-hidden="true" class="anchor-heading" href="#sql"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>SQL</h1>
+<h2 id="ddl"><a aria-hidden="true" class="anchor-heading" href="#ddl"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>DDL</h2>
+<h3 id="create"><a aria-hidden="true" class="anchor-heading" href="#create"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Create</h3>
+<pre class="language-sql"><code class="language-sql"><span class="token keyword">CREATE</span> <span class="token keyword">TABLE</span> Reserves <span class="token punctuation">(</span> sid <span class="token keyword">INTEGER</span> <span class="token punctuation">,</span>
+bid <span class="token keyword">INTEGER</span><span class="token punctuation">,</span>
+<span class="token keyword">day</span> <span class="token keyword">DATE</span><span class="token punctuation">,</span>
+<span class="token keyword">PRIMARY</span> <span class="token keyword">KEY</span> <span class="token punctuation">(</span>sid<span class="token punctuation">,</span>bid<span class="token punctuation">)</span><span class="token punctuation">,</span>
+<span class="token keyword">FOREIGN</span> <span class="token keyword">KEY</span> <span class="token punctuation">(</span>sid<span class="token punctuation">)</span> <span class="token keyword">REFERENCES</span> Sailors<span class="token punctuation">,</span> <span class="token keyword">FOREIGN</span> <span class="token keyword">KEY</span> <span class="token punctuation">(</span>bid<span class="token punctuation">)</span> <span class="token keyword">REFERENCES</span> Boats<span class="token punctuation">(</span>bid<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span>
+</code></pre>
+<pre class="language-sql"><code class="language-sql"><span class="token keyword">CREATE</span> <span class="token keyword">VIEW</span> <span class="token keyword">view</span> <span class="token punctuation">[</span><span class="token punctuation">(</span>attribute<span class="token operator">-</span>list<span class="token punctuation">)</span><span class="token punctuation">]</span> <span class="token keyword">AS</span> <span class="token keyword">table</span><span class="token operator">-</span>expression
+</code></pre>
+<h3 id="alter"><a aria-hidden="true" class="anchor-heading" href="#alter"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Alter</h3>
+<pre class="language-sql"><code class="language-sql"> <span class="token keyword">ALTER</span> <span class="token keyword">TABLE</span> base<span class="token operator">-</span><span class="token keyword">table</span> <span class="token keyword">ADD</span> <span class="token keyword">column</span><span class="token operator">-</span>definition
+</code></pre>
+<h2 id="dml"><a aria-hidden="true" class="anchor-heading" href="#dml"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>DML</h2>
+<h3 id="insert"><a aria-hidden="true" class="anchor-heading" href="#insert"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Insert</h3>
+<pre class="language-sql"><code class="language-sql"><span class="token keyword">INSERT</span> <span class="token keyword">INTO</span> <span class="token keyword">table</span> <span class="token punctuation">[</span><span class="token punctuation">(</span>attribute<span class="token operator">-</span>list<span class="token punctuation">)</span><span class="token punctuation">]</span> {
+    <span class="token keyword">VALUES</span> <span class="token punctuation">(</span><span class="token keyword">value</span><span class="token operator">-</span>list<span class="token punctuation">)</span> <span class="token operator">|</span> <span class="token keyword">SELECT</span><span class="token operator">-</span>QUERY
+}
+</code></pre>
+<h3 id="select"><a aria-hidden="true" class="anchor-heading" href="#select"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Select</h3>
+<pre class="language-sql"><code class="language-sql"><span class="token keyword">SELECT</span> <span class="token operator">*</span> <span class="token operator">|</span> <span class="token punctuation">[</span><span class="token keyword">columns</span><span class="token punctuation">]</span>
+<span class="token keyword">FROM</span> <span class="token keyword">table</span> <span class="token punctuation">[</span><span class="token keyword">AS</span> id<span class="token punctuation">]</span>
+<span class="token keyword">JOIN</span> <span class="token keyword">table</span> <span class="token punctuation">[</span><span class="token keyword">AS</span> id<span class="token punctuation">]</span> <span class="token keyword">on</span> id<span class="token punctuation">.</span>foo <span class="token operator">=</span> id<span class="token punctuation">.</span>bar
+<span class="token keyword">WHERE</span> <span class="token operator">&#x3C;</span><span class="token keyword">WHERE</span><span class="token operator">-</span>CLAUSE<span class="token operator">></span>
+<span class="token keyword">ORDER</span> <span class="token keyword">BY</span> <span class="token operator">&#x3C;</span><span class="token keyword">column</span><span class="token operator">></span> <span class="token punctuation">[</span><span class="token keyword">ASC</span><span class="token operator">|</span><span class="token keyword">DESC</span><span class="token punctuation">]</span>
+<span class="token keyword">GROUP</span> <span class="token keyword">BY</span> <span class="token operator">&#x3C;</span><span class="token keyword">columns</span><span class="token operator">></span>
+<span class="token keyword">HAVING</span> <span class="token operator">&#x3C;</span><span class="token keyword">group</span><span class="token operator">-</span><span class="token keyword">columns</span><span class="token operator">-</span>clause<span class="token operator">></span>
+</code></pre>
+<ul>
+<li><code>LIKE</code>
+<ul>
+<li><code>_</code> - ein beliebiges Zeichen</li>
+<li><code>%</code> - 0 oder mehr beliebige Zeichen</li>
+</ul>
+</li>
+</ul>
+<h2 id="funktionen"><a aria-hidden="true" class="anchor-heading" href="#funktionen"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Funktionen</h2>
+<ul>
+<li>String
+<ul>
+<li><code>LOWER</code></li>
+<li><code>UPPER</code></li>
+<li><code>INITCAP</code></li>
+<li><code>CONCAT</code></li>
+<li><code>SUBSTR</code></li>
+<li><code>LENGTH</code></li>
+<li><code>INSTR</code></li>
+<li><code>LPAD</code></li>
+</ul>
+</li>
+<li>Numbers
+<ul>
+<li><code>ROUND</code></li>
+<li><code>TRUNC</code></li>
+<li><code>MOD</code></li>
+</ul>
+</li>
+<li>Date
+<ul>
+<li><code>NEXT_DAY</code></li>
+<li><code>LAST_DAY</code></li>
+<li><code>ADD_MONTHS</code></li>
+</ul>
+</li>
+<li>NULL
+<ul>
+<li><code>NVL(value, default)</code></li>
+</ul>
+</li>
+<li>Konvertierung
+<ul>
+<li><code>TO_NUMBER</code></li>
+<li><code>TO_CHAR</code></li>
+<li><code>TO_DATE</code></li>
+</ul>
+</li>
+</ul>
+<h2 id="mengenoperationen"><a aria-hidden="true" class="anchor-heading" href="#mengenoperationen"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Mengenoperationen</h2>
+<ul>
+<li><code>UNION</code> (<span class="math math-inline"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>A</mi><mo>∪</mo><mi>B</mi></mrow><annotation encoding="application/x-tex">A \cup B</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal">A</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">∪</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal" style="margin-right:0.05017em;">B</span></span></span></span></span>)</li>
+<li><code>INTERSECT</code> (<span class="math math-inline"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>A</mi><mo>∩</mo><mi>B</mi></mrow><annotation encoding="application/x-tex">A \cap B</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal">A</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">∩</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal" style="margin-right:0.05017em;">B</span></span></span></span></span>)</li>
+<li><code>EXCEPT</code> (<span class="math math-inline"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><mi>A</mi><mo>−</mo><mi>B</mi></mrow><annotation encoding="application/x-tex">A - B</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.7667em;vertical-align:-0.0833em;"></span><span class="mord mathnormal">A</span><span class="mspace" style="margin-right:0.2222em;"></span><span class="mbin">−</span><span class="mspace" style="margin-right:0.2222em;"></span></span><span class="base"><span class="strut" style="height:0.6833em;"></span><span class="mord mathnormal" style="margin-right:0.05017em;">B</span></span></span></span></span>)</li>
+</ul>
+<h2 id="where-operatoren"><a aria-hidden="true" class="anchor-heading" href="#where-operatoren"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Where-Operatoren</h2>
+<ul>
+<li><code>(NOT) IN</code></li>
+<li><code>(NOT) EXISTS</code> (prüft, ob Menge leer ist)</li>
+<li><code>(NOT) UNIQUE</code> (prüft, ob Menge Singleton ist)</li>
+<li><code>&#x3C;op> ANY &#x3C;set></code></li>
+<li><code>&#x3C;op> ALL &#x3C;set></code></li>
+</ul>
+<h2 id="aggregations-operatoren"><a aria-hidden="true" class="anchor-heading" href="#aggregations-operatoren"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Aggregations-Operatoren</h2>
+<ul>
+<li><code>COUNT([distinct] *)</code></li>
+<li><code>SUM([distinct] *)</code></li>
+<li><code>AVG([distinct] *)</code></li>
+<li><code>MAX(*)</code></li>
+<li><code>MIN(*)</code></li>
+</ul>
+<h2 id="null"><a aria-hidden="true" class="anchor-heading" href="#null"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>NULL</h2>
+<ul>
+<li>Vergleich mit <code>NULL</code> ergibt immer <code>FALSE</code></li>
+<li>Aggregationsoperatoren ignorieren <code>NULL</code>-Werte</li>
+<li><code>COUNT</code> zählt <code>NULL</code>-Werte mit</li>
+</ul>
+<hr>
+<strong>Backlinks</strong>
+<ul>
+<li><a href="/knowledge-base/notes/GRvxv332whjrUYDFp1Ziq">Datenbanken</a></li>
+</ul>

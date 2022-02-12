@@ -1,0 +1,111 @@
+<h1 id="plsql"><a aria-hidden="true" class="anchor-heading" href="#plsql"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>PL/SQL</h1>
+<h2 id="block"><a aria-hidden="true" class="anchor-heading" href="#block"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Block</h2>
+<h3 id="anonymous"><a aria-hidden="true" class="anchor-heading" href="#anonymous"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Anonymous</h3>
+<pre class="language-sql"><code class="language-sql"><span class="token punctuation">[</span><span class="token keyword">DECLARE</span><span class="token punctuation">]</span>
+<span class="token keyword">BEGIN</span> <span class="token comment">--statements</span>
+<span class="token punctuation">[</span>EXCEPTION<span class="token punctuation">]</span>
+<span class="token keyword">END</span><span class="token punctuation">;</span>
+</code></pre>
+<h3 id="procedure"><a aria-hidden="true" class="anchor-heading" href="#procedure"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Procedure</h3>
+<pre class="language-sql"><code class="language-sql"><span class="token keyword">PROCEDURE</span> name <span class="token operator">IS</span>
+<span class="token punctuation">[</span><span class="token keyword">DECLARE</span><span class="token punctuation">]</span>
+<span class="token keyword">BEGIN</span> <span class="token comment">--statements</span>
+<span class="token punctuation">[</span>EXCEPTION<span class="token punctuation">]</span>
+<span class="token keyword">END</span><span class="token punctuation">;</span>
+</code></pre>
+<h3 id="function"><a aria-hidden="true" class="anchor-heading" href="#function"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Function</h3>
+<pre class="language-sql"><code class="language-sql"><span class="token keyword">FUNCTION</span> name
+<span class="token keyword">RETURN</span> datatype
+<span class="token operator">IS</span>
+<span class="token punctuation">[</span><span class="token keyword">DECLARE</span><span class="token punctuation">]</span>
+<span class="token keyword">BEGIN</span> <span class="token comment">--statements</span>
+<span class="token keyword">RETURN</span> <span class="token keyword">value</span><span class="token punctuation">;</span>
+<span class="token punctuation">[</span>EXCEPTION<span class="token punctuation">]</span>
+<span class="token keyword">END</span><span class="token punctuation">;</span>
+</code></pre>
+<h2 id="variables"><a aria-hidden="true" class="anchor-heading" href="#variables"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Variables</h2>
+<pre class="language-sql"><code class="language-sql"><span class="token keyword">DECLARE</span>
+v_hiredate <span class="token keyword">DATE</span><span class="token punctuation">;</span>
+v_deptno NUMBER<span class="token punctuation">(</span><span class="token number">2</span><span class="token punctuation">)</span> <span class="token operator">NOT</span> <span class="token boolean">NULL</span> :<span class="token operator">=</span> <span class="token number">10</span><span class="token punctuation">;</span>
+v_location VARCHAR2<span class="token punctuation">(</span><span class="token number">13</span><span class="token punctuation">)</span> :<span class="token operator">=</span> <span class="token string">'Atlanta'</span><span class="token punctuation">;</span>
+c_comm CONSTANT NUMBER :<span class="token operator">=</span> <span class="token number">1400</span><span class="token punctuation">;</span>
+foo <span class="token keyword">table</span><span class="token punctuation">.</span>col<span class="token operator">%</span><span class="token keyword">TYPE</span><span class="token punctuation">;</span>
+bar foo<span class="token operator">%</span><span class="token keyword">TYPE</span><span class="token punctuation">;</span>
+</code></pre>
+<h2 id="sql-attribute"><a aria-hidden="true" class="anchor-heading" href="#sql-attribute"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>SQL-Attribute</h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Attribute</th><th>Bedeutung</th></tr></thead><tbody><tr><td><code>SQL%ROWCOUNT</code></td><td>Anzahl Zeilen, die vom letzten SQL- Befehl betroffen ist</td></tr><tr><td><code>SQL%FOUND</code></td><td>Boolesches Attribut, ist gleich TRUE, wenn der letzte SQL-Befehl mehr als eine Zeile betrifft</td></tr><tr><td><code>SQL%NOTFOUND</code></td><td>Boolesches Attribut, ist gleich TRUE, wenn der letzte SQL-Befehl überhaupt keine Zeile betrifft</td></tr><tr><td><code>SQL%ISOPEN</code></td><td>FALSE, weil PL/SQL implizite Cursor unmittelbar nach Ausführung schließt</td></tr></tbody></table>
+<h2 id="stored-procedures"><a aria-hidden="true" class="anchor-heading" href="#stored-procedures"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Stored Procedures</h2>
+<pre class="language-sql"><code class="language-sql"><span class="token keyword">CREATE</span> <span class="token punctuation">[</span><span class="token operator">OR</span> <span class="token keyword">REPLACE</span><span class="token punctuation">]</span> <span class="token keyword">PROCEDURE</span> procedure_name
+<span class="token punctuation">(</span>argument1 <span class="token punctuation">[</span><span class="token operator">IN</span><span class="token operator">|</span><span class="token keyword">OUT</span><span class="token operator">|</span><span class="token operator">IN</span> <span class="token keyword">OUT</span><span class="token punctuation">]</span> datatype1<span class="token punctuation">,</span>
+ argument2 <span class="token punctuation">[</span><span class="token operator">IN</span><span class="token operator">|</span><span class="token keyword">OUT</span><span class="token operator">|</span><span class="token operator">IN</span> <span class="token keyword">OUT</span><span class="token punctuation">]</span> datatype2<span class="token punctuation">,</span>
+<span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">.</span>
+<span class="token operator">IS</span> <span class="token punctuation">[</span><span class="token keyword">AS</span><span class="token punctuation">]</span>
+PL<span class="token operator">/</span><span class="token keyword">SQL</span> Block<span class="token punctuation">;</span>
+</code></pre>
+<h2 id="stored-functions"><a aria-hidden="true" class="anchor-heading" href="#stored-functions"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Stored Functions</h2>
+<pre class="language-sql"><code class="language-sql"><span class="token keyword">CREATE</span> <span class="token punctuation">[</span><span class="token operator">OR</span> <span class="token keyword">REPLACE</span><span class="token punctuation">]</span> <span class="token keyword">FUNCTION</span> function_name
+<span class="token punctuation">(</span>argument1 datatype1<span class="token punctuation">,</span>
+ argument2 datatype2<span class="token punctuation">,</span>
+<span class="token punctuation">.</span><span class="token punctuation">.</span><span class="token punctuation">.</span>
+<span class="token keyword">RETURN</span> datatype
+<span class="token operator">IS</span> <span class="token punctuation">[</span><span class="token keyword">AS</span><span class="token punctuation">]</span>
+PL<span class="token operator">/</span><span class="token keyword">SQL</span> Block<span class="token punctuation">;</span>
+</code></pre>
+<h2 id="vergleich-prozedur--funktion"><a aria-hidden="true" class="anchor-heading" href="#vergleich-prozedur--funktion"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Vergleich Prozedur &#x3C;> Funktion</h2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table><thead><tr><th>Prozedur</th><th>Funktion</th></tr></thead><tbody><tr><td>Ausführen als PL/SQL Befehl</td><td>Aufruf als Teil eines Ausdrucks</td></tr><tr><td>Kein RETURN Datentyp</td><td>RETURN Datentyp</td></tr><tr><td>Kann einen oder mehrere Werte zurückgeben</td><td>Muss einen Wert zurückliefern</td></tr><tr><td>Schachtelung: Aufruf einer Prozedur innerhalb einer Prozedur</td><td>Schachtelung: Argument der Funktion kann selbst das Ergebnis einer Funktion sein</td></tr></tbody></table>
+<h2 id="trigger"><a aria-hidden="true" class="anchor-heading" href="#trigger"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a><a href="/knowledge-base/notes/531BnTAsV0DoHg5lQqXev">Trigger</a></h2>
+<hr>
+<strong>Backlinks</strong>
+<ul>
+<li><a href="/knowledge-base/notes/GRvxv332whjrUYDFp1Ziq">Datenbanken</a></li>
+</ul>

@@ -1,0 +1,27 @@
+<h1 id="prioritätsscheduling"><a aria-hidden="true" class="anchor-heading" href="#prioritätsscheduling"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Prioritätsscheduling</h1>
+<h1 id="info"><a aria-hidden="true" class="anchor-heading" href="#info"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Info</h1>
+<ul>
+<li>Jeder Prozess bekommt eine Priorität</li>
+<li>Prozess mit höchster Priorität erhält CPU</li>
+<li>Prozesse mit gleicher Prio: <a href="/knowledge-base/notes/uGH23qxc1vbwIqZ1EHuNP">Round-Robin (RR)</a> o. <a href="/knowledge-base/notes/LCssW0pj2VndNSGLGBji2">First Come First Serve (FCFS)</a></li>
+</ul>
+<h2 id="problem"><a aria-hidden="true" class="anchor-heading" href="#problem"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Problem</h2>
+<p>Starvation</p>
+<h3 id="lösungsansätze"><a aria-hidden="true" class="anchor-heading" href="#lösungsansätze"><svg aria-hidden="true" viewBox="0 0 16 16"><use xlink:href="#svg-link"></use></svg></a>Lösungsansätze</h3>
+<ul>
+<li>Zwei Queues (<span class="math math-inline"><span class="katex"><span class="katex-mathml"><math xmlns="http://www.w3.org/1998/Math/MathML"><semantics><mrow><msub><mi>Q</mi><mrow><mi>R</mi><mi>e</mi><mi>a</mi><mi>d</mi><mi>y</mi><mi mathvariant="normal">_</mi><mi>H</mi><mi>i</mi><mi>g</mi><mi>h</mi></mrow></msub><mo separator="true">,</mo><msub><mi>Q</mi><mrow><mi>R</mi><mi>e</mi><mi>a</mi><mi>d</mi><mi>y</mi><mi mathvariant="normal">_</mi><mi>L</mi><mi>o</mi><mi>w</mi></mrow></msub></mrow><annotation encoding="application/x-tex">Q_{Ready\_High}, Q_{Ready\_Low}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:1.0503em;vertical-align:-0.367em;"></span><span class="mord"><span class="mord mathnormal">Q</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3361em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathnormal mtight" style="margin-right:0.00773em;">R</span><span class="mord mathnormal mtight">e</span><span class="mord mathnormal mtight">a</span><span class="mord mathnormal mtight">d</span><span class="mord mathnormal mtight" style="margin-right:0.03588em;">y</span><span class="mord mtight" style="margin-right:0.02778em;">_</span><span class="mord mathnormal mtight" style="margin-right:0.08125em;">H</span><span class="mord mathnormal mtight">i</span><span class="mord mathnormal mtight" style="margin-right:0.03588em;">g</span><span class="mord mathnormal mtight">h</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.367em;"><span></span></span></span></span></span></span><span class="mpunct">,</span><span class="mspace" style="margin-right:0.1667em;"></span><span class="mord"><span class="mord mathnormal">Q</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.3361em;"><span style="top:-2.55em;margin-left:0em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathnormal mtight" style="margin-right:0.00773em;">R</span><span class="mord mathnormal mtight">e</span><span class="mord mathnormal mtight">a</span><span class="mord mathnormal mtight">d</span><span class="mord mathnormal mtight" style="margin-right:0.03588em;">y</span><span class="mord mtight" style="margin-right:0.02778em;">_</span><span class="mord mathnormal mtight">L</span><span class="mord mathnormal mtight">o</span><span class="mord mathnormal mtight" style="margin-right:0.02691em;">w</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.367em;"><span></span></span></span></span></span></span></span></span></span></span>), die abwechselnd bedient werden</li>
+<li>Dynamische Anpassung der Prioritäten
+<ul>
+<li>Prozesse mit viel I/O bekommen hohe Prio</li>
+<li>Prozesse die viel CPU-Zeit hatten runterstufen</li>
+<li>Prozesse die viel Ready-Zeit hatten hochstufen</li>
+</ul>
+</li>
+</ul>
+<p><img src="/knowledge-base/assets/images/2022-01-20-10-18-30.png" alt="Scheduling"></p>
+<hr>
+<strong>Backlinks</strong>
+<ul>
+<li><a href="/knowledge-base/notes/z1piZPreVuAkRpDEHQYOG">Scheduling</a></li>
+<li><a href="/knowledge-base/notes/F4SOt0wK0t89y0dTsPY7k">Multi-Level Feedback Queue</a></li>
+</ul>
