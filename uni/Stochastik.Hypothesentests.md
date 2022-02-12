@@ -2,7 +2,7 @@
 id: jTL7qxkVgAqSyzuDMs3dG
 title: Hypothesentests
 desc: ''
-updated: 1644580551165
+updated: 1644660013451
 created: 1644578486512
 ---
 
@@ -62,7 +62,7 @@ $H_0: \sigma \leq \sigma_0$
 $K_1 = (\chi^2_{1 - \alpha;n}, +\infty)$  
 
 $H_0: \sigma \geq \sigma_0$  
-$K_1 = [0, \chi^2_{1 - \alpha;n})$  
+$K_1 = [0, \chi^2_{\alpha;n})$  
 
 ## $\chi^2$-Streuungstest (bei unbekanntem Erwartungswert)
 $X \sim N(a, \sigma^2)$, $a$ unbekannt, $\sigma^2$ unbekannt
@@ -80,7 +80,7 @@ $H_0: \sigma \leq \sigma_0$
 $K_1 = (\chi^2_{1 - \alpha;n-1}, +\infty)$  
 
 $H_0: \sigma \geq \sigma_0$  
-$K_1 = [0, \chi^2_{1 - \alpha;n-1})$  
+$K_1 = [0, \chi^2_{\alpha;n-1})$  
 
 ## Fehler
 
